@@ -6,6 +6,7 @@ theme = "startbootstrap-clean-blog"
 pygmentsStyle = "colorful"
 canonifyurls = true
 paginate = 10
+disqusShortname = "plodtv"
 
 [author]
   name = "Daniel T. Morgan"

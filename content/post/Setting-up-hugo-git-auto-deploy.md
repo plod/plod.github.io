@@ -120,9 +120,9 @@ function do_deploy(){
     $command = "cd $WORKING_DIRECTORY; /path/to/hugo";
     echo `$command`;
     //lets rsync a copy of the working directory to backup
-    $command = "ssh $MY_SERVER_IP rsync -r public_html/ backup_html/";
+    $command = "ssh $MY_SERVER_IP rsync -r $REMOTE_PUBLIC_HTML $REMOTE_BACKUP_HTML";
     echo `$command`;
-    $command = "rsync -r $WORKING_DIRECTORY/public/ $MY_SERVER_IP:$REMOTE_PUBLIC_HTML/";
+    $command = "rsync -r $WORKING_DIRECTORY/public/ $MY_SERVER_IP:$REMOTE_PUBLIC_HTML";
     echo `command`;
 }
 {{< / highlight >}}
