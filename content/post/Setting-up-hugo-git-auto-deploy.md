@@ -56,3 +56,52 @@ While cloning the themes I decided hugo-themes was a better name for the directo
 {{< / highlight >}}
 
 It seems that some other switches are different from the DO tutorial (-themes= in git cloned version is -t )
+
+Auto deploy
+=========
+
+This is based on the digital ocean tutorial at https://www.digitalocean.com/community/tutorials/how-to-deploy-a-hugo-site-to-production-with-git-hooks-on-ubuntu-14-04 the difference however was, is I use gogs, the server itself has no firewall access to my gogs server. I decided to solve this problem using the tutorial/gogs' web hooks/and a little php (that I'm sure I'll refactor as go at some stage)
+
+First of all lets set up the gogs web hook:
+
+Inside the repository in question click on the settings link on the right hand side
+
+![Gogs Settings]
+(/img/post-img/gogs-settings.png)
+
+Then click on the Webhooks link on the left hand side
+
+![Gogs Webhooks]
+(/img/post-img/gogs-webhooks.png)
+
+Finally enter a url the gogs server can connect to and that you can write php on (make a note of the Secret that you use)
+
+![Gogs Webhook]
+(/img/post-img/gogs-webhook.png)
+
+Now the php that runs at the URL you entered above should look a little something like this.
+
+{{< highlight php >}}
+<?php
+//gogs secret for web hook
+$secret   = "";
+
+//keyword you are looking for in commit message to decide if to desploy
+$deployCommitKeyword = "[deploy] ";
+$json = (array) json_decode(file_get_contents('php://input'));
+
+if(array_key_exists('secret', $json)&&($json['secret']==$secret)){
+    if(array_key_exists('commits', $json)){
+        for($i=0, $j=count($json['commits']); $i<$j; $i++){
+            if(array_key_exists('message', $json['commits'][$i])&&(strstr($json['commits'][$i]['message'], $deployCommitKeyword))){
+                do_deploy();
+                break;
+            }
+        }
+    }
+}
+
+function do_deploy(){
+    
+}
+{{< / highlight >}}
