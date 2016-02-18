@@ -1,6 +1,34 @@
 baseurl = "https://plod.tv"
 languageCode = "en-gb"
-title = "My New Hugo Site"
+title = "plod.tv"
 newContentEditor = "nano"
-theme = "nofancy"
+theme = "startbootstrap-clean-blog"
 pygmentsStyle = "native"
+canonifyurls = true
+paginate = 10
+
+[author]
+  name = "Daniel T. Morgan"
+
+[params]
+  DateForm = "Mon Jan 2nd 2006"
+  Description = "My personal corner of the ether"
+  Author = "Daniel T. Morgan"
+  email = "daniel@morgan.cymru"
+
+[[params.social]]
+  title = "twitter"
+  url = "https://twitter.com/plodtv"
+[[params.social]]
+  title = "github"
+  url = "https://github.com/plod"
+
+[[menu.main]]
+  name = "about"
+  identifier = "about"
+  url = "/about/"
+  weight = -200
+[[menu.main]]
+  name = "Archives"
+  url = "/post/"
+  weight = -180
