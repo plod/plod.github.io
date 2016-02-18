@@ -91,17 +91,38 @@ $deployCommitKeyword = "[deploy] ";
 $json = (array) json_decode(file_get_contents('php://input'));
 
 if(array_key_exists('secret', $json)&&($json['secret']==$secret)){
+    echo 'secret matched';
     if(array_key_exists('commits', $json)){
         for($i=0, $j=count($json['commits']); $i<$j; $i++){
+            $json['commits'][$i] = (array) $json['commits'][$i];
             if(array_key_exists('message', $json['commits'][$i])&&(strstr($json['commits'][$i]['message'], $deployCommitKeyword))){
                 do_deploy();
                 break;
             }
-        }
     }
 }
 
 function do_deploy(){
-    
+    $GIT_REPO           = "$HOME/my-website.git";
+    $WORKING_DIRECTORY  = "$HOME/my-website-working";
+    $REMOTE_BACKUP_HTML = "backup_html/";
+    $REMOTE_PUBLIC_HTML = "public_html/";
+    $MY_SERVER_IP       = "server_domain_or_IP
+1";
+ 
+    if(!is_dir($WORKING_DIRECTORY)){
+        $command = "git clone $GIT_REPO $WORKING_DIRECTORY";
+        echo `$command`;
+    }else{
+        $command = "cd $WORKING_DIRECTORY; git pull";
+        echo `$command`;
+    }
+    $command = "cd $WORKING_DIRECTORY; /path/to/hugo";
+    echo `$command`;
+    //lets rsync a copy of the working directory to backup
+    $command = "ssh $MY_SERVER_IP rsync -r public_html/ backup_html/";
+    echo `$command`;
+    $command = "rsync -r $WORKING_DIRECTORY/public/ $MY_SERVER_IP:$REMOTE_PUBLIC_HTML/";
+    echo `command`;
 }
 {{< / highlight >}}
