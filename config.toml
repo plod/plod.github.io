@@ -1,3 +1,6 @@
-baseurl = "http://replace-this-with-your-hugo-site.com/"
-languageCode = "en-us"
+baseurl = "https://plod.tv"
+languageCode = "en-gb"
 title = "My New Hugo Site"
+newContentEditor = "nano"
+theme = "nofancy"
+pygmentsStyle = "native"
