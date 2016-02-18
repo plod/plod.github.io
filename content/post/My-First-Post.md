@@ -1,7 +1,6 @@
 +++
 Description = ""
-Tags = []
-categories = ["misc"]
+Tags = ["go", "golang", "hugo", "welsh", "cymraeg"]
 date = "2016-02-18T12:12:49Z"
 title = "My First Post"
 

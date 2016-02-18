@@ -1,6 +1,6 @@
 +++
 Description = ""
-Tags = []
+Tags = ["go", "golang", "hugo", "digital ocean", "ubuntu", "git"]
 date = "2016-02-18T12:29:13Z"
 title = "Setting up a hugo based blog/website on ubuntu with auto deploy via Git"
 
@@ -30,21 +30,29 @@ got me cooking again.
 
 In the DO tutorial it says to run 
 
+{{< highlight console >}}
 sudo hugo genautocomplete
+{{< / highlight >}}
 
 this seems to be factored out to 
 
+{{< highlight console >}}
 sudo hugo gen autocomplete
+{{< / highlight >}}
 
 but because I compiled from source hugo isn't in sudo environment path so 
 
+{{< highlight console >}}
 sudo ~/go-workspace/bin/hugo gen autocomplete
+{{< / highlight >}}
 
 [~/go-workspace is my $GOPATH so change to yours]
 
 
 While cloning the themes I decided hugo-themes was a better name for the directory in my home dir but of course in later steps when I symlink the name of the link is themes.
 
+{{< highlight console >}}
  ln -s ../hugo-themes/ themes
+{{< / highlight >}}
 
 It seems that some other switches are different from the DO tutorial (-themes= in git cloned version is -t )
