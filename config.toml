@@ -11,7 +11,7 @@ paginate = 10
   name = "Daniel T. Morgan"
 
 [params]
-  DateForm = "Mon Jan 2nd 2006"
+  DateForm = "Monday Jan 2 2006"
   Description = "My personal corner of the ether"
   Author = "Daniel T. Morgan"
   email = "daniel@morgan.cymru"
