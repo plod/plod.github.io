@@ -3,7 +3,7 @@ languageCode = "en-gb"
 title = "plod.tv"
 newContentEditor = "nano"
 theme = "startbootstrap-clean-blog"
-pygmentsStyle = "native"
+pygmentsStyle = "colorful"
 canonifyurls = true
 paginate = 10
 
