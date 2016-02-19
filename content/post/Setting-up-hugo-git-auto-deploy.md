@@ -148,9 +148,18 @@ function do_deploy(){
 }
 {{< / highlight >}}
 
-_*update_ I noticed that syntax hilighting was going missing on this post (turned out that pygmatize was not in path of the php process) so I fixed this by adding
+_*update_ I noticed that syntax hilighting was going missing on this post (turned out that pygmatize was not in path of the php process) (php runs as my user account) so I fixed this by changing
 
 {{< highlight console >}}
-$command = 'export PATH="$PATH:/usr/local/bin/"';
+$command = "cd $WORKING_DIRECTORY; /path/to/hugo";
 echo `$command`;
 {{< / highlight >}}
+
+to
+
+{{< highlight console >}}
+$command = "cd $WORKING_DIRECTORY; export PATH=\"What my $PATH is at tty\" hugo";
+echo `$command`;
+{{< / highlight >}}
+
+This felt a little dirty but after many attempts at a more elegent solution, I have stayed with this for the time being.
