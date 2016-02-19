@@ -5,7 +5,7 @@ date = "2016-02-18T12:29:13Z"
 title = "Setting up a hugo based website on ubuntu then auto deploy using gog webhooks"
 
 +++
-##What is Hugo?
+## What is Hugo?
 
 >Hugo is a static HTML and CSS website generator written in Go. It is optimized for speed, easy use and configurability. Hugo takes a directory with content and templates and renders them into a full HTML website.
 
@@ -15,11 +15,15 @@ title = "Setting up a hugo based website on ubuntu then auto deploy using gog we
 
 >Hugo is designed to work well for any kind of website including blogs, tumbles and docs.
 
-##What is Gogs
+https://gohugo.io/
+
+## What is Gogs?
 
 >The goal of this project is to make the easiest, fastest, and most painless way of setting up a self-hosted Git service. With Go, this can be done with an independent binary distribution across ALL platforms that Go supports, including Linux, Mac OS X, Windows and ARM.
 
-It is a great self hosting github/gitlabs sort of project but coded in go
+https://gogs.io/
+
+It is a great self hosting github/gitlabs sort of project but coded in go.
 
 ---
 
