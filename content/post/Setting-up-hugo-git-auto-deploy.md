@@ -123,6 +123,6 @@ function do_deploy(){
     $command = "ssh $MY_SERVER_IP rsync -r $REMOTE_PUBLIC_HTML $REMOTE_BACKUP_HTML";
     echo `$command`;
     $command = "rsync -r $WORKING_DIRECTORY/public/ $MY_SERVER_IP:$REMOTE_PUBLIC_HTML";
-    echo `command`;
+    echo `$command`;
 }
 {{< / highlight >}}
