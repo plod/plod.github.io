@@ -7,7 +7,6 @@ pygmentsStyle = "colorful"
 canonifyurls = true
 paginate = 10
 disqusShortname = "plodtv"
-UA-21314793-1
 
 [author]
   name = "Daniel T. Morgan"
