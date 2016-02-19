@@ -81,7 +81,7 @@ It seems that some other switches are different from the DO tutorial (-themes= i
 Auto deploy
 =========
 
-This is based on the digital ocean tutorial at https://www.digitalocean.com/community/tutorials/how-to-deploy-a-hugo-site-to-production-with-git-hooks-on-ubuntu-14-04 the difference however was, is I use gogs, the server itself has no firewall access to my gogs server. I decided to solve this problem using the tutorial/gogs' web hooks/and a little php (that I'm sure I'll refactor as go at some stage)
+This is based on the digital ocean tutorial [here](https://www.digitalocean.com/community/tutorials/how-to-deploy-a-hugo-site-to-production-with-git-hooks-on-ubuntu-14-04) the difference however was, is I use gogs, the server itself has no firewall access to my gogs server. I decided to solve this problem using the tutorial/gogs' web hooks/and a little php (that I'm sure I'll refactor as go at some stage)
 
 First of all lets set up the gogs web hook:
 
