@@ -34,7 +34,7 @@ I didn't want to use a package, my prefference was to compile from [source](http
 go: missing Mercurial command. See https://golang.org/s/gogetcmd
 package bitbucket.org/pkg/inflect: exec: "hg": executable file not found in $PATH
 {{< / highlight >}}
-Thanks to http://kaiq.me/2015/12/23/go/go-get-tools/ and google translate I realised Mercurial was a dependancy
+Thanks to [this](http://kaiq.me/2015/12/23/go/go-get-tools/) and google translate I realised Mercurial was a dependancy.
 
 so
 {{< highlight console >}}
@@ -46,7 +46,7 @@ and then
 go get -u -v github.com/spf13/hugo
 {{< / highlight >}}
 
-got me cooking again.
+got me cooking!
 
 
 In the DO tutorial it says to run 
@@ -70,7 +70,7 @@ sudo ~/go-workspace/bin/hugo gen autocomplete
 [~/go-workspace is my $GOPATH so change to yours]
 
 
-While cloning the themes I decided hugo-themes was a better name for the directory in my home dir but of course in later steps when I symlink the name of the link is themes.
+While cloning the themes I decided hugo-themes was a better name for the directory in my home dir (themes could be anything while browsing later), of course this meant later, my symlink would need to look like:
 
 {{< highlight console >}}
  ln -s ../hugo-themes/ themes
