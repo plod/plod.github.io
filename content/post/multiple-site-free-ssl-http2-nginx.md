@@ -12,9 +12,11 @@ There still exists this myth that you require a single IP address per vhost for 
 
 >Server Name Indication (SNI) is an extension to the TLS computer networking protocol[1] by which a client indicates which hostname it is attempting to connect to at the start of the handshaking process. This allows a server to present multiple certificates on the same IP address and TCP port number and hence allows multiple secure (HTTPS) websites (or any other Service over TLS) to be served off the same IP address without requiring all those sites to use the same certificate. It is the conceptual equivalent to HTTP/1.1 name-based virtual hosting, but for HTTPS. [more here](https://en.wikipedia.org/wiki/Server_Name_Indication)
 
+Although in this example we are going to use one certificate across multiple vhosts.
+
 ## But secure websites require buying a certificate which is expensive!
 
-Haven't you heared of [Let's Encrypt](https://letsencrypt.org/) yet?
+Haven't you heard of [Let's Encrypt](https://letsencrypt.org/) yet?
 
 >Let’s Encrypt is a new Certificate Authority: 
 >It’s free, automated, and open. 
