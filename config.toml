@@ -30,6 +30,9 @@ disqusShortname = "plodtv"
 [[params.social]]
   title = "google-plus"
   url = "https://plus.google.com/u/0/114867298714740005580"
+[[params.social]]
+  title = "linux"
+  url = "https://launchpad.net/~me-plod"
 
 [[menu.main]]
   name = "about"
@@ -40,7 +43,7 @@ disqusShortname = "plodtv"
 [[menu.main]]
   name = "Archives"
   url = "/post/"
-  weight = -180
+  weight = -10
   
 [[menu.main]]
   name = "Contact Me"
