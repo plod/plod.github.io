@@ -7,6 +7,7 @@ pygmentsStyle = "colorful"
 canonifyurls = true
 paginate = 10
 disqusShortname = "plodtv"
+UA-21314793-1
 
 [author]
   name = "Daniel T. Morgan"
@@ -16,6 +17,7 @@ disqusShortname = "plodtv"
   Description = "My personal corner of the ether"
   Author = "Daniel T. Morgan"
   email = "daniel@morgan.cymru"
+  Ganalytics = "UA-21314793-1"
 
 [[params.social]]
   title = "twitter"
