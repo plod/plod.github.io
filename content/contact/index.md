@@ -5,4 +5,10 @@ title = "Contact Me"
 
 +++
 
-There are many ways to contact me
+There are many ways to contact me:
+
+* IRC
+Efnet #wales _(the original network)_ /
+OFTC #swlug and #golang.cymru
+
+* some other mediums at the bottom of the page, or use this contact form.

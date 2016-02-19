@@ -23,6 +23,12 @@ disqusShortname = "plodtv"
 [[params.social]]
   title = "github"
   url = "https://github.com/plod"
+[[params.social]]
+  title = "instagram"
+  url = "https://www.instagram.com/plodtv/"
+[[params.social]]
+  title = "google-plus"
+  url = "https://plus.google.com/u/0/114867298714740005580"
 
 [[menu.main]]
   name = "about"

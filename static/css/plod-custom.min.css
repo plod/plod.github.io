@@ -1,8 +1,9 @@
 @font-face {
   font-family: 'DustMites';
-  src: url('/font/CHE-DUST.woff') format('woff'), /* Pretty Modern Browsers */
+  src: url('/font/che-dust.woff') format('woff'),/* Pretty Modern Browsers */
+       url('webfont.ttf')  format('truetype'); /* Safari, Android, iOS */
 }
-.navbar-brand {
+ .site-heading h1, .navbar-brand {
     font-family: 'DustMites', Fallback, sans-serif;
     size: 100px;
 }
