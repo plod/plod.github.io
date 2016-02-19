@@ -27,9 +27,9 @@ It is a great self hosting github/gitlabs sort of project but coded in go.
 
 ---
 
-I followed the following pages: https://www.digitalocean.com/community/tutorials/how-to-install-and-use-hugo-a-static-site-generator-on-ubuntu-14-04
+I started by following [this digital ocean tutorial](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-hugo-a-static-site-generator-on-ubuntu-14-04)
 
-I didn't want to user a package, my prefference was to compile from source: https://gohugo.io/overview/installing/ however I got the following message while trying that:
+I didn't want to use a package, my prefference was to compile from [source](https://gohugo.io/overview/installing/). However I got the following error while trying that:
 {{< highlight console >}}
 go: missing Mercurial command. See https://golang.org/s/gogetcmd
 package bitbucket.org/pkg/inflect: exec: "hg": executable file not found in $PATH
