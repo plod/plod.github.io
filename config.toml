@@ -33,6 +33,11 @@ disqusShortname = "plodtv"
 [[params.social]]
   title = "linux"
   url = "https://launchpad.net/~me-plod"
+[[params.social]]
+  title = "linkedin"
+  url = "http://uk.linkedin.com/in/plodtv"
+  
+  
 
 [[menu.main]]
   name = "about"
