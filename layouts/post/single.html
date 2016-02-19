@@ -33,7 +33,9 @@
             </div>
         </div>
     </article>
-    {{ template "_internal/disqus.html" . }}
+        <div class="container">
+            {{ template "_internal/disqus.html" . }}
+        </div>
 
 
 {{ partial "footer.html" .}}

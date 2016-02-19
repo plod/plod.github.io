@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'DustMites';
+  src: url('/font/CHE-DUST.woff') format('woff'), /* Pretty Modern Browsers */
+}
+.navbar-brand {
+    font-family: 'DustMites', Fallback, sans-serif;
+    size: 100px;
+}
