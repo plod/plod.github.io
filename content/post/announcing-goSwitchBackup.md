@@ -9,7 +9,7 @@ title = "Announcing goSwitchBackup"
 
 +++
 
-goSwitchBackup is Go program I wrote, to automate the backing up of cisco switches over SSH for the network boys in work. It essentially sshs into an ip (Which should be the address of a cisco switch) using the password, once it receives the prompt character it trys to esculate privilidges using: {{< highlight console >}}enable{{< /highlight >}} Onnce it sees the "#" character it then trys to run the backup command: {{< highlight console >}}copy running-config tftp{{< /highlight >}}It will then give the tfto address used when the program was invoked, and call the file switchBackup-IP-OF-SWITCH-RFC3339timestamp (_I may make this configurable later_)
+goSwitchBackup is Go program I wrote, to automate the backing up of cisco switches over SSH for the network boys in work. It essentially SSHs (can you use it like a verb like that?) into an IP (Which should be the address of a cisco switch) using the password, once it receives the prompt character it trys to esculate privilidges using: {{< highlight console >}}enable{{< /highlight >}} Onnce it sees the "#" character it then trys to run the backup command: {{< highlight console >}}copy running-config tftp{{< /highlight >}}It will then give the tftp address used when the program was invoked, and call the file switchBackup-IP-OF-SWITCH-RFC3339timestamp (_I may make this configurable later_)
 
 You can check out the code on github here:
 
