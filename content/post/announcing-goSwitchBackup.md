@@ -8,7 +8,7 @@ tags = ["go", "golang", "development", "switches", "ssh", "cisco"]
 title = "Announcing goSwitchBackup"
 +++
 
-goSwitchBackup is Go program I wrote, to automate the backing up of Cisco switches over SSH for the network boys in work. It essentially SSHs (can you use it like a verb like that?) into an IP (Which should be the address of a Cisco switch) using the password, once it receives the prompt character it trys to escalate privileges using: {{< highlight console >}}enable{{< /highlight >}} Once it sees the "#" character it then tries to run the backup command: {{< highlight console >}}copy running-config tftp{{< /highlight >}}It will then give the TFTP server address used when the program was invoked, and name the file
+goSwitchBackup is Go program I wrote, to automate the backing up of Cisco switches over SSH for the network boys in work. It essentially SSHs (can you use it like a verb like that?) into an IP (Which should be the address of a Cisco switch) using the password, once it receives the prompt character it trys to escalate privileges using: {{< highlight console >}}enable{{< /highlight >}} Once it sees the "#" character it then tries to run the backup command: {{< highlight console >}}copy running-config tftp{{< /highlight >}}It will then give the TFTP server address used when the program was invoked, and name the file:
 
 > switchBackup-IP-OF-SWITCH-RFC3339timestamp
 
