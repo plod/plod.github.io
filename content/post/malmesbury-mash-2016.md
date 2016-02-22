@@ -1,6 +1,6 @@
 +++
 date = "2016-02-22T08:43:55Z"
-draft = true
+draft = false
 title = "Audax: Malmesbury Mash 2016"
 Tags = ["Audax", "Cycling", "Malmesbury Mash", "200km"]
 image = "/img/bgs/mm2016-bg.jpg"
