@@ -11,3 +11,7 @@ article img {
   max-width: 100%;
   height: auto;
 }
+
+.container .row p{
+    text-align: justify;
+}
