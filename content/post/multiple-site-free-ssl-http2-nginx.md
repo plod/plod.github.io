@@ -62,7 +62,7 @@ I followed [this](https://www.digitalocean.com/community/tutorials/how-to-secure
 
 * Make sure you have all the vhosts you want to host with nginx (you won't create a certificate for every domain there really is no need, you can reuse the one)
 
-* When you are creating seperate vhost configs in nginx (doing thiis is a bit beyond the scope of this artile but if you need help comment below), add the following directive to the vhost (to point the letsencrypt requests back to the default sites):
+* When you are creating seperate vhost configs in nginx (doing this is a bit beyond the scope of this article but if you need help comment below), add the following directive to the vhost (to point the letsencrypt requests back to the default sites):
 
 {{< highlight console >}}
  location /.well-known/ {
