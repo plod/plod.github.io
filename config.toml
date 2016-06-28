@@ -4,7 +4,7 @@ title = "plod.tv"
 newContentEditor = "nano"
 theme = "startbootstrap-clean-blog"
 pygmentsStyle = "colorful"
-canonifyurls = true
+canonifyurls = false
 paginate = 10
 disqusShortname = "plodtv"
 
