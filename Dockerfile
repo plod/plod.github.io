@@ -18,9 +18,11 @@ ADD . /go/src/plod.tv
 
 RUN /go/bin/hugo gen autocomplete
 
-RUN cd /go/src/plod.tv; /go/bin/hugo
+WORKDIR /go/src/plod.tv
 
-RUN cd /go/src/plod.tv; /go/bin/go-bindata -o /plod.tv.public.go/plod.tv.go -ignore=\\.gitkeep public/...
+RUN /go/bin/hugo
+
+RUN /go/bin/go-bindata -o /plod.tv.public.go/plod.tv.go -ignore=\\.gitkeep public/...
 
 RUN go install plod.tv/plod.tv.public.go
 
