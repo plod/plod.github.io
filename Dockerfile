@@ -22,9 +22,18 @@ WORKDIR /go/src/plod.tv
 
 RUN /go/bin/hugo
 
-RUN /go/bin/go-bindata -o /plod.tv.public.go/plod.tv.go -ignore=\\.gitkeep public/...
+RUN /go/bin/go-bindata -o /go/src/plod.tv/plod.tv.public.go/plod.tv.go -ignore=\\.gitkeep public/...
 
-RUN go install plod.tv/plod.tv.public.go
+ENV GOBIN /go/bin
+
+WORKDIR /go/src/plod.tv/plod.tv.public.go
+
+RUN ls
+RUN go install
+
+RUN rm -rf /go/src/plod.tv
+
+WORKDIR /go/bin
 
 ENTRYPOINT /go/bin/plod.tv.public.go
 

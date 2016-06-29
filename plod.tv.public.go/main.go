@@ -31,8 +31,8 @@ func main() {
 
 	go func() {
 		manners.ListenAndServe(*addr, mux)
-		log.Println(hostname, "listener : Started : Listening on:", *addr)
 	}()
+	log.Println(hostname, "listener : Started : Listening on:", *addr)
 
 
 	// Listen for an interrupt signal from the OS.
