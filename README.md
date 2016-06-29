@@ -6,3 +6,5 @@ My personal website https://plod.tv
 The website can auto deployed by adding a commit message of [deploy] see https://plod.tv/post/Setting-up-hugo-git-auto-deploy/
 
 *gotcha is to include space after "[deploy] " message in commit log
+
+Dockerfile in route to build a from memory version of website
