@@ -38,6 +38,6 @@ The only things of note were:
 
 I got back to Arrivee with about 30 or so minutes to spare. I caught up with one of my Audax best mates Guto & family, and a few people I'd met along the way, and checked on endomondo how my two friends were doing (they eventually arrived 90 minutes out of time).
  
- <iframe src='https://connect.garmin.com/activity/embed/1057394691' width='100%' height='500' frameborder='0'></iframe>
+<iframe style="max-width: 100%;" height='405' width='590' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/activities/498098863/embed/6848c2f43a5db1a22825b0d7574c9e9c0540777e'></iframe>
  
- <sup><sub>I then spent all of that night and Sunday sick as a dog & unable to do the running on the plan "that'll learn me!"</sub></sup>
+<sup><sub>I then spent all of that night and Sunday sick as a dog & unable to do the running on the plan "that'll learn me!"</sub></sup>
