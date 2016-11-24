@@ -36,3 +36,7 @@ I am going to use this to record my mileage for both running and cycling.
 We have also sorted out a strava club for those who are doing just the running part of this challenge: https://www.strava.com/clubs/yearoftheruns
 
 I am also hoping to get my favourite instagram picture of the weeks activitys printed and inserted into the diary. This is a new challenge for me, and it will be a challenge to complete next year. Here's to challenging ourselves 🍺.
+
+And now I've tweeted it in the public domain I'm tied to doing it.
+
+{{< tweet 801856463614476293 >}}
