@@ -36,6 +36,12 @@ disqusShortname = "plodtv"
 [[params.social]]
   title = "linkedin"
   url = "http://uk.linkedin.com/in/plodtv"
+[[params.social]]
+  title = "free-code-camp"
+  url = "https://www.freecodecamp.com/plod"
+[[params.social]]
+  title = "code"
+  url = "https://www.codeschool.com/users/plod"
   
   
 

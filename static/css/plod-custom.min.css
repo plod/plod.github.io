@@ -4,7 +4,7 @@
        url('/font/che-dust.ttf')  format('truetype'); /* Safari, Android, iOS */
 }
  .site-heading h1, .navbar-brand {
-    font-family: 'DustMites', Fallback, sans-serif;
+    font-family: 'DustMites', Helvitica, sans-serif;
     size: 100px;
 }
 article img {

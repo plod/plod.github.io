@@ -7,8 +7,10 @@ description = "contact me"
 
 There are many ways to contact me:
 
-* IRC
-Efnet #wales _(the original network)_ /
-OFTC #swlug and #golang.cymru
+* **Slack** GopherSlack #cymru (https://invite.slack.golangbridge.org/) Cardiff Dev Slack #go
 
-* some other mediums at the bottom of the page, or use this contact form.
+* **IRC** Efnet #wales _(the original network)_ / OFTC #swlug and #golang.cymru
+
+* any of the social links at the bottom of every page
+
+* use this contact form.
