@@ -3,8 +3,6 @@ plod.tv
 
 My personal website https://plod.tv
 
-The website can auto deployed by adding a commit message of [deploy] see https://plod.tv/post/Setting-up-hugo-git-auto-deploy/
-
-*gotcha is to include space after "[deploy] " message in commit log
+Going to set up CI to build and host with github pages and migrate from vps
 
 Dockerfile in route to build a from memory version of website
