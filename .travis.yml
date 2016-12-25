@@ -12,7 +12,7 @@ env:
         - DEPLOY_BRANCH="source"
 
 before_install:
-    - openssl aes-256-cbc -K $encrypted_5badef0aa7c9_key -iv $encrypted_5badef0aa7c9_iv -in travis_key.enc -out id_rsa -d
+    - openssl aes-256-cbc -K $encrypted_82130ec8988c_key -iv $encrypted_82130ec8988c_iv -in travis_key.enc -out travis_key -d
 
 before_script:
     - git clone --branch v2 https://github.com/go-yaml/yaml $GOPATH/src/gopkg.in/yaml.v2
