@@ -19,7 +19,6 @@ before_script:
     - go get -u -v github.com/spf13/hugo
 
 script:
-    - git clone https://github.com/rcoedo/hugo-steam-theme ./themes/hugo-steam-theme
     - hugo
 
 after_success:
