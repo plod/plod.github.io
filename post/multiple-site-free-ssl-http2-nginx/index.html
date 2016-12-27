@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Multiple site free ssl with http2 nginx -- plod.tv</title>
+
+    
+
+    
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+
+    
+    <link href="/css/clean-blog.min.css" rel="stylesheet">
+    <link href="/css/plod-custom.min.css" rel="stylesheet">
+
+    
+    <script src="https://use.fontawesome.com/2ab403e75d.js"></script>
+    <link href='//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    
+    
+    
+
+</head>
+
+<body>
+    
+    <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container-fluid">
+            
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">plod.tv</a>
+            </div>
+
+                       
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    
+                    <li>
+                        <a href="/about/">about</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/contact/">Contact Me</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/post/">Archives</a>
+                    </li>
+                    
+                  </ul>
+            </div>
+           
+
+        </div>
+        
+    </nav>
+
+
+    
+    
+    <header class="intro-header" style="background-image: url('https://plod.tv//img/bgs/cctv-bg.jpg')">
+      
+      <div class="container">
+        <div class="row">
+           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+             <div class="post-heading">
+               <h1>Multiple site free ssl with http2 nginx</h1>
+               <h2 class="subheading"></h2>
+               <span class="meta">Posted by <a href="#">Daniel T. Morgan</a> on Friday Feb 19 2016
+                 <br />
+                 In <a href="/categories/servers" >Servers</a>, 
+
+                 <br />
+                 Tags <a href="/tags/ssl" >ssl</a> <a href="/tags/tls" >tls</a> <a href="/tags/letsencrypt" >letsencrypt</a> <a href="/tags/http2" >http2</a> <a href="/tags/nginx" >nginx</a> <a href="/tags/ubuntu" >ubuntu</a> <a href="/tags/servers" >servers</a> 
+
+               </span>
+             </div>
+           </div>
+        </div>
+      </div>
+    </header>
+
+    
+    <article>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 dont-break-out">
+                  
+
+<p>There still exists this myth that you require a single IP address per vhost for an ssl certificate. It was perpetuated because the encryption handshake used to happen before the resource required could be ascertained, thanks to some pretty serious security vulnerabilites SSL itself is pretty much a dead duck and the modern TLS has superceded it. One of the great things about TLS is SNI:</p>
+
+<blockquote>
+<p>Server Name Indication (SNI) is an extension to the TLS computer networking protocol[1] by which a client indicates which hostname it is attempting to connect to at the start of the handshaking process. This allows a server to present multiple certificates on the same IP address and TCP port number and hence allows multiple secure (HTTPS) websites (or any other Service over TLS) to be served off the same IP address without requiring all those sites to use the same certificate. It is the conceptual equivalent to HTTP/1.1 name-based virtual hosting, but for HTTPS. <a href="https://en.wikipedia.org/wiki/Server_Name_Indication">more here</a></p>
+</blockquote>
+
+<p>Although in this example we are going to use one certificate across multiple vhosts.</p>
+
+<h2 id="but-secure-websites-require-buying-a-certificate-which-is-expensive">But secure websites require buying a certificate which is expensive!</h2>
+
+<p>Haven&rsquo;t you heard of <a href="https://letsencrypt.org/">Let&rsquo;s Encrypt</a> yet?</p>
+
+<blockquote>
+<p>Let’s Encrypt is a new Certificate Authority:
+It’s free, automated, and open.
+In Public Beta</p>
+</blockquote>
+
+<h2 id="so-what-s-http2">So what&rsquo;s http2?</h2>
+
+<p>You may have already heard of the magic google did with SPDY well that and even more features are being rolled into HTTP2, and you can have your website future proofed and supporting these features right now.</p>
+
+<blockquote>
+<p>HTTP/2 (originally named HTTP/2.0) is the second major version of the HTTP network protocol used by the World Wide Web. It is based on SPDY. HTTP/2 was developed by the Hypertext Transfer Protocol working group (httpbis, where bis means &ldquo;repeat&rdquo; or &ldquo;twice&rdquo;) of the Internet Engineering Task Force. <a href="https://en.wikipedia.org/wiki/HTTP/2">More Here</a></p>
+</blockquote>
+
+<h2 id="let-s-do-this">Let&rsquo;s do this!</h2>
+
+<p>Okay for the purpose of this post, I will show you how to get sorted with ubuntu (15.04). It is relatively straight forward to do the same for other distrubutions following the links provided. But if you are having difficulty please write your questions in the comments below.</p>
+
+<p>At the time of writing the stable version in the nginx repositories is not a high enough version for http2 (It became available in <a href="https://www.nginx.com/blog/nginx-1-9-5/">version 1.9.5</a>), so you need to add the mainline repositories to your apt (though depending on when you are reading this that could have changed).</p>
+
+<p>Instructions for adding the repositories can be found <a href="http://nginx.org/en/linux_packages.html#mainline">here</a>. But I&rsquo;ll include them for the sake of brevity.</p>
+
+
+wget -q http://nginx.org/keys/nginx_signing.key -O- | sudo apt-key add -
+
+
+<p>Then add the following to /etc/apt/sources.list.d/nginx.list:</p>
+
+
+deb http://nginx.org/packages/mainline/ubuntu/ codename nginx
+deb-src http://nginx.org/packages/mainline/ubuntu/ codename nginx
+
+
+<p>Where codename should be your release codename, wily in my case. Then to install:</p>
+
+
+apt-get update
+apt-get install nginx
+
+
+<p>Okay after doing its thing you should now have nginx at a new enough version for http2.</p>
+
+<h1 id="now-for-a-free-signed-cert">Now for a free signed cert.</h1>
+
+<p>I followed <a href="https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-14-04">this</a> tutorial from digital ocean (great tutorials) to get the certificate up and running with the following extra bits.</p>
+
+<ul>
+<li><p>Make sure you have all the vhosts you want to host with nginx (you won&rsquo;t create a certificate for every domain there really is no need, you can reuse the one)</p></li>
+
+<li><p>When you are creating seperate vhost configs in nginx (doing this is a bit beyond the scope of this article but if you need help comment below), add the following directive to the vhost (to point the letsencrypt requests back to the default sites):</p></li>
+</ul>
+
+
+ location /.well-known/ {
+        alias /var/www/html/.well-known/;
+        allow all;
+    }
+
+
+<p>Then to enable http2 for each of the vhosts add the keyword at the top of your server block where your listen is:</p>
+
+
+    listen 443 ssl http2;
+
+
+<h1 id="welcome-to-the-future">Welcome to the future!</h1>
+
+                </div>
+            </div>
+        </div>
+    </article>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                   <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'plodtv';
+    var disqus_identifier = 'https:\/\/plod.tv\/post\/multiple-site-free-ssl-http2-nginx\/';
+    var disqus_title = 'Multiple site free ssl with http2 nginx';
+    var disqus_url = 'https:\/\/plod.tv\/post\/multiple-site-free-ssl-http2-nginx\/';
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+                </div>
+            </div>
+        </div>
+
+
+<hr>
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    <li>
+                        <a href="mailto:daniel@morgan.cymru">
+                        <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
+                        </span>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://twitter.com/plodtv">
+                        <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                        </span>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://github.com/plod">
+                        <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                        </span>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://www.instagram.com/plodtv/">
+                        <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                        </span>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://plus.google.com/u/0/114867298714740005580">
+                        <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
+                        </span>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://launchpad.net/~me-plod">
+                        <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-linux fa-stack-1x fa-inverse"></i>
+                        </span>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="http://uk.linkedin.com/in/plodtv">
+                        <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                        </span>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://www.freecodecamp.com/plod">
+                        <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-free-code-camp fa-stack-1x fa-inverse"></i>
+                        </span>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://www.codeschool.com/users/plod">
+                        <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-code fa-stack-1x fa-inverse"></i>
+                        </span>
+                        </a>
+                    </li>
+                    
+                </ul>
+                <p class="copyright text-muted"></p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<script src="/js/jquery.min.js"></script>
+
+
+<script src="/js/bootstrap.min.js"></script>
+
+
+<script src="/js/clean-blog.js"></script>
+
+
+
+</body>
+
+</html>
+

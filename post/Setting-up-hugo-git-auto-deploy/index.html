@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Setting up a hugo based website on ubuntu then auto deploy using gogs&#39; webhooks -- plod.tv</title>
+
+    
+
+    
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+
+    
+    <link href="/css/clean-blog.min.css" rel="stylesheet">
+    <link href="/css/plod-custom.min.css" rel="stylesheet">
+
+    
+    <script src="https://use.fontawesome.com/2ab403e75d.js"></script>
+    <link href='//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    
+    
+    
+
+</head>
+
+<body>
+    
+    <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container-fluid">
+            
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">plod.tv</a>
+            </div>
+
+                       
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    
+                    <li>
+                        <a href="/about/">about</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/contact/">Contact Me</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/post/">Archives</a>
+                    </li>
+                    
+                  </ul>
+            </div>
+           
+
+        </div>
+        
+    </nav>
+
+
+    
+    
+    <header class="intro-header" style="background-image: url('https://plod.tv//img/bgs/deploy-bg.jpg')">
+      
+      <div class="container">
+        <div class="row">
+           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+             <div class="post-heading">
+               <h1>Setting up a hugo based website on ubuntu then auto deploy using gogs&#39; webhooks</h1>
+               <h2 class="subheading"></h2>
+               <span class="meta">Posted by <a href="#">Daniel T. Morgan</a> on Thursday Feb 18 2016
+                 <br />
+                 In 
+
+                 <br />
+                 Tags <a href="/tags/go" >go</a> <a href="/tags/golang" >golang</a> <a href="/tags/hugo" >hugo</a> <a href="/tags/digital-ocean" >digital ocean</a> <a href="/tags/ubuntu" >ubuntu</a> <a href="/tags/git" >git</a> 
+
+               </span>
+             </div>
+           </div>
+        </div>
+      </div>
+    </header>
+
+    
+    <article>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 dont-break-out">
+                  
+
+<h2 id="what-is-hugo">What is Hugo?</h2>
+
+<blockquote>
+<p>Hugo is a static HTML and CSS website generator written in Go. It is optimized for speed, easy use and configurability. Hugo takes a directory with content and templates and renders them into a full HTML website.</p>
+
+<p>Hugo relies on Markdown files with front matter for meta data. And you can run Hugo from any directory. This works well for shared hosts and other systems where you don’t have a privileged account.</p>
+
+<p>Hugo renders a typical website of moderate size in a fraction of a second. A good rule of thumb is that each piece of content renders in around 1 millisecond.</p>
+
+<p>Hugo is designed to work well for any kind of website including blogs, tumbles and docs.</p>
+</blockquote>
+
+<p><a href="https://gohugo.io/">https://gohugo.io/</a></p>
+
+<h2 id="what-is-gogs">What is Gogs?</h2>
+
+<blockquote>
+<p>The goal of this project is to make the easiest, fastest, and most painless way of setting up a self-hosted Git service. With Go, this can be done with an independent binary distribution across ALL platforms that Go supports, including Linux, Mac OS X, Windows and ARM.</p>
+</blockquote>
+
+<p><a href="https://gogs.io/">https://gogs.io/</a></p>
+
+<p>It is a great self hosting github/gitlabs sort of project but coded in go.</p>
+
+<hr />
+
+<p>I started by following <a href="https://www.digitalocean.com/community/tutorials/how-to-install-and-use-hugo-a-static-site-generator-on-ubuntu-14-04">this digital ocean tutorial</a></p>
+
+<p>I didn&rsquo;t want to use a package, my preference was to compile from <a href="https://gohugo.io/overview/installing/">source</a>. However I got the following error while trying that:
+
+go: missing Mercurial command. See https://golang.org/s/gogetcmd
+package bitbucket.org/pkg/inflect: exec: "hg": executable file not found in $PATH
+
+Thanks to <a href="http://kaiq.me/2015/12/23/go/go-get-tools/">this</a> and google translate I realised Mercurial was a dependancy.</p>
+
+<p>so
+
+sudo apt-get install mercurial
+
+and then</p>
+
+
+go get -u -v github.com/spf13/hugo
+
+
+<p>got me cooking!</p>
+
+<p>In the DO tutorial it says to run</p>
+
+
+sudo hugo genautocomplete
+
+
+<p>this seems to be factored out to</p>
+
+
+sudo hugo gen autocomplete
+
+
+<p>but because I compiled from source hugo isn&rsquo;t in sudo environment path so</p>
+
+
+sudo ~/go-workspace/bin/hugo gen autocomplete
+
+
+<p>[~/go-workspace is my $GOPATH so change to yours]</p>
+
+<p>While cloning the themes I decided hugo-themes was a better name for the directory in my home dir (themes could be anything while browsing later), of course this meant later, my symlink would need to look like:</p>
+
+
+ ln -s ../hugo-themes/ themes
+
+
+<p>It seems that some other switches are different from the DO tutorial (-themes= in git cloned version is -t )</p>
+
+<h1 id="auto-deploy">Auto deploy</h1>
+
+<p>This is based on the digital ocean tutorial <a href="https://www.digitalocean.com/community/tutorials/how-to-deploy-a-hugo-site-to-production-with-git-hooks-on-ubuntu-14-04">here</a> the difference however was, is I use gogs, the server itself has no firewall access to my gogs server. I decided to solve this problem using the tutorial/gogs&rsquo; web hooks/and a little php (that I&rsquo;m sure I&rsquo;ll refactor as go at some stage)</p>
+
+<p>First of all lets set up the gogs web hook:</p>
+
+<p>Inside the repository in question click on the settings link on the right hand side</p>
+
+<p><img src="/img/post-img/gogs-settings.png" alt="Gogs Settings" /></p>
+
+<p>Then click on the Webhooks link on the left hand side</p>
+
+<p><img src="/img/post-img/gogs-webhooks.png" alt="Gogs Webhooks" /></p>
+
+<p>Finally enter a url the gogs server can connect to and that you can write php on (make a note of the Secret that you use)</p>
+
+<p><img src="/img/post-img/gogs-webhook.png" alt="Gogs Webhook" /></p>
+
+<p>Now the php that runs at the URL you entered above should look a little something like this.</p>
+
+
+<?php
+//gogs secret for web hook
+$secret   = "";
+
+//keyword you are looking for in commit message to decide if to desploy
+$deployCommitKeyword = "[deploy] ";
+$json = (array) json_decode(file_get_contents('php://input'));
+
+if(array_key_exists('secret', $json)&&($json['secret']==$secret)){
+    echo 'secret matched';
+    if(array_key_exists('commits', $json)){
+        for($i=0, $j=count($json['commits']); $i<$j; $i++){
+            $json['commits'][$i] = (array) $json['commits'][$i];
+            if(array_key_exists('message', $json['commits'][$i])&&(strstr($json['commits'][$i]['message'], $deployCommitKeyword))){
+                do_deploy();
+                break;
+            }
+    }
+}
+
+function do_deploy(){
+    $GIT_REPO           = "$HOME/my-website.git";
+    $WORKING_DIRECTORY  = "$HOME/my-website-working";
+    $REMOTE_BACKUP_HTML = "backup_html/";
+    $REMOTE_PUBLIC_HTML = "public_html/";
+    $MY_SERVER_IP       = "server_domain_or_IP
+1";
+ 
+    if(!is_dir($WORKING_DIRECTORY)){
+        $command = "git clone $GIT_REPO $WORKING_DIRECTORY";
+        echo `$command`;
+    }else{
+        $command = "cd $WORKING_DIRECTORY; git pull";
+        echo `$command`;
+    }
+    $command = "cd $WORKING_DIRECTORY; /path/to/hugo";
+    echo `$command`;
+    //lets rsync a copy of the working directory to backup
+    $command = "ssh $MY_SERVER_IP rsync -r $REMOTE_PUBLIC_HTML $REMOTE_BACKUP_HTML";
+    echo `$command`;
+    $command = "rsync -r $WORKING_DIRECTORY/public/ $MY_SERVER_IP:$REMOTE_PUBLIC_HTML";
+    echo `$command`;
+}
+
+
+<p><em>*update</em> I noticed that syntax hilighting was going missing on this post (turned out that pygmatize was not in path of the php process) (php runs as my user account) so I fixed this by changing</p>
+
+
+$command = "cd $WORKING_DIRECTORY; /path/to/hugo";
+echo `$command`;
+
+
+<p>to</p>
+
+
+$command = "cd $WORKING_DIRECTORY; export PATH=\"What my $PATH is at tty\" hugo";
+echo `$command`;
+
+
+<p>This felt a little dirty but after many attempts at a more elegent solution, I have stayed with this for the time being.</p>
+
+                </div>
+            </div>
+        </div>
+    </article>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                   <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'plodtv';
+    var disqus_identifier = 'https:\/\/plod.tv\/post\/Setting-up-hugo-git-auto-deploy\/';
+    var disqus_title = 'Setting up a hugo based website on ubuntu then auto deploy using gogs\x27 webhooks';
+    var disqus_url = 'https:\/\/plod.tv\/post\/Setting-up-hugo-git-auto-deploy\/';
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+                </div>
+            </div>
+        </div>
+
+
+<hr>
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    <li>
+                        <a href="mailto:daniel@morgan.cymru">
+                        <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
+                        </span>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://twitter.com/plodtv">
+                        <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                        </span>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://github.com/plod">
+                        <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                        </span>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://www.instagram.com/plodtv/">
+                        <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                        </span>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://plus.google.com/u/0/114867298714740005580">
+                        <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
+                        </span>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://launchpad.net/~me-plod">
+                        <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-linux fa-stack-1x fa-inverse"></i>
+                        </span>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="http://uk.linkedin.com/in/plodtv">
+                        <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                        </span>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://www.freecodecamp.com/plod">
+                        <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-free-code-camp fa-stack-1x fa-inverse"></i>
+                        </span>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://www.codeschool.com/users/plod">
+                        <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-code fa-stack-1x fa-inverse"></i>
+                        </span>
+                        </a>
+                    </li>
+                    
+                </ul>
+                <p class="copyright text-muted"></p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<script src="/js/jquery.min.js"></script>
+
+
+<script src="/js/bootstrap.min.js"></script>
+
+
+<script src="/js/clean-blog.js"></script>
+
+
+
+</body>
+
+</html>
+

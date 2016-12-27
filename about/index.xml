@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abouts on plod.tv</title>
+    <link>https://plod.tv/about/index.xml</link>
+    <description>Recent content in Abouts on plod.tv</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Thu, 18 Feb 2016 15:09:35 +0000</lastBuildDate>
+    <atom:link href="https://plod.tv/about/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>About</title>
+      <link>https://plod.tv/about/</link>
+      <pubDate>Thu, 18 Feb 2016 15:09:35 +0000</pubDate>
+      
+      <guid>https://plod.tv/about/</guid>
+      <description>
+
+&lt;p&gt;This is my website, there are many like it but this one is mine!&lt;/p&gt;
+
+&lt;h1 id=&#34;who-am-i&#34;&gt;Who am I?&lt;/h1&gt;
+
+&lt;p&gt;I am Dan Morgan a Full Stack Engineer / Software Developer / IT Professional / Network Engineer / Devoper from South Wales, United Kingdom. I was Wales&amp;rsquo; first &lt;a href=&#34;http://www.zend.com/en/yellow-pages/ZEND002284&#34;&gt;Zend Certified Engineer&lt;/a&gt;. I currently have a perticular soft spot for all things &lt;a href=&#34;https://golang.org&#34;&gt;Go&lt;/a&gt;. I&amp;rsquo;ve been professionally working within the computer/online world for 20 years.&lt;/p&gt;
+
+&lt;p&gt;Outside of the geeky world; I am a keen cyclist, runner, triathlete. I have completed multiple &lt;a href=&#34;http://www.ironman.com&#34;&gt;IronMan&lt;/a&gt; triathlons, &lt;a href=&#34;http://www.audax-club-parisien.com/EN/421.html&#34;&gt;A Super Randonnee&lt;/a&gt;, and I&amp;rsquo;ve &lt;a href=&#34;http://www.everesting.cc/the-rules/&#34;&gt;Everested&lt;/a&gt; the &lt;a href=&#34;http://veloviewer.com/everesting/329707367&#34;&gt;Bwlch&lt;/a&gt;. I am Secretary of &lt;a href=&#34;http://pencoedtri.club&#34;&gt;Pencoed Triathlon Club&lt;/a&gt; and also a BTF Level 2 Triathlon Csoach.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

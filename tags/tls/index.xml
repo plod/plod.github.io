@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tls on plod.tv</title>
+    <link>https://plod.tv/tags/tls/index.xml</link>
+    <description>Recent content in Tls on plod.tv</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <atom:link href="https://plod.tv/tags/tls/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Multiple site free ssl with http2 nginx</title>
+      <link>https://plod.tv/post/multiple-site-free-ssl-http2-nginx/</link>
+      <pubDate>Fri, 19 Feb 2016 14:40:27 +0000</pubDate>
+      
+      <guid>https://plod.tv/post/multiple-site-free-ssl-http2-nginx/</guid>
+      <description>
+
+&lt;p&gt;There still exists this myth that you require a single IP address per vhost for an ssl certificate. It was perpetuated because the encryption handshake used to happen before the resource required could be ascertained, thanks to some pretty serious security vulnerabilites SSL itself is pretty much a dead duck and the modern TLS has superceded it. One of the great things about TLS is SNI:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Server Name Indication (SNI) is an extension to the TLS computer networking protocol[1] by which a client indicates which hostname it is attempting to connect to at the start of the handshaking process. This allows a server to present multiple certificates on the same IP address and TCP port number and hence allows multiple secure (HTTPS) websites (or any other Service over TLS) to be served off the same IP address without requiring all those sites to use the same certificate. It is the conceptual equivalent to HTTP/1.1 name-based virtual hosting, but for HTTPS. &lt;a href=&#34;https://en.wikipedia.org/wiki/Server_Name_Indication&#34;&gt;more here&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Although in this example we are going to use one certificate across multiple vhosts.&lt;/p&gt;
+
+&lt;h2 id=&#34;but-secure-websites-require-buying-a-certificate-which-is-expensive&#34;&gt;But secure websites require buying a certificate which is expensive!&lt;/h2&gt;
+
+&lt;p&gt;Haven&amp;rsquo;t you heard of &lt;a href=&#34;https://letsencrypt.org/&#34;&gt;Let&amp;rsquo;s Encrypt&lt;/a&gt; yet?&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Let’s Encrypt is a new Certificate Authority:
+It’s free, automated, and open.
+In Public Beta&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&#34;so-what-s-http2&#34;&gt;So what&amp;rsquo;s http2?&lt;/h2&gt;
+
+&lt;p&gt;You may have already heard of the magic google did with SPDY well that and even more features are being rolled into HTTP2, and you can have your website future proofed and supporting these features right now.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;HTTP/2 (originally named HTTP/2.0) is the second major version of the HTTP network protocol used by the World Wide Web. It is based on SPDY. HTTP/2 was developed by the Hypertext Transfer Protocol working group (httpbis, where bis means &amp;ldquo;repeat&amp;rdquo; or &amp;ldquo;twice&amp;rdquo;) of the Internet Engineering Task Force. &lt;a href=&#34;https://en.wikipedia.org/wiki/HTTP/2&#34;&gt;More Here&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&#34;let-s-do-this&#34;&gt;Let&amp;rsquo;s do this!&lt;/h2&gt;
+
+&lt;p&gt;Okay for the purpose of this post, I will show you how to get sorted with ubuntu (15.04). It is relatively straight forward to do the same for other distrubutions following the links provided. But if you are having difficulty please write your questions in the comments below.&lt;/p&gt;
+
+&lt;p&gt;At the time of writing the stable version in the nginx repositories is not a high enough version for http2 (It became available in &lt;a href=&#34;https://www.nginx.com/blog/nginx-1-9-5/&#34;&gt;version 1.9.5&lt;/a&gt;), so you need to add the mainline repositories to your apt (though depending on when you are reading this that could have changed).&lt;/p&gt;
+
+&lt;p&gt;Instructions for adding the repositories can be found &lt;a href=&#34;http://nginx.org/en/linux_packages.html#mainline&#34;&gt;here&lt;/a&gt;. But I&amp;rsquo;ll include them for the sake of brevity.&lt;/p&gt;
+
+
+wget -q http://nginx.org/keys/nginx_signing.key -O- | sudo apt-key add -
+
+
+&lt;p&gt;Then add the following to /etc/apt/sources.list.d/nginx.list:&lt;/p&gt;
+
+
+deb http://nginx.org/packages/mainline/ubuntu/ codename nginx
+deb-src http://nginx.org/packages/mainline/ubuntu/ codename nginx
+
+
+&lt;p&gt;Where codename should be your release codename, wily in my case. Then to install:&lt;/p&gt;
+
+
+apt-get update
+apt-get install nginx
+
+
+&lt;p&gt;Okay after doing its thing you should now have nginx at a new enough version for http2.&lt;/p&gt;
+
+&lt;h1 id=&#34;now-for-a-free-signed-cert&#34;&gt;Now for a free signed cert.&lt;/h1&gt;
+
+&lt;p&gt;I followed &lt;a href=&#34;https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-14-04&#34;&gt;this&lt;/a&gt; tutorial from digital ocean (great tutorials) to get the certificate up and running with the following extra bits.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Make sure you have all the vhosts you want to host with nginx (you won&amp;rsquo;t create a certificate for every domain there really is no need, you can reuse the one)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;When you are creating seperate vhost configs in nginx (doing this is a bit beyond the scope of this article but if you need help comment below), add the following directive to the vhost (to point the letsencrypt requests back to the default sites):&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+ location /.well-known/ {
+        alias /var/www/html/.well-known/;
+        allow all;
+    }
+
+
+&lt;p&gt;Then to enable http2 for each of the vhosts add the keyword at the top of your server block where your listen is:&lt;/p&gt;
+
+
+    listen 443 ssl http2;
+
+
+&lt;h1 id=&#34;welcome-to-the-future&#34;&gt;Welcome to the future!&lt;/h1&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

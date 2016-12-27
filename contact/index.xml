@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Contacts on plod.tv</title>
+    <link>https://plod.tv/contact/index.xml</link>
+    <description>Recent content in Contacts on plod.tv</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Thu, 18 Feb 2016 15:14:53 +0000</lastBuildDate>
+    <atom:link href="https://plod.tv/contact/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Contact Me</title>
+      <link>https://plod.tv/contact/</link>
+      <pubDate>Thu, 18 Feb 2016 15:14:53 +0000</pubDate>
+      
+      <guid>https://plod.tv/contact/</guid>
+      <description>&lt;p&gt;There are many ways to contact me:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Slack&lt;/strong&gt; GopherSlack #cymru (&lt;a href=&#34;https://invite.slack.golangbridge.org/&#34;&gt;https://invite.slack.golangbridge.org/&lt;/a&gt;) Cardiff Dev Slack #go&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;IRC&lt;/strong&gt; Efnet #wales &lt;em&gt;(the original network)&lt;/em&gt; / OFTC #swlug and #golang.cymru&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;any of the social links at the bottom of every page&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;use this contact form.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

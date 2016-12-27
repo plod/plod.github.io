@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Project Euler on plod.tv</title>
+    <link>https://plod.tv/tags/project-euler/index.xml</link>
+    <description>Recent content in Project Euler on plod.tv</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <atom:link href="https://plod.tv/tags/project-euler/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Project Euler</title>
+      <link>https://plod.tv/post/project-euler/</link>
+      <pubDate>Fri, 11 Mar 2016 10:36:46 +0000</pubDate>
+      
+      <guid>https://plod.tv/post/project-euler/</guid>
+      <description>&lt;p&gt;So I decided to do the projects on Project Euler to help with my Go learning (and to get my maths head working again), I&amp;rsquo;d forgotten how much fun the problems were.&lt;/p&gt;
+
+&lt;p&gt;What is Project Euler?&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Project Euler is a series of challenging mathematical/computer programming problems that will require more than just mathematical insights to solve. Although mathematics will help you arrive at elegant and efficient methods, the use of a computer and programming skills will be required to solve most problems.&lt;/p&gt;
+
+&lt;p&gt;The motivation for starting Project Euler, and its continuation, is to provide a platform for the inquiring mind to delve into unfamiliar areas and learn new concepts in a fun and recreational context.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Check them out here: &lt;a href=&#34;https://projecteuler.net/&#34;&gt;https://projecteuler.net/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve decided to push my solutions to github here: &lt;a href=&#34;https://github.com/plod/projectEuler/&#34;&gt;https://github.com/plod/projectEuler/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://projecteuler.net/profile/plod.png&#34; alt=&#34;Euler Profile Picture&#34; title=&#34;plod&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Project Euler says on each solution:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;We hope that you enjoyed solving this problem. Please do not deprive others of going through the same process by publishing your solution outside Project Euler. If you want to share your insights then please go to thread 8 in the discussion forum.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I really hope that people do not see this as deprivation or use the results to spoil their critical thought process.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
