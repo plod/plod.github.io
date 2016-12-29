@@ -99,25 +99,25 @@
   </url>
   
   <url>
-    <loc>https://plod.tv/categories/css/</loc>
-    <lastmod>2016-11-24T09:35:52+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://plod.tv/tags/css/</loc>
     <lastmod>2016-11-24T09:35:52+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://plod.tv/categories/cycling/</loc>
+    <loc>https://plod.tv/categories/css/</loc>
     <lastmod>2016-11-24T09:35:52+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://plod.tv/tags/cycling/</loc>
+    <lastmod>2016-11-24T09:35:52+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/categories/cycling/</loc>
     <lastmod>2016-11-24T09:35:52+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -135,13 +135,13 @@
   </url>
   
   <url>
-    <loc>https://plod.tv/categories/development/</loc>
+    <loc>https://plod.tv/tags/development/</loc>
     <lastmod>2016-11-24T09:35:52+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://plod.tv/tags/development/</loc>
+    <loc>https://plod.tv/categories/development/</loc>
     <lastmod>2016-11-24T09:35:52+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -165,25 +165,25 @@
   </url>
   
   <url>
-    <loc>https://plod.tv/categories/golang/</loc>
-    <lastmod>2016-06-27T12:27:58+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://plod.tv/tags/golang/</loc>
     <lastmod>2016-06-27T12:27:58+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://plod.tv/categories/html/</loc>
-    <lastmod>2016-11-24T09:35:52+00:00</lastmod>
+    <loc>https://plod.tv/categories/golang/</loc>
+    <lastmod>2016-06-27T12:27:58+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://plod.tv/tags/html/</loc>
+    <lastmod>2016-11-24T09:35:52+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/categories/html/</loc>
     <lastmod>2016-11-24T09:35:52+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -201,25 +201,25 @@
   </url>
   
   <url>
-    <loc>https://plod.tv/categories/javascript/</loc>
-    <lastmod>2016-11-24T09:35:52+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://plod.tv/tags/javascript/</loc>
     <lastmod>2016-11-24T09:35:52+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://plod.tv/categories/js/</loc>
+    <loc>https://plod.tv/categories/javascript/</loc>
     <lastmod>2016-11-24T09:35:52+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://plod.tv/tags/js/</loc>
+    <lastmod>2016-11-24T09:35:52+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/categories/js/</loc>
     <lastmod>2016-11-24T09:35:52+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -273,19 +273,13 @@
   </url>
   
   <url>
-    <loc>https://plod.tv/categories/run/</loc>
-    <lastmod>2016-11-24T09:35:52+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://plod.tv/tags/run/</loc>
     <lastmod>2016-11-24T09:35:52+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://plod.tv/categories/running/</loc>
+    <loc>https://plod.tv/categories/run/</loc>
     <lastmod>2016-11-24T09:35:52+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -297,13 +291,19 @@
   </url>
   
   <url>
-    <loc>https://plod.tv/categories/servers/</loc>
-    <lastmod>2016-02-19T14:40:27+00:00</lastmod>
+    <loc>https://plod.tv/categories/running/</loc>
+    <lastmod>2016-11-24T09:35:52+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://plod.tv/tags/servers/</loc>
+    <lastmod>2016-02-19T14:40:27+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/categories/servers/</loc>
     <lastmod>2016-02-19T14:40:27+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -338,13 +338,13 @@
   </url>
   
   <url>
-    <loc>https://plod.tv/categories/training/</loc>
+    <loc>https://plod.tv/tags/training/</loc>
     <lastmod>2016-06-27T12:27:58+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://plod.tv/tags/training/</loc>
+    <loc>https://plod.tv/categories/training/</loc>
     <lastmod>2016-06-27T12:27:58+01:00</lastmod>
     <priority>0</priority>
   </url>
@@ -356,13 +356,13 @@
   </url>
   
   <url>
-    <loc>https://plod.tv/categories/welsh/</loc>
+    <loc>https://plod.tv/tags/welsh/</loc>
     <lastmod>2016-11-24T09:35:52+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://plod.tv/tags/welsh/</loc>
+    <loc>https://plod.tv/categories/welsh/</loc>
     <lastmod>2016-11-24T09:35:52+00:00</lastmod>
     <priority>0</priority>
   </url>
