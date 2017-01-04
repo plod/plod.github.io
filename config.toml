@@ -1,4 +1,4 @@
-baseurl = "https://plod.tv"
+baseurl = "https://plod.tv/"
 languageCode = "en-gb"
 title = "plod.tv"
 newContentEditor = "nano"
