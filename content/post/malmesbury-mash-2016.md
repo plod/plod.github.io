@@ -3,7 +3,7 @@ date = "2016-02-22T08:43:55Z"
 draft = false
 title = "Audax: Malmesbury Mash 2016"
 Tags = ["Audax", "Cycling", "Malmesbury Mash", "200km"]
-image = "/img/bgs/mm2016-bg.jpg"
+image = "img/bgs/mm2016-bg.jpg"
 +++
 
 On Saturday gone, I rode my 200km Audax of the month of February "Malmesbury Mash". I try to ride at least a 200km every month of the year to achieve the Audax UK award [Randonneur Round the Year](http://www.aukweb.net/results/other/rrtyclaim/). Last year on my 12th successive month on the ride to claim this award, I managed to break my collar bone, but that's another story entirely.

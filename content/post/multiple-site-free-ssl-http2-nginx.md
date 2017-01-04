@@ -3,7 +3,7 @@ categories = ["servers"]
 date = "2016-02-19T14:40:27Z"
 description = ""
 draft = false
-image = "/img/bgs/cctv-bg.jpg"
+image = "img/bgs/cctv-bg.jpg"
 tags = ["ssl", "tls", "letsencrypt", "http2", "nginx", "ubuntu", "servers"]
 title = "Multiple site free ssl with http2 nginx"
 

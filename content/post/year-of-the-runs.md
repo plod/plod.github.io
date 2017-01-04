@@ -2,7 +2,7 @@
 categories = ["development","javascript", "js", "html", "css", "run", "running", "cycling", "Welsh"]
 date = "2016-11-24T09:35:52Z"
 description = "Consecutive insanity"
-image = "/img/bgs/bg-runs2017.jpg"
+image = "img/bgs/bg-runs2017.jpg"
 tags = ["development",  "javascript", "js", "html", "css", "run", "running", "cycling", "Welsh", "year of the runs", "audax"]
 title = "Year of the runs "
 

@@ -3,7 +3,7 @@ Description = ""
 Tags = ["go", "golang", "hugo", "digital ocean", "ubuntu", "git"]
 date = "2016-02-18T12:29:13Z"
 title = "Setting up a hugo based website on ubuntu then auto deploy using gogs' webhooks"
-image = "/img/bgs/deploy-bg.jpg"
+image = "img/bgs/deploy-bg.jpg"
 
 +++
 ## What is Hugo?

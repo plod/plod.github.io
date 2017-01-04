@@ -3,7 +3,7 @@ categories = ["Development", "golang"]
 date = "2016-03-11T10:36:46Z"
 description = ""
 draft = false
-image = "/img/bgs/projectEuler-bg.jpg"
+image = "img/bgs/projectEuler-bg.jpg"
 tags = ["go", "golang", "maths", "mathematics", "project euler"]
 title = "Project Euler"
 

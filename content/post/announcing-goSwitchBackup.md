@@ -3,7 +3,7 @@ categories = ["Development", "golang"]
 date = "2016-02-22T16:19:11Z"
 description = ""
 draft = false
-image = "/img/bgs/bg-switch.jpg"
+image= "img/bgs/bg-switch.jpg"
 tags = ["go", "golang", "development", "switches", "ssh", "cisco"]
 title = "Announcing goSwitchBackup"
 +++

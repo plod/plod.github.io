@@ -2,7 +2,7 @@
 categories = ["Development", "golang", "Training"]
 date = "2016-06-27T12:27:58+01:00"
 description = ""
-image = "/img/bgs/bg-ardanLabs.jpg"
+image = "img/bgs/bg-ardanLabs.jpg"
 tags = ["go", "golang", "training", "ardan labs", "development", "bill kennedy", "machine sympathy", "data driven design"]
 title = "Ultimate Go"
 
