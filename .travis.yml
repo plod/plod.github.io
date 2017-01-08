@@ -19,6 +19,7 @@ before_script:
     - go get -u -v github.com/kardianos/govendor
     - go get -u -v github.com/spf13/hugo
     - cd $GOPATH/src/github.com/spf13/hugo && govendor sync && go install
+    - cd $HOME/gopath/src/github.com/plod/plod.github.io
 
 script:
     - hugo
