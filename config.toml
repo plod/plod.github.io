@@ -1,12 +1,13 @@
 baseurl = "https://plod.tv/"
 languageCode = "en-gb"
 title = "plod.tv"
-newContentEditor = "nano"
+newContentEditor = "vim"
 theme = "startbootstrap-clean-blog"
 pygmentsStyle = "colorful"
-canonifyurls = false
+canonifyurls = true
 paginate = 10
 disqusShortname = "plodtv"
+googleAnalytics = "UA-21314793-1" # delete or comment to disable Google Analytics JS generation
 
 [author]
   name = "Daniel T. Morgan"
@@ -17,6 +18,7 @@ disqusShortname = "plodtv"
   Author = "Daniel T. Morgan"
   email = "daniel@morgan.cymru"
   Ganalytics = "UA-21314793-1"
+  postSummariesFrontPage = 4 
 
 [[params.social]]
   title = "twitter"
@@ -46,7 +48,7 @@ disqusShortname = "plodtv"
   
 
 [[menu.main]]
-  name = "about"
+  name = "About"
   identifier = "about"
   url = "/about/"
   weight = -200
