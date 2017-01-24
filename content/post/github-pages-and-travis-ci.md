@@ -2,7 +2,7 @@
 categories = ["Hosting", "github", "ci"]
 date = "2017-01-09T22:38:12Z"
 description = ""
-draft = true
+draft = false
 image= "img/bgs/bg-travisci.jpg"
 tags = ["hosting", "hugo", "templates", "themes", "development", "travis"]
 title = "Github Pages and Travis Ci"
