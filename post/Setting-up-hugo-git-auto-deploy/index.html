@@ -14,11 +14,11 @@
     
 
     
-    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://plod.tv/css/bootstrap.min.css" rel="stylesheet">
 
     
-    <link href="/css/clean-blog.min.css" rel="stylesheet">
-    <link href="/css/plod-custom.min.css" rel="stylesheet">
+    <link href="https://plod.tv/css/clean-blog.min.css" rel="stylesheet">
+    <link href="https://plod.tv/css/plod-custom.min.css" rel="stylesheet">
 
     
     <script src="https://use.fontawesome.com/2ab403e75d.js"></script>
@@ -43,7 +43,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="/">plod.tv</a>
+                <a class="navbar-brand" href="https://plod.tv/">plod.tv</a>
             </div>
 
                        
@@ -51,15 +51,15 @@
                 <ul class="nav navbar-nav navbar-right">
                     
                     <li>
-                        <a href="/about/">about</a>
+                        <a href="https://plod.tv/about/">About</a>
                     </li>
                     
                     <li>
-                        <a href="/contact/">Contact Me</a>
+                        <a href="https://plod.tv/contact/">Contact Me</a>
                     </li>
                     
                     <li>
-                        <a href="/post/">Archives</a>
+                        <a href="https://plod.tv/post/">Archives</a>
                     </li>
                     
                   </ul>
@@ -73,7 +73,7 @@
 
     
     
-    <header class="intro-header" style="background-image: url('https://plod.tv/img/bgs/deploy-bg.jpg')">
+    <header class="intro-header" style="background-image: url('https://plod.tv//img/bgs/deploy-bg.jpg')">
       
       <div class="container">
         <div class="row">
@@ -81,12 +81,14 @@
              <div class="post-heading">
                <h1>Setting up a hugo based website on ubuntu then auto deploy using gogs&#39; webhooks</h1>
                <h2 class="subheading"></h2>
-               <span class="meta">Posted by <a href="#">Daniel T. Morgan</a> on Thursday Feb 18 2016
-                 <br />
-                 In 
+               <span class="meta">
+                 
+Posted by <a href="#">Daniel T. Morgan</a> on Thursday Feb 18 2016
+<br />
+In 
 
-                 <br />
-                 Tags <a href="/tags/go" >go</a> <a href="/tags/golang" >golang</a> <a href="/tags/hugo" >hugo</a> <a href="/tags/digital-ocean" >digital ocean</a> <a href="/tags/ubuntu" >ubuntu</a> <a href="/tags/git" >git</a> 
+<br />
+Tags <a href="https://plod.tv/tags/go">go</a>, <a href="https://plod.tv/tags/golang">golang</a>, <a href="https://plod.tv/tags/hugo">hugo</a>, <a href="https://plod.tv/tags/digital-ocean">digital ocean</a>, <a href="https://plod.tv/tags/ubuntu">ubuntu</a>, <a href="https://plod.tv/tags/git">git</a>
 
                </span>
              </div>
@@ -99,7 +101,7 @@
     <article>
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 dont-break-out">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                   
 
 <h2 id="what-is-hugo">What is Hugo?</h2>
@@ -185,15 +187,15 @@ sudo ~/go-workspace/bin/hugo gen autocomplete
 
 <p>Inside the repository in question click on the settings link on the right hand side</p>
 
-<p><img src="/img/post-img/gogs-settings.png" alt="Gogs Settings" /></p>
+<p><img src="https://plod.tv/img/post-img/gogs-settings.png" alt="Gogs Settings" /></p>
 
 <p>Then click on the Webhooks link on the left hand side</p>
 
-<p><img src="/img/post-img/gogs-webhooks.png" alt="Gogs Webhooks" /></p>
+<p><img src="https://plod.tv/img/post-img/gogs-webhooks.png" alt="Gogs Webhooks" /></p>
 
 <p>Finally enter a url the gogs server can connect to and that you can write php on (make a note of the Secret that you use)</p>
 
-<p><img src="/img/post-img/gogs-webhook.png" alt="Gogs Webhook" /></p>
+<p><img src="https://plod.tv/img/post-img/gogs-webhook.png" alt="Gogs Webhook" /></p>
 
 <p>Now the php that runs at the URL you entered above should look a little something like this.</p>
 
@@ -259,32 +261,12 @@ echo `$command`;
 
 <p>This felt a little dirty but after many attempts at a more elegent solution, I have stayed with this for the time being.</p>
 
+                  
+
                 </div>
             </div>
         </div>
     </article>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                   <div id="disqus_thread"></div>
-<script type="text/javascript">
-    var disqus_shortname = 'plodtv';
-    var disqus_identifier = 'https:\/\/plod.tv\/post\/Setting-up-hugo-git-auto-deploy\/';
-    var disqus_title = 'Setting up a hugo based website on ubuntu then auto deploy using gogs\x27 webhooks';
-    var disqus_url = 'https:\/\/plod.tv\/post\/Setting-up-hugo-git-auto-deploy\/';
-
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-                </div>
-            </div>
-        </div>
-
 
 <hr>
 
@@ -382,17 +364,16 @@ echo `$command`;
 </footer>
 
 
-<script src="/js/jquery.min.js"></script>
+<script src="https://plod.tv/js/jquery.min.js"></script>
 
 
-<script src="/js/bootstrap.min.js"></script>
+<script src="https://plod.tv/js/bootstrap.min.js"></script>
 
 
-<script src="/js/clean-blog.js"></script>
+<script src="https://plod.tv/js/clean-blog.js"></script>
 
 
 
 </body>
 
 </html>
-

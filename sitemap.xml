@@ -68,12 +68,6 @@
   </url>
   
   <url>
-    <loc>https://plod.tv/about/</loc>
-    <lastmod>2016-02-18T15:09:35+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://plod.tv/tags/ardan-labs/</loc>
     <lastmod>2016-06-27T12:27:58+01:00</lastmod>
     <priority>0</priority>
@@ -105,12 +99,6 @@
   <url>
     <loc>https://plod.tv/tags/cisco/</loc>
     <lastmod>2016-02-22T16:19:11+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://plod.tv/contact/</loc>
-    <lastmod>2016-02-18T15:14:53+00:00</lastmod>
     <priority>0</priority>
   </url>
   
