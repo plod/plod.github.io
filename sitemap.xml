@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://plod.tv/post/github-pages-and-travis-ci/</loc>
+    <lastmod>2017-01-09T22:38:12+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://plod.tv/post/festive500-2016/</loc>
     <lastmod>2016-12-31T16:31:11+00:00</lastmod>
   </url>
@@ -92,6 +97,12 @@
   </url>
   
   <url>
+    <loc>https://plod.tv/categories/ci/</loc>
+    <lastmod>2017-01-09T22:38:12+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://plod.tv/tags/cisco/</loc>
     <lastmod>2016-02-22T16:19:11+00:00</lastmod>
     <priority>0</priority>
@@ -141,7 +152,7 @@
   
   <url>
     <loc>https://plod.tv/tags/development/</loc>
-    <lastmod>2016-11-24T09:35:52+00:00</lastmod>
+    <lastmod>2017-01-09T22:38:12+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -182,6 +193,12 @@
   </url>
   
   <url>
+    <loc>https://plod.tv/categories/github/</loc>
+    <lastmod>2017-01-09T22:38:12+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://plod.tv/tags/go/</loc>
     <lastmod>2016-06-27T12:27:58+01:00</lastmod>
     <priority>0</priority>
@@ -196,6 +213,18 @@
   <url>
     <loc>https://plod.tv/categories/golang/</loc>
     <lastmod>2016-06-27T12:27:58+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/tags/hosting/</loc>
+    <lastmod>2017-01-09T22:38:12+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/categories/hosting/</loc>
+    <lastmod>2017-01-09T22:38:12+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -219,7 +248,7 @@
   
   <url>
     <loc>https://plod.tv/tags/hugo/</loc>
-    <lastmod>2016-02-18T12:29:13+00:00</lastmod>
+    <lastmod>2017-01-09T22:38:12+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -285,7 +314,7 @@
   
   <url>
     <loc>https://plod.tv/post/</loc>
-    <lastmod>2016-12-31T16:31:11+00:00</lastmod>
+    <lastmod>2017-01-09T22:38:12+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -361,6 +390,18 @@
   </url>
   
   <url>
+    <loc>https://plod.tv/tags/templates/</loc>
+    <lastmod>2017-01-09T22:38:12+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/tags/themes/</loc>
+    <lastmod>2017-01-09T22:38:12+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://plod.tv/tags/tls/</loc>
     <lastmod>2016-02-19T14:40:27+00:00</lastmod>
     <priority>0</priority>
@@ -375,6 +416,12 @@
   <url>
     <loc>https://plod.tv/categories/training/</loc>
     <lastmod>2016-06-27T12:27:58+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/tags/travis/</loc>
+    <lastmod>2017-01-09T22:38:12+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -404,7 +451,7 @@
   
   <url>
     <loc>https://plod.tv/</loc>
-    <lastmod>2016-12-31T16:31:11+00:00</lastmod>
+    <lastmod>2017-01-09T22:38:12+00:00</lastmod>
     <priority>0</priority>
   </url>
   

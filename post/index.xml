@@ -6,8 +6,32 @@
     <description>Recent content in Posts on plod.tv</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sat, 31 Dec 2016 16:31:11 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Jan 2017 22:38:12 +0000</lastBuildDate>
     <atom:link href="https://plod.tv/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Github Pages and Travis Ci</title>
+      <link>https://plod.tv/post/github-pages-and-travis-ci/</link>
+      <pubDate>Mon, 09 Jan 2017 22:38:12 +0000</pubDate>
+      
+      <guid>https://plod.tv/post/github-pages-and-travis-ci/</guid>
+      <description>
+
+&lt;p&gt;I decided that I wanted to move away from self hosted for this website, mostly for resilience (I am often tinkering with &lt;del&gt;this&lt;/del&gt;that server), though I also wanted to play some with Travis CI to help contributing with more FOSS and playing with different technologies.&lt;/p&gt;
+
+&lt;p&gt;I followed the tutorial &lt;a href=&#34;http://rcoedo.com/post/hugo-static-site-generator/&#34;&gt;here&lt;/a&gt; paying special attention to the note at the bottom. In a very recent version of hugo there seems to be a problem with:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Failed to normalize URL string. Returning in =&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://discuss.gohugo.io/t/started-getting-failed-to-normalize-url-string-returning-in/5034/7&#34;&gt;This&lt;/a&gt; helped me with that, although it didnt quite work with my hugo/travis workflow, so I fixed it like this &lt;a href=&#34;https://github.com/plod/plod.github.io/blob/source/.travis.yml&#34;&gt;.travis.yml&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I also then decided to use cloudflare to get https although I haven&amp;rsquo;t quite mastered the autoredirect to https.&lt;/p&gt;
+
+&lt;h5 id=&#34;background-image-a-derivitive-of-this-https-www-flickr-com-photos-bethscupham-7364320130-in-photolist-cdl4nj-5tyhfl-7kskqx-63kghv-6a7o3m-8fbc7a-7vvr4y-7x5yiz-8sx3pi-9iimcr-8t18gc-8sx3tv-8thryw-qdbggp-8sx3a6-6vy9hp-8padry-bbxmw9-9zewgu-a2chlb-dyuuzd-4kpt8n-9nyxf2-gsd9nz-j5wa7p-gscwdy-8f2xek-avnowq-6cuh21-ffpwam-oxnsij-pnzh9i-dseqav-dm7wnz-a2cjyf-a2ckpj-6cuh5b-8fuzrs-ozwhyq-4hmxay-aqywws-pmv94-o3ksbn-o3aw4x-nkyhy1-8h1ske-wvhibn-wtogss-wv2qdl-xabn6n-work-by-beth-scupham-https-www-flickr-com-photos-bethscupham-licence-https-creativecommons-org-licenses-by-2-0&#34;&gt;Background image a derivitive of &lt;a href=&#34;https://www.flickr.com/photos/bethscupham/7364320130/in/photolist-cdL4NJ-5tYhfL-7KsKqx-63KGHV-6a7o3M-8FBc7A-7vvR4Y-7x5yiZ-8SX3pi-9iimcr-8T18gC-8SX3tv-8ThRyW-qDbGGp-8SX3A6-6Vy9HP-8PaDRY-bBxMw9-9zewGu-a2cHLb-dYUuzD-4kPT8n-9nyXf2-gsd9Nz-j5wA7p-gscWdY-8F2xeK-avnoWQ-6cuh21-fFpwaM-oXnSij-pnzH9i-dSeqaV-dM7Wnz-a2cJyf-a2cKpj-6cuh5b-8FuZRs-oZwHyq-4HMXAY-aqyWws-pmv94-o3kSbN-o3aw4x-nKYhY1-8H1SkE-wvHibn-wtoGSS-wv2qdL-xabn6N&#34;&gt;this&lt;/a&gt; work by &lt;a href=&#34;https://www.flickr.com/photos/bethscupham/&#34;&gt;Beth Scupham&lt;/a&gt; &lt;a href=&#34;https://creativecommons.org/licenses/by/2.0/&#34;&gt;Licence&lt;/a&gt;&lt;/h5&gt;
+</description>
+    </item>
     
     <item>
       <title>#festive500 2016</title>

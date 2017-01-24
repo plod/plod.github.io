@@ -9,11 +9,8 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Development -- plod.tv</title>
+    <title>Github Pages and Travis Ci -- plod.tv</title>
 
-    
-    <link href="https://plod.tv/tags/development/index.xml" rel="alternate" type="application/rss+xml" title="plod.tv" />
-    <link href="https://plod.tv/tags/development/index.xml" rel="feed" type="application/rss+xml" title="plod.tv" />
     
 
     
@@ -75,74 +72,76 @@
 
 
     
-    <header class="intro-header" style="background-image: url('https://plod.tv//img/home-bg.jpg')">
-     <div class="container">
-       <div class="row">
-         <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-           <div class="site-heading">
-             <h1>Development</h1>
-             <hr class="small">
-             <span class="subheading"></span>
+    
+    <header class="intro-header" style="background-image: url('https://plod.tv/img/bgs/bg-travisci.jpg')">
+      
+      <div class="container">
+        <div class="row">
+           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+             <div class="post-heading">
+               <h1>Github Pages and Travis Ci</h1>
+               <h2 class="subheading"></h2>
+               <span class="meta">Posted by <a href="#">Daniel T. Morgan</a> on Monday Jan 9 2017
+                 <br />
+                 In <a href="/categories/hosting" >Hosting</a>, <a href="/categories/github" >Github</a>, <a href="/categories/ci" >Ci</a>, 
+
+                 <br />
+                 Tags <a href="/tags/hosting" >hosting</a> <a href="/tags/hugo" >hugo</a> <a href="/tags/templates" >templates</a> <a href="/tags/themes" >themes</a> <a href="/tags/development" >development</a> <a href="/tags/travis" >travis</a> 
+
+               </span>
+             </div>
            </div>
-         </div>
-       </div>
-     </div>
+        </div>
+      </div>
     </header>
 
     
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-          
-                             <div class="post-preview">
-                  <p class="post-meta"><a href="https://plod.tv/post/github-pages-and-travis-ci/">Github Pages and Travis Ci</a> on Monday Jan 9 2017
-                    <br />
-                    In <a href="/categories/hosting" >Hosting</a>, <a href="/categories/github" >Github</a>, <a href="/categories/ci" >Ci</a>, 
+    <article>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 dont-break-out">
+                  
 
-                    Tags <a href="/tags/hosting" >hosting</a> <a href="/tags/hugo" >hugo</a> <a href="/tags/templates" >templates</a> <a href="/tags/themes" >themes</a> <a href="/tags/development" >development</a> <a href="/tags/travis" >travis</a> 
+<p>I decided that I wanted to move away from self hosted for this website, mostly for resilience (I am often tinkering with <del>this</del>that server), though I also wanted to play some with Travis CI to help contributing with more FOSS and playing with different technologies.</p>
 
-                  </p>
-               </div>
+<p>I followed the tutorial <a href="http://rcoedo.com/post/hugo-static-site-generator/">here</a> paying special attention to the note at the bottom. In a very recent version of hugo there seems to be a problem with:</p>
 
-          
-                             <div class="post-preview">
-                  <p class="post-meta"><a href="https://plod.tv/post/year-of-the-runs/">Year of the runs </a> on Thursday Nov 24 2016
-                    <br />
-                    In <a href="/categories/development" >Development</a>, <a href="/categories/javascript" >Javascript</a>, <a href="/categories/js" >Js</a>, <a href="/categories/html" >Html</a>, <a href="/categories/css" >Css</a>, <a href="/categories/run" >Run</a>, <a href="/categories/running" >Running</a>, <a href="/categories/cycling" >Cycling</a>, <a href="/categories/welsh" >Welsh</a>, 
+<blockquote>
+<p>Failed to normalize URL string. Returning in =</p>
+</blockquote>
 
-                    Tags <a href="/tags/development" >development</a> <a href="/tags/javascript" >javascript</a> <a href="/tags/js" >js</a> <a href="/tags/html" >html</a> <a href="/tags/css" >css</a> <a href="/tags/run" >run</a> <a href="/tags/running" >running</a> <a href="/tags/cycling" >cycling</a> <a href="/tags/welsh" >welsh</a> <a href="/tags/year-of-the-runs" >year of the runs</a> <a href="/tags/audax" >audax</a> 
+<p><a href="https://discuss.gohugo.io/t/started-getting-failed-to-normalize-url-string-returning-in/5034/7">This</a> helped me with that, although it didnt quite work with my hugo/travis workflow, so I fixed it like this <a href="https://github.com/plod/plod.github.io/blob/source/.travis.yml">.travis.yml</a>.</p>
 
-                  </p>
-               </div>
+<p>I also then decided to use cloudflare to get https although I haven&rsquo;t quite mastered the autoredirect to https.</p>
 
-          
-                             <div class="post-preview">
-                  <p class="post-meta"><a href="https://plod.tv/post/ultimate-go/">Ultimate Go</a> on Monday Jun 27 2016
-                    <br />
-                    In <a href="/categories/development" >Development</a>, <a href="/categories/golang" >Golang</a>, <a href="/categories/training" >Training</a>, 
+<h5 id="background-image-a-derivitive-of-this-https-www-flickr-com-photos-bethscupham-7364320130-in-photolist-cdl4nj-5tyhfl-7kskqx-63kghv-6a7o3m-8fbc7a-7vvr4y-7x5yiz-8sx3pi-9iimcr-8t18gc-8sx3tv-8thryw-qdbggp-8sx3a6-6vy9hp-8padry-bbxmw9-9zewgu-a2chlb-dyuuzd-4kpt8n-9nyxf2-gsd9nz-j5wa7p-gscwdy-8f2xek-avnowq-6cuh21-ffpwam-oxnsij-pnzh9i-dseqav-dm7wnz-a2cjyf-a2ckpj-6cuh5b-8fuzrs-ozwhyq-4hmxay-aqywws-pmv94-o3ksbn-o3aw4x-nkyhy1-8h1ske-wvhibn-wtogss-wv2qdl-xabn6n-work-by-beth-scupham-https-www-flickr-com-photos-bethscupham-licence-https-creativecommons-org-licenses-by-2-0">Background image a derivitive of <a href="https://www.flickr.com/photos/bethscupham/7364320130/in/photolist-cdL4NJ-5tYhfL-7KsKqx-63KGHV-6a7o3M-8FBc7A-7vvR4Y-7x5yiZ-8SX3pi-9iimcr-8T18gC-8SX3tv-8ThRyW-qDbGGp-8SX3A6-6Vy9HP-8PaDRY-bBxMw9-9zewGu-a2cHLb-dYUuzD-4kPT8n-9nyXf2-gsd9Nz-j5wA7p-gscWdY-8F2xeK-avnoWQ-6cuh21-fFpwaM-oXnSij-pnzH9i-dSeqaV-dM7Wnz-a2cJyf-a2cKpj-6cuh5b-8FuZRs-oZwHyq-4HMXAY-aqyWws-pmv94-o3kSbN-o3aw4x-nKYhY1-8H1SkE-wvHibn-wtoGSS-wv2qdL-xabn6N">this</a> work by <a href="https://www.flickr.com/photos/bethscupham/">Beth Scupham</a> <a href="https://creativecommons.org/licenses/by/2.0/">Licence</a></h5>
 
-                    Tags <a href="/tags/go" >go</a> <a href="/tags/golang" >golang</a> <a href="/tags/training" >training</a> <a href="/tags/ardan-labs" >ardan labs</a> <a href="/tags/development" >development</a> <a href="/tags/bill-kennedy" >bill kennedy</a> <a href="/tags/machine-sympathy" >machine sympathy</a> <a href="/tags/data-driven-design" >data driven design</a> 
-
-                  </p>
-               </div>
-
-          
-                             <div class="post-preview">
-                  <p class="post-meta"><a href="https://plod.tv/post/announcing-goSwitchBackup/">Announcing goSwitchBackup</a> on Monday Feb 22 2016
-                    <br />
-                    In <a href="/categories/development" >Development</a>, <a href="/categories/golang" >Golang</a>, 
-
-                    Tags <a href="/tags/go" >go</a> <a href="/tags/golang" >golang</a> <a href="/tags/development" >development</a> <a href="/tags/switches" >switches</a> <a href="/tags/ssh" >ssh</a> <a href="/tags/cisco" >cisco</a> 
-
-                  </p>
-               </div>
-
-          
-          
-    
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
+    </article>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                   <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'plodtv';
+    var disqus_identifier = 'https:\/\/plod.tv\/post\/github-pages-and-travis-ci\/';
+    var disqus_title = 'Github Pages and Travis Ci';
+    var disqus_url = 'https:\/\/plod.tv\/post\/github-pages-and-travis-ci\/';
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+                </div>
+            </div>
+        </div>
+
 
 <hr>
 
