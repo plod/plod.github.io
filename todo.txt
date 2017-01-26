@@ -1,6 +1,6 @@
 Tutorial about making a website with buffalo, maybe make some user creation and management website.
 Tutorial about setting up TICK stack with raspberry pis and ansible and maybe an alternative using Surge
 Post about my golang launch party talk
-fix the two pages (try making a new hugo site and move posts over manually see if that fixes it)
+fix the two pages (try making a new hugo site and move posts over manually see if that fixes it [didnt get chance today])
 
 
