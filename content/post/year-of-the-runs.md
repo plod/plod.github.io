@@ -18,7 +18,7 @@ I am going to run at least 1 mile (though often more than that) every day for 20
 <li>Run at least a mile</li>
 <li>Cycle at least three miles</li>
 <li>Continue my Duolingo Welsh streak: <sub>https://www.duolingo.com/plodtv</sub></li>
-<li>Continue my Free Code Camp streak: <sub>https://www.freecodecamp.com/plod</sub></li>
+<li>~~Continue my Free Code Camp streak: <sub>https://www.freecodecamp.com/plod</sub>~~ <br />Commit to github daily: <sub>https://www.github.com/plod</sub></li>
 </ol>
 
 I will/have started some of these runs (streaks) before 2017 but the important pledge is that from the 1<sup>st</sup> of January = until the 31<sup>st</sup> of December I will have an unbroken run of these things.
