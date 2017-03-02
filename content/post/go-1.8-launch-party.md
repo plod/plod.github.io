@@ -10,4 +10,4 @@ date = "2017-01-29T23:13:41Z"
 
 +++
 
-precusor announcement and then video with slides
+On Febuary the ... go released it's newest version
