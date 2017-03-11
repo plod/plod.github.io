@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on plod.tv</title>
+    <link>https://plod.tv/categories/index.xml</link>
+    <description>Recent content in Categories on plod.tv</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <atom:link href="https://plod.tv/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Ci</title>
+      <link>https://plod.tv/categories/ci/</link>
+      <pubDate>Mon, 09 Jan 2017 22:38:12 +0000</pubDate>
+      
+      <guid>https://plod.tv/categories/ci/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Css</title>
+      <link>https://plod.tv/categories/css/</link>
+      <pubDate>Thu, 24 Nov 2016 09:35:52 +0000</pubDate>
+      
+      <guid>https://plod.tv/categories/css/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cycling</title>
+      <link>https://plod.tv/categories/cycling/</link>
+      <pubDate>Sat, 31 Dec 2016 16:31:11 +0000</pubDate>
+      
+      <guid>https://plod.tv/categories/cycling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Development</title>
+      <link>https://plod.tv/categories/development/</link>
+      <pubDate>Thu, 24 Nov 2016 09:35:52 +0000</pubDate>
+      
+      <guid>https://plod.tv/categories/development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Exercise</title>
+      <link>https://plod.tv/categories/exercise/</link>
+      <pubDate>Sat, 31 Dec 2016 16:31:11 +0000</pubDate>
+      
+      <guid>https://plod.tv/categories/exercise/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Github</title>
+      <link>https://plod.tv/categories/github/</link>
+      <pubDate>Mon, 09 Jan 2017 22:38:12 +0000</pubDate>
+      
+      <guid>https://plod.tv/categories/github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Golang</title>
+      <link>https://plod.tv/categories/golang/</link>
+      <pubDate>Mon, 27 Jun 2016 12:27:58 +0100</pubDate>
+      
+      <guid>https://plod.tv/categories/golang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hosting</title>
+      <link>https://plod.tv/categories/hosting/</link>
+      <pubDate>Mon, 09 Jan 2017 22:38:12 +0000</pubDate>
+      
+      <guid>https://plod.tv/categories/hosting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Html</title>
+      <link>https://plod.tv/categories/html/</link>
+      <pubDate>Thu, 24 Nov 2016 09:35:52 +0000</pubDate>
+      
+      <guid>https://plod.tv/categories/html/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Javascript</title>
+      <link>https://plod.tv/categories/javascript/</link>
+      <pubDate>Thu, 24 Nov 2016 09:35:52 +0000</pubDate>
+      
+      <guid>https://plod.tv/categories/javascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Js</title>
+      <link>https://plod.tv/categories/js/</link>
+      <pubDate>Thu, 24 Nov 2016 09:35:52 +0000</pubDate>
+      
+      <guid>https://plod.tv/categories/js/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Run</title>
+      <link>https://plod.tv/categories/run/</link>
+      <pubDate>Thu, 24 Nov 2016 09:35:52 +0000</pubDate>
+      
+      <guid>https://plod.tv/categories/run/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Running</title>
+      <link>https://plod.tv/categories/running/</link>
+      <pubDate>Thu, 24 Nov 2016 09:35:52 +0000</pubDate>
+      
+      <guid>https://plod.tv/categories/running/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Servers</title>
+      <link>https://plod.tv/categories/servers/</link>
+      <pubDate>Fri, 19 Feb 2016 14:40:27 +0000</pubDate>
+      
+      <guid>https://plod.tv/categories/servers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Training</title>
+      <link>https://plod.tv/categories/training/</link>
+      <pubDate>Mon, 27 Jun 2016 12:27:58 +0100</pubDate>
+      
+      <guid>https://plod.tv/categories/training/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Welsh</title>
+      <link>https://plod.tv/categories/welsh/</link>
+      <pubDate>Thu, 24 Nov 2016 09:35:52 +0000</pubDate>
+      
+      <guid>https://plod.tv/categories/welsh/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
