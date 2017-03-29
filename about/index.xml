@@ -2,12 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>About on plod.tv</title>
-    <link>https://plod.tv/about/index.xml</link>
+    <link>https://plod.tv/about/</link>
     <description>Recent content in About on plod.tv</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <lastBuildDate>Thu, 18 Feb 2016 15:09:35 +0000</lastBuildDate>
-    <atom:link href="https://plod.tv/about/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://plod.tv/about/index.xml" rel="self" type="application/rss+xml" />
+    
     
   </channel>
 </rss>

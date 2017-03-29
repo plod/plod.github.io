@@ -2,11 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on plod.tv</title>
-    <link>https://plod.tv/categories/index.xml</link>
+    <link>https://plod.tv/categories/</link>
     <description>Recent content in Categories on plod.tv</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <atom:link href="https://plod.tv/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://plod.tv/categories/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Ci</title>
@@ -38,7 +40,7 @@
     <item>
       <title>Development</title>
       <link>https://plod.tv/categories/development/</link>
-      <pubDate>Thu, 24 Nov 2016 09:35:52 +0000</pubDate>
+      <pubDate>Sun, 29 Jan 2017 23:13:41 +0000</pubDate>
       
       <guid>https://plod.tv/categories/development/</guid>
       <description></description>
@@ -65,7 +67,7 @@
     <item>
       <title>Golang</title>
       <link>https://plod.tv/categories/golang/</link>
-      <pubDate>Mon, 27 Jun 2016 12:27:58 +0100</pubDate>
+      <pubDate>Sun, 29 Jan 2017 23:13:41 +0000</pubDate>
       
       <guid>https://plod.tv/categories/golang/</guid>
       <description></description>

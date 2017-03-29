@@ -2,44 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cisco on plod.tv</title>
-    <link>https://plod.tv/tags/cisco/index.xml</link>
+    <link>https://plod.tv/tags/cisco/</link>
     <description>Recent content in Cisco on plod.tv</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <atom:link href="https://plod.tv/tags/cisco/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 22 Feb 2016 16:19:11 +0000</lastBuildDate>
+    
+	<atom:link href="https://plod.tv/tags/cisco/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Announcing goSwitchBackup</title>
-      <link>https://plod.tv/post/announcing-goSwitchBackup/</link>
+      <link>https://plod.tv/post/announcing-goswitchbackup/</link>
       <pubDate>Mon, 22 Feb 2016 16:19:11 +0000</pubDate>
       
-      <guid>https://plod.tv/post/announcing-goSwitchBackup/</guid>
-      <description>
-
-&lt;p&gt;goSwitchBackup is Go program I wrote, to automate the backing up of Cisco switches over SSH for the network boys in work. It essentially SSHs (can you use it like a verb like that?) into an IP (Which should be the address of a Cisco switch) using the password, once it receives the prompt character it trys to escalate privileges using: enable Once it sees the &amp;ldquo;#&amp;rdquo; character it then tries to run the backup command: copy running-config tftpIt will then give the TFTP server address used when the program was invoked, and name the file:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;switchBackup-IP-OF-SWITCH-RFC3339timestamp&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;(&lt;em&gt;I may make this configurable later&lt;/em&gt;)&lt;/p&gt;
-
-&lt;p&gt;You can check out the code on github here:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/plod/goSwitchBackup&#34;&gt;https://github.com/plod/goSwitchBackup&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Once you run or compile, or just go run the code, pass the -help command for helps with flags.&lt;/p&gt;
-
-&lt;p&gt;Any comments or requests for more information please post in the comments below (I am still quite new to Go so any helpful pointers would also be gratefully received).&lt;/p&gt;
-
-&lt;h3 id=&#34;todo-wishlist&#34;&gt;todo/wishlist:&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Add potential TFTP server inside the program itself&lt;/li&gt;
-&lt;li&gt;compare previous backup with current backup and send alert of changes (SMTP)&lt;/li&gt;
-&lt;li&gt;Add a verbose switch to echo some of the commented stuff that helps debug issues&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <guid>https://plod.tv/post/announcing-goswitchbackup/</guid>
+      <description>goSwitchBackup is Go program I wrote, to automate the backing up of Cisco switches over SSH for the network boys in work. It essentially SSHs (can you use it like a verb like that?) into an IP (Which should be the address of a Cisco switch) using the password, once it receives the prompt character it trys to escalate privileges using: enable Once it sees the &amp;ldquo;#&amp;rdquo; character it then tries to run the backup command: copy running-config tftpIt will then give the TFTP server address used when the program was invoked, and name the file:</description>
     </item>
     
   </channel>

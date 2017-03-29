@@ -2,11 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Training on plod.tv</title>
-    <link>https://plod.tv/tags/training/index.xml</link>
+    <link>https://plod.tv/tags/training/</link>
     <description>Recent content in Training on plod.tv</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <atom:link href="https://plod.tv/tags/training/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 27 Jun 2016 12:27:58 +0100</lastBuildDate>
+    
+	<atom:link href="https://plod.tv/tags/training/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Ultimate Go</title>
@@ -14,18 +17,8 @@
       <pubDate>Mon, 27 Jun 2016 12:27:58 +0100</pubDate>
       
       <guid>https://plod.tv/post/ultimate-go/</guid>
-      <description>
-
-&lt;h2 id=&#34;ultimate-go&#34;&gt;Ultimate Go&lt;/h2&gt;
-
-&lt;p&gt;Earlier this month I attended &lt;a href=&#34;https://www.ardanlabs.com/&#34;&gt;Ardan Labs&lt;/a&gt; Ultimate Go Training given by Bill Kennedy (&lt;a href=&#34;https://www.goinggo.net/&#34;&gt;https://www.goinggo.net/&lt;/a&gt;). Todd McLeod of the Udemy course &lt;a href=&#34;https://www.udemy.com/learn-how-to-code/&#34;&gt;https://www.udemy.com/learn-how-to-code/&lt;/a&gt; had recommended it, and as I had been working my way through Bill&amp;rsquo;s book &lt;a href=&#34;https://www.manning.com/books/go-in-action&#34;&gt;Go in Action&lt;/a&gt; I was very keen to take my Go to the next level.&lt;/p&gt;
-
-&lt;p&gt;The course was hosted at &lt;a href=&#34;https://www.hailoapp.com/&#34;&gt;Hailo&lt;/a&gt;&amp;rsquo;s HQ in central London. Big shout out to them for hosting it, and for the excellent facilities! I took the whole family up to Cambridge to stay with friends, and then commuted into central London each day for the course.&lt;/p&gt;
-
-&lt;p&gt;Bill is a very passionate guy and I think he could get motivate excitement in computer programming and advanced concepts in anybody. I learnt a lot of things that I&amp;rsquo;d not put much thought into, and some anti patterns that I thought I&amp;rsquo;d been doing to improve things but had essentially been slowing things down. You can get a background idea about the course from it&amp;rsquo;s &lt;a href=&#34;https://github.com/ardanlabs/gotraining/tree/master/courses/ultimate&#34;&gt;github&lt;/a&gt;, or it is worth listening to this weeks &lt;a href=&#34;https://changelog.com/gotime-6/&#34;&gt;Go Time&lt;/a&gt; podcast where you can hear Bill talk about a few of the topics of the course.&lt;/p&gt;
-
-&lt;p&gt;I thoroughly reccomend anybody no matter what level you are at to give the training a go (pardon the pun) Bill seems to be everywhere all the time, so I&amp;rsquo;m sure you can fit it in somewhere! Oh and he signed my Go in Action book 😁!&lt;/p&gt;
-</description>
+      <description>Ultimate Go Earlier this month I attended Ardan Labs Ultimate Go Training given by Bill Kennedy (https://www.goinggo.net/). Todd McLeod of the Udemy course https://www.udemy.com/learn-how-to-code/ had recommended it, and as I had been working my way through Bill&amp;rsquo;s book Go in Action I was very keen to take my Go to the next level.
+The course was hosted at Hailo&amp;rsquo;s HQ in central London. Big shout out to them for hosting it, and for the excellent facilities!</description>
     </item>
     
   </channel>

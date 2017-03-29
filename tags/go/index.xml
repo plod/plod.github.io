@@ -2,11 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Go on plod.tv</title>
-    <link>https://plod.tv/tags/go/index.xml</link>
+    <link>https://plod.tv/tags/go/</link>
     <description>Recent content in Go on plod.tv</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <atom:link href="https://plod.tv/tags/go/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 29 Jan 2017 23:13:41 +0000</lastBuildDate>
+    
+	<atom:link href="https://plod.tv/tags/go/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cardiff Go 1.8 launch party</title>
+      <link>https://plod.tv/post/go-1.8-launch-party/</link>
+      <pubDate>Sun, 29 Jan 2017 23:13:41 +0000</pubDate>
+      
+      <guid>https://plod.tv/post/go-1.8-launch-party/</guid>
+      <description>On Febuary the 16th go released it&amp;rsquo;s newest version 1.8. You can read about this release here. I presented at the Cardiff Go meetup group&amp;rsquo;s release party on the 15th. Considering how I am not the greatest speaker in public, it went very well. I was pretty nervous to start, but nerves slowly faded especially when I got to talk about my favourite new features (http2 pushPromice etc). You can see my slides here.</description>
+    </item>
     
     <item>
       <title>Ultimate Go</title>
@@ -14,18 +26,8 @@
       <pubDate>Mon, 27 Jun 2016 12:27:58 +0100</pubDate>
       
       <guid>https://plod.tv/post/ultimate-go/</guid>
-      <description>
-
-&lt;h2 id=&#34;ultimate-go&#34;&gt;Ultimate Go&lt;/h2&gt;
-
-&lt;p&gt;Earlier this month I attended &lt;a href=&#34;https://www.ardanlabs.com/&#34;&gt;Ardan Labs&lt;/a&gt; Ultimate Go Training given by Bill Kennedy (&lt;a href=&#34;https://www.goinggo.net/&#34;&gt;https://www.goinggo.net/&lt;/a&gt;). Todd McLeod of the Udemy course &lt;a href=&#34;https://www.udemy.com/learn-how-to-code/&#34;&gt;https://www.udemy.com/learn-how-to-code/&lt;/a&gt; had recommended it, and as I had been working my way through Bill&amp;rsquo;s book &lt;a href=&#34;https://www.manning.com/books/go-in-action&#34;&gt;Go in Action&lt;/a&gt; I was very keen to take my Go to the next level.&lt;/p&gt;
-
-&lt;p&gt;The course was hosted at &lt;a href=&#34;https://www.hailoapp.com/&#34;&gt;Hailo&lt;/a&gt;&amp;rsquo;s HQ in central London. Big shout out to them for hosting it, and for the excellent facilities! I took the whole family up to Cambridge to stay with friends, and then commuted into central London each day for the course.&lt;/p&gt;
-
-&lt;p&gt;Bill is a very passionate guy and I think he could get motivate excitement in computer programming and advanced concepts in anybody. I learnt a lot of things that I&amp;rsquo;d not put much thought into, and some anti patterns that I thought I&amp;rsquo;d been doing to improve things but had essentially been slowing things down. You can get a background idea about the course from it&amp;rsquo;s &lt;a href=&#34;https://github.com/ardanlabs/gotraining/tree/master/courses/ultimate&#34;&gt;github&lt;/a&gt;, or it is worth listening to this weeks &lt;a href=&#34;https://changelog.com/gotime-6/&#34;&gt;Go Time&lt;/a&gt; podcast where you can hear Bill talk about a few of the topics of the course.&lt;/p&gt;
-
-&lt;p&gt;I thoroughly reccomend anybody no matter what level you are at to give the training a go (pardon the pun) Bill seems to be everywhere all the time, so I&amp;rsquo;m sure you can fit it in somewhere! Oh and he signed my Go in Action book 😁!&lt;/p&gt;
-</description>
+      <description>Ultimate Go Earlier this month I attended Ardan Labs Ultimate Go Training given by Bill Kennedy (https://www.goinggo.net/). Todd McLeod of the Udemy course https://www.udemy.com/learn-how-to-code/ had recommended it, and as I had been working my way through Bill&amp;rsquo;s book Go in Action I was very keen to take my Go to the next level.
+The course was hosted at Hailo&amp;rsquo;s HQ in central London. Big shout out to them for hosting it, and for the excellent facilities!</description>
     </item>
     
     <item>
@@ -34,257 +36,39 @@
       <pubDate>Fri, 11 Mar 2016 10:36:46 +0000</pubDate>
       
       <guid>https://plod.tv/post/project-euler/</guid>
-      <description>&lt;p&gt;So I decided to do the projects on Project Euler to help with my Go learning (and to get my maths head working again), I&amp;rsquo;d forgotten how much fun the problems were.&lt;/p&gt;
-
-&lt;p&gt;What is Project Euler?&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Project Euler is a series of challenging mathematical/computer programming problems that will require more than just mathematical insights to solve. Although mathematics will help you arrive at elegant and efficient methods, the use of a computer and programming skills will be required to solve most problems.&lt;/p&gt;
-
-&lt;p&gt;The motivation for starting Project Euler, and its continuation, is to provide a platform for the inquiring mind to delve into unfamiliar areas and learn new concepts in a fun and recreational context.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Check them out here: &lt;a href=&#34;https://projecteuler.net/&#34;&gt;https://projecteuler.net/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;ve decided to push my solutions to github here: &lt;a href=&#34;https://github.com/plod/projectEuler/&#34;&gt;https://github.com/plod/projectEuler/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://projecteuler.net/profile/plod.png&#34; alt=&#34;Euler Profile Picture&#34; title=&#34;plod&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Project Euler says on each solution:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;We hope that you enjoyed solving this problem. Please do not deprive others of going through the same process by publishing your solution outside Project Euler. If you want to share your insights then please go to thread 8 in the discussion forum.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;I really hope that people do not see this as deprivation or use the results to spoil their critical thought process.&lt;/p&gt;
-</description>
+      <description>So I decided to do the projects on Project Euler to help with my Go learning (and to get my maths head working again), I&amp;rsquo;d forgotten how much fun the problems were.
+What is Project Euler?
+ Project Euler is a series of challenging mathematical/computer programming problems that will require more than just mathematical insights to solve. Although mathematics will help you arrive at elegant and efficient methods, the use of a computer and programming skills will be required to solve most problems.</description>
     </item>
     
     <item>
       <title>Announcing goSwitchBackup</title>
-      <link>https://plod.tv/post/announcing-goSwitchBackup/</link>
+      <link>https://plod.tv/post/announcing-goswitchbackup/</link>
       <pubDate>Mon, 22 Feb 2016 16:19:11 +0000</pubDate>
       
-      <guid>https://plod.tv/post/announcing-goSwitchBackup/</guid>
-      <description>
-
-&lt;p&gt;goSwitchBackup is Go program I wrote, to automate the backing up of Cisco switches over SSH for the network boys in work. It essentially SSHs (can you use it like a verb like that?) into an IP (Which should be the address of a Cisco switch) using the password, once it receives the prompt character it trys to escalate privileges using: enable Once it sees the &amp;ldquo;#&amp;rdquo; character it then tries to run the backup command: copy running-config tftpIt will then give the TFTP server address used when the program was invoked, and name the file:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;switchBackup-IP-OF-SWITCH-RFC3339timestamp&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;(&lt;em&gt;I may make this configurable later&lt;/em&gt;)&lt;/p&gt;
-
-&lt;p&gt;You can check out the code on github here:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/plod/goSwitchBackup&#34;&gt;https://github.com/plod/goSwitchBackup&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Once you run or compile, or just go run the code, pass the -help command for helps with flags.&lt;/p&gt;
-
-&lt;p&gt;Any comments or requests for more information please post in the comments below (I am still quite new to Go so any helpful pointers would also be gratefully received).&lt;/p&gt;
-
-&lt;h3 id=&#34;todo-wishlist&#34;&gt;todo/wishlist:&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Add potential TFTP server inside the program itself&lt;/li&gt;
-&lt;li&gt;compare previous backup with current backup and send alert of changes (SMTP)&lt;/li&gt;
-&lt;li&gt;Add a verbose switch to echo some of the commented stuff that helps debug issues&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <guid>https://plod.tv/post/announcing-goswitchbackup/</guid>
+      <description>goSwitchBackup is Go program I wrote, to automate the backing up of Cisco switches over SSH for the network boys in work. It essentially SSHs (can you use it like a verb like that?) into an IP (Which should be the address of a Cisco switch) using the password, once it receives the prompt character it trys to escalate privileges using: enable Once it sees the &amp;ldquo;#&amp;rdquo; character it then tries to run the backup command: copy running-config tftpIt will then give the TFTP server address used when the program was invoked, and name the file:</description>
     </item>
     
     <item>
       <title>Setting up a hugo based website on ubuntu then auto deploy using gogs&#39; webhooks</title>
-      <link>https://plod.tv/post/Setting-up-hugo-git-auto-deploy/</link>
+      <link>https://plod.tv/post/setting-up-hugo-git-auto-deploy/</link>
       <pubDate>Thu, 18 Feb 2016 12:29:13 +0000</pubDate>
       
-      <guid>https://plod.tv/post/Setting-up-hugo-git-auto-deploy/</guid>
-      <description>
-
-&lt;h2 id=&#34;what-is-hugo&#34;&gt;What is Hugo?&lt;/h2&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Hugo is a static HTML and CSS website generator written in Go. It is optimized for speed, easy use and configurability. Hugo takes a directory with content and templates and renders them into a full HTML website.&lt;/p&gt;
-
-&lt;p&gt;Hugo relies on Markdown files with front matter for meta data. And you can run Hugo from any directory. This works well for shared hosts and other systems where you don’t have a privileged account.&lt;/p&gt;
-
-&lt;p&gt;Hugo renders a typical website of moderate size in a fraction of a second. A good rule of thumb is that each piece of content renders in around 1 millisecond.&lt;/p&gt;
-
-&lt;p&gt;Hugo is designed to work well for any kind of website including blogs, tumbles and docs.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://gohugo.io/&#34;&gt;https://gohugo.io/&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;what-is-gogs&#34;&gt;What is Gogs?&lt;/h2&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;The goal of this project is to make the easiest, fastest, and most painless way of setting up a self-hosted Git service. With Go, this can be done with an independent binary distribution across ALL platforms that Go supports, including Linux, Mac OS X, Windows and ARM.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://gogs.io/&#34;&gt;https://gogs.io/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;It is a great self hosting github/gitlabs sort of project but coded in go.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;I started by following &lt;a href=&#34;https://www.digitalocean.com/community/tutorials/how-to-install-and-use-hugo-a-static-site-generator-on-ubuntu-14-04&#34;&gt;this digital ocean tutorial&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;I didn&amp;rsquo;t want to use a package, my preference was to compile from &lt;a href=&#34;https://gohugo.io/overview/installing/&#34;&gt;source&lt;/a&gt;. However I got the following error while trying that:
-
-go: missing Mercurial command. See https://golang.org/s/gogetcmd
-package bitbucket.org/pkg/inflect: exec: &#34;hg&#34;: executable file not found in $PATH
-
-Thanks to &lt;a href=&#34;http://kaiq.me/2015/12/23/go/go-get-tools/&#34;&gt;this&lt;/a&gt; and google translate I realised Mercurial was a dependancy.&lt;/p&gt;
-
-&lt;p&gt;so
-
-sudo apt-get install mercurial
-
-and then&lt;/p&gt;
-
-
-go get -u -v github.com/spf13/hugo
-
-
-&lt;p&gt;got me cooking!&lt;/p&gt;
-
-&lt;p&gt;In the DO tutorial it says to run&lt;/p&gt;
-
-
-sudo hugo genautocomplete
-
-
-&lt;p&gt;this seems to be factored out to&lt;/p&gt;
-
-
-sudo hugo gen autocomplete
-
-
-&lt;p&gt;but because I compiled from source hugo isn&amp;rsquo;t in sudo environment path so&lt;/p&gt;
-
-
-sudo ~/go-workspace/bin/hugo gen autocomplete
-
-
-&lt;p&gt;[~/go-workspace is my $GOPATH so change to yours]&lt;/p&gt;
-
-&lt;p&gt;While cloning the themes I decided hugo-themes was a better name for the directory in my home dir (themes could be anything while browsing later), of course this meant later, my symlink would need to look like:&lt;/p&gt;
-
-
- ln -s ../hugo-themes/ themes
-
-
-&lt;p&gt;It seems that some other switches are different from the DO tutorial (-themes= in git cloned version is -t )&lt;/p&gt;
-
-&lt;h1 id=&#34;auto-deploy&#34;&gt;Auto deploy&lt;/h1&gt;
-
-&lt;p&gt;This is based on the digital ocean tutorial &lt;a href=&#34;https://www.digitalocean.com/community/tutorials/how-to-deploy-a-hugo-site-to-production-with-git-hooks-on-ubuntu-14-04&#34;&gt;here&lt;/a&gt; the difference however was, is I use gogs, the server itself has no firewall access to my gogs server. I decided to solve this problem using the tutorial/gogs&amp;rsquo; web hooks/and a little php (that I&amp;rsquo;m sure I&amp;rsquo;ll refactor as go at some stage)&lt;/p&gt;
-
-&lt;p&gt;First of all lets set up the gogs web hook:&lt;/p&gt;
-
-&lt;p&gt;Inside the repository in question click on the settings link on the right hand side&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://plod.tv/img/post-img/gogs-settings.png&#34; alt=&#34;Gogs Settings&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Then click on the Webhooks link on the left hand side&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://plod.tv/img/post-img/gogs-webhooks.png&#34; alt=&#34;Gogs Webhooks&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Finally enter a url the gogs server can connect to and that you can write php on (make a note of the Secret that you use)&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://plod.tv/img/post-img/gogs-webhook.png&#34; alt=&#34;Gogs Webhook&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Now the php that runs at the URL you entered above should look a little something like this.&lt;/p&gt;
-
-
-&lt;?php
-//gogs secret for web hook
-$secret   = &#34;&#34;;
-
-//keyword you are looking for in commit message to decide if to desploy
-$deployCommitKeyword = &#34;[deploy] &#34;;
-$json = (array) json_decode(file_get_contents(&#39;php://input&#39;));
-
-if(array_key_exists(&#39;secret&#39;, $json)&amp;&amp;($json[&#39;secret&#39;]==$secret)){
-    echo &#39;secret matched&#39;;
-    if(array_key_exists(&#39;commits&#39;, $json)){
-        for($i=0, $j=count($json[&#39;commits&#39;]); $i&lt;$j; $i++){
-            $json[&#39;commits&#39;][$i] = (array) $json[&#39;commits&#39;][$i];
-            if(array_key_exists(&#39;message&#39;, $json[&#39;commits&#39;][$i])&amp;&amp;(strstr($json[&#39;commits&#39;][$i][&#39;message&#39;], $deployCommitKeyword))){
-                do_deploy();
-                break;
-            }
-    }
-}
-
-function do_deploy(){
-    $GIT_REPO           = &#34;$HOME/my-website.git&#34;;
-    $WORKING_DIRECTORY  = &#34;$HOME/my-website-working&#34;;
-    $REMOTE_BACKUP_HTML = &#34;backup_html/&#34;;
-    $REMOTE_PUBLIC_HTML = &#34;public_html/&#34;;
-    $MY_SERVER_IP       = &#34;server_domain_or_IP
-1&#34;;
- 
-    if(!is_dir($WORKING_DIRECTORY)){
-        $command = &#34;git clone $GIT_REPO $WORKING_DIRECTORY&#34;;
-        echo `$command`;
-    }else{
-        $command = &#34;cd $WORKING_DIRECTORY; git pull&#34;;
-        echo `$command`;
-    }
-    $command = &#34;cd $WORKING_DIRECTORY; /path/to/hugo&#34;;
-    echo `$command`;
-    //lets rsync a copy of the working directory to backup
-    $command = &#34;ssh $MY_SERVER_IP rsync -r $REMOTE_PUBLIC_HTML $REMOTE_BACKUP_HTML&#34;;
-    echo `$command`;
-    $command = &#34;rsync -r $WORKING_DIRECTORY/public/ $MY_SERVER_IP:$REMOTE_PUBLIC_HTML&#34;;
-    echo `$command`;
-}
-
-
-&lt;p&gt;&lt;em&gt;*update&lt;/em&gt; I noticed that syntax hilighting was going missing on this post (turned out that pygmatize was not in path of the php process) (php runs as my user account) so I fixed this by changing&lt;/p&gt;
-
-
-$command = &#34;cd $WORKING_DIRECTORY; /path/to/hugo&#34;;
-echo `$command`;
-
-
-&lt;p&gt;to&lt;/p&gt;
-
-
-$command = &#34;cd $WORKING_DIRECTORY; export PATH=\&#34;What my $PATH is at tty\&#34; hugo&#34;;
-echo `$command`;
-
-
-&lt;p&gt;This felt a little dirty but after many attempts at a more elegent solution, I have stayed with this for the time being.&lt;/p&gt;
-</description>
+      <guid>https://plod.tv/post/setting-up-hugo-git-auto-deploy/</guid>
+      <description>What is Hugo?  Hugo is a static HTML and CSS website generator written in Go. It is optimized for speed, easy use and configurability. Hugo takes a directory with content and templates and renders them into a full HTML website.
+Hugo relies on Markdown files with front matter for meta data. And you can run Hugo from any directory. This works well for shared hosts and other systems where you don’t have a privileged account.</description>
     </item>
     
     <item>
       <title>My First Post</title>
-      <link>https://plod.tv/post/My-First-Post/</link>
+      <link>https://plod.tv/post/my-first-post/</link>
       <pubDate>Thu, 18 Feb 2016 12:12:49 +0000</pubDate>
       
-      <guid>https://plod.tv/post/My-First-Post/</guid>
-      <description>
-
-&lt;p&gt;This is my first post on the site.  I hope that you like it!&lt;/p&gt;
-
-&lt;h2 id=&#34;welcome-function&#34;&gt;Welcome Function&lt;/h2&gt;
-
-&lt;p&gt;Here is a little Golang function to welcome you:&lt;/p&gt;
-
-
-package main
-
-import &#34;fmt&#34;
-
-func main() {
-	fmt.Println(&#34;Sut mae, byd!&#34;)
-}
-
-</description>
+      <guid>https://plod.tv/post/my-first-post/</guid>
+      <description> This is my first post on the site. I hope that you like it!
+Welcome Function Here is a little Golang function to welcome you:
+package main import &#34;fmt&#34; func main() { fmt.Println(&#34;Sut mae, byd!&#34;) } </description>
     </item>
     
   </channel>

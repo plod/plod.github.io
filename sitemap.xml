@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://plod.tv/post/go-1.8-launch-party/</loc>
+    <lastmod>2017-01-29T23:13:41+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://plod.tv/post/github-pages-and-travis-ci/</loc>
     <lastmod>2017-01-09T22:38:12+00:00</lastmod>
   </url>
@@ -27,7 +32,7 @@
   </url>
   
   <url>
-    <loc>https://plod.tv/post/announcing-goSwitchBackup/</loc>
+    <loc>https://plod.tv/post/announcing-goswitchbackup/</loc>
     <lastmod>2016-02-22T16:19:11+00:00</lastmod>
   </url>
   
@@ -52,12 +57,12 @@
   </url>
   
   <url>
-    <loc>https://plod.tv/post/Setting-up-hugo-git-auto-deploy/</loc>
+    <loc>https://plod.tv/post/setting-up-hugo-git-auto-deploy/</loc>
     <lastmod>2016-02-18T12:29:13+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://plod.tv/post/My-First-Post/</loc>
+    <loc>https://plod.tv/post/my-first-post/</loc>
     <lastmod>2016-02-18T12:12:49+00:00</lastmod>
   </url>
   
@@ -140,13 +145,13 @@
   
   <url>
     <loc>https://plod.tv/tags/development/</loc>
-    <lastmod>2017-01-09T22:38:12+00:00</lastmod>
+    <lastmod>2017-01-29T23:13:41+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://plod.tv/categories/development/</loc>
-    <lastmod>2016-11-24T09:35:52+00:00</lastmod>
+    <lastmod>2017-01-29T23:13:41+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -188,19 +193,19 @@
   
   <url>
     <loc>https://plod.tv/tags/go/</loc>
-    <lastmod>2016-06-27T12:27:58+01:00</lastmod>
+    <lastmod>2017-01-29T23:13:41+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://plod.tv/tags/golang/</loc>
-    <lastmod>2016-06-27T12:27:58+01:00</lastmod>
+    <lastmod>2017-01-29T23:13:41+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://plod.tv/categories/golang/</loc>
-    <lastmod>2016-06-27T12:27:58+01:00</lastmod>
+    <lastmod>2017-01-29T23:13:41+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -302,7 +307,7 @@
   
   <url>
     <loc>https://plod.tv/post/</loc>
-    <lastmod>2017-01-09T22:38:12+00:00</lastmod>
+    <lastmod>2017-01-29T23:13:41+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -380,13 +385,13 @@
   
   <url>
     <loc>https://plod.tv/tags/templates/</loc>
-    <lastmod>2017-01-09T22:38:12+00:00</lastmod>
+    <lastmod>2017-01-29T23:13:41+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://plod.tv/tags/themes/</loc>
-    <lastmod>2017-01-09T22:38:12+00:00</lastmod>
+    <lastmod>2017-01-29T23:13:41+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -440,7 +445,7 @@
   
   <url>
     <loc>https://plod.tv/</loc>
-    <lastmod>2017-01-09T22:38:12+00:00</lastmod>
+    <lastmod>2017-01-29T23:13:41+00:00</lastmod>
     <priority>0</priority>
   </url>
   
