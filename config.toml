@@ -31,7 +31,7 @@ googleAnalytics = "UA-21314793-1" # delete or comment to disable Google Analytic
   url = "https://www.instagram.com/plodtv/"
 [[params.social]]
   title = "google-plus"
-  url = "https://plus.google.com/u/0/114867298714740005580"
+  url = "https://plus.google.com/+DMo-plodtv"
 [[params.social]]
   title = "linux"
   url = "https://launchpad.net/~me-plod"
