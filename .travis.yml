@@ -1,7 +1,7 @@
 language: go
 
 go:
-    - "1.7.1"
+    - "1.10"
 
 env:
     global:
@@ -15,10 +15,9 @@ before_install:
     - openssl aes-256-cbc -K $encrypted_82130ec8988c_key -iv $encrypted_82130ec8988c_iv -in travis_key.enc -out travis_key -d
 
 before_script:
-    - git clone --branch v2 https://github.com/go-yaml/yaml $GOPATH/src/gopkg.in/yaml.v2
-    - go get -u -v github.com/kardianos/govendor
+    - go get -u -v github.com/magefile/mage
     - go get -u -v github.com/spf13/hugo
-    - cd $GOPATH/src/github.com/spf13/hugo && govendor sync && go install
+    - cd $GOPATH/src/github.com/spf13/hugo && mage vendor && go install
     - cd $HOME/gopath/src/github.com/plod/plod.github.io
 
 script:
