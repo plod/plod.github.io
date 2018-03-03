@@ -39,6 +39,15 @@
     </item>
     
     <item>
+      <title>Big Data</title>
+      <link>https://plod.tv/tags/big-data/</link>
+      <pubDate>Sat, 03 Mar 2018 13:57:02 +0000</pubDate>
+      
+      <guid>https://plod.tv/tags/big-data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Bill Kennedy</title>
       <link>https://plod.tv/tags/bill-kennedy/</link>
       <pubDate>Mon, 27 Jun 2016 12:27:58 +0100</pubDate>
@@ -53,6 +62,15 @@
       <pubDate>Mon, 22 Feb 2016 16:19:11 +0000</pubDate>
       
       <guid>https://plod.tv/tags/cisco/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Confluent</title>
+      <link>https://plod.tv/tags/confluent/</link>
+      <pubDate>Sat, 03 Mar 2018 13:57:02 +0000</pubDate>
+      
+      <guid>https://plod.tv/tags/confluent/</guid>
       <description></description>
     </item>
     
@@ -192,6 +210,15 @@
     </item>
     
     <item>
+      <title>Java</title>
+      <link>https://plod.tv/tags/java/</link>
+      <pubDate>Sat, 03 Mar 2018 13:57:02 +0000</pubDate>
+      
+      <guid>https://plod.tv/tags/java/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Javascript</title>
       <link>https://plod.tv/tags/javascript/</link>
       <pubDate>Thu, 24 Nov 2016 09:35:52 +0000</pubDate>
@@ -206,6 +233,15 @@
       <pubDate>Thu, 24 Nov 2016 09:35:52 +0000</pubDate>
       
       <guid>https://plod.tv/tags/js/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kafka</title>
+      <link>https://plod.tv/tags/kafka/</link>
+      <pubDate>Sat, 03 Mar 2018 13:57:02 +0000</pubDate>
+      
+      <guid>https://plod.tv/tags/kafka/</guid>
       <description></description>
     </item>
     
@@ -296,6 +332,24 @@
       <pubDate>Sat, 31 Dec 2016 16:31:11 +0000</pubDate>
       
       <guid>https://plod.tv/tags/running/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Scala</title>
+      <link>https://plod.tv/tags/scala/</link>
+      <pubDate>Sat, 03 Mar 2018 13:57:02 +0000</pubDate>
+      
+      <guid>https://plod.tv/tags/scala/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Script</title>
+      <link>https://plod.tv/tags/script/</link>
+      <pubDate>Sat, 03 Mar 2018 13:57:02 +0000</pubDate>
+      
+      <guid>https://plod.tv/tags/script/</guid>
       <description></description>
     </item>
     

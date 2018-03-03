@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://plod.tv/post/installing-confluent-platform/</loc>
+    <lastmod>2018-03-03T13:57:02+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://plod.tv/post/go-1.8-launch-party/</loc>
     <lastmod>2017-03-02T10:57:35+00:00</lastmod>
   </url>
@@ -86,6 +91,12 @@
   </url>
   
   <url>
+    <loc>https://plod.tv/tags/big-data/</loc>
+    <lastmod>2018-03-03T13:57:02+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://plod.tv/tags/bill-kennedy/</loc>
     <lastmod>2016-06-27T12:27:58+01:00</lastmod>
     <priority>0</priority>
@@ -105,6 +116,12 @@
   <url>
     <loc>https://plod.tv/tags/cisco/</loc>
     <lastmod>2016-02-22T16:19:11+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/tags/confluent/</loc>
+    <lastmod>2018-03-03T13:57:02+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -247,6 +264,12 @@
   </url>
   
   <url>
+    <loc>https://plod.tv/tags/java/</loc>
+    <lastmod>2018-03-03T13:57:02+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://plod.tv/tags/javascript/</loc>
     <lastmod>2016-11-24T09:35:52+00:00</lastmod>
     <priority>0</priority>
@@ -267,6 +290,12 @@
   <url>
     <loc>https://plod.tv/categories/js/</loc>
     <lastmod>2016-11-24T09:35:52+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/tags/kafka/</loc>
+    <lastmod>2018-03-03T13:57:02+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -308,7 +337,7 @@
   
   <url>
     <loc>https://plod.tv/post/</loc>
-    <lastmod>2017-03-02T10:57:35+00:00</lastmod>
+    <lastmod>2018-03-03T13:57:02+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -345,6 +374,18 @@
   <url>
     <loc>https://plod.tv/categories/running/</loc>
     <lastmod>2016-11-24T09:35:52+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/tags/scala/</loc>
+    <lastmod>2018-03-03T13:57:02+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/tags/script/</loc>
+    <lastmod>2018-03-03T13:57:02+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -446,7 +487,7 @@
   
   <url>
     <loc>https://plod.tv/</loc>
-    <lastmod>2017-03-02T10:57:35+00:00</lastmod>
+    <lastmod>2018-03-03T13:57:02+00:00</lastmod>
     <priority>0</priority>
   </url>
   
