@@ -138,23 +138,17 @@ In Public Beta</p>
 
 <p>Instructions for adding the repositories can be found <a href="http://nginx.org/en/linux_packages.html#mainline">here</a>. But I&rsquo;ll include them for the sake of brevity.</p>
 
-
-wget -q http://nginx.org/keys/nginx_signing.key -O- | sudo apt-key add -
-
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-console" data-lang="console">wget -q http://nginx.org/keys/nginx_signing.key -O- | sudo apt-key add -</code></pre></div>
 
 <p>Then add the following to /etc/apt/sources.list.d/nginx.list:</p>
 
-
-deb http://nginx.org/packages/mainline/ubuntu/ codename nginx
-deb-src http://nginx.org/packages/mainline/ubuntu/ codename nginx
-
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-console" data-lang="console">deb http://nginx.org/packages/mainline/ubuntu/ codename nginx
+deb-src http://nginx.org/packages/mainline/ubuntu/ codename nginx</code></pre></div>
 
 <p>Where codename should be your release codename, wily in my case. Then to install:</p>
 
-
-apt-get update
-apt-get install nginx
-
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-console" data-lang="console">apt-get update
+apt-get install nginx</code></pre></div>
 
 <p>Okay after doing its thing you should now have nginx at a new enough version for http2.</p>
 
@@ -168,18 +162,14 @@ apt-get install nginx
 <li><p>When you are creating seperate vhost configs in nginx (doing this is a bit beyond the scope of this article but if you need help comment below), add the following directive to the vhost (to point the letsencrypt requests back to the default sites):</p></li>
 </ul>
 
-
- location /.well-known/ {
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-console" data-lang="console"> location /.well-known/ {
         alias /var/www/html/.well-known/;
         allow all;
-    }
-
+    }</code></pre></div>
 
 <p>Then to enable http2 for each of the vhosts add the keyword at the top of your server block where your listen is:</p>
 
-
-    listen 443 ssl http2;
-
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-console" data-lang="console">    listen 443 ssl http2;</code></pre></div>
 
 <h1 id="welcome-to-the-future">Welcome to the future!</h1>
 

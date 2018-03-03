@@ -104,7 +104,7 @@ Tags <a href="https://plod.tv/tags/go">go</a>, <a href="https://plod.tv/tags/gol
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                   
 
-<p>goSwitchBackup is Go program I wrote, to automate the backing up of Cisco switches over SSH for the network boys in work. It essentially SSHs (can you use it like a verb like that?) into an IP (Which should be the address of a Cisco switch) using the password, once it receives the prompt character it trys to escalate privileges using: enable Once it sees the &ldquo;#&rdquo; character it then tries to run the backup command: copy running-config tftpIt will then give the TFTP server address used when the program was invoked, and name the file:</p>
+<p>goSwitchBackup is Go program I wrote, to automate the backing up of Cisco switches over SSH for the network boys in work. It essentially SSHs (can you use it like a verb like that?) into an IP (Which should be the address of a Cisco switch) using the password, once it receives the prompt character it trys to escalate privileges using: <div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-console" data-lang="console">enable</code></pre></div> Once it sees the &ldquo;#&rdquo; character it then tries to run the backup command: <div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-console" data-lang="console">copy running-config tftp</code></pre></div>It will then give the TFTP server address used when the program was invoked, and name the file:</p>
 
 <blockquote>
 <p>switchBackup-IP-OF-SWITCH-RFC3339timestamp</p>

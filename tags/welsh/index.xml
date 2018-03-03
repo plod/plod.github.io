@@ -29,7 +29,7 @@ Run...To extend or persist, statically or dynamically, through space or time.(in
       <guid>https://plod.tv/post/my-first-post/</guid>
       <description> This is my first post on the site. I hope that you like it!
 Welcome Function Here is a little Golang function to welcome you:
-package main import &#34;fmt&#34; func main() { fmt.Println(&#34;Sut mae, byd!&#34;) } </description>
+package main import &amp;#34;fmt&amp;#34; func main() { fmt.Println(&amp;#34;Sut mae, byd!&amp;#34;) } </description>
     </item>
     
   </channel>
