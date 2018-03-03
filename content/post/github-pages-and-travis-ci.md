@@ -15,7 +15,7 @@ I followed the tutorial [here](http://rcoedo.com/post/hugo-static-site-generator
 
 > Failed to normalize URL string. Returning in =
 
-[This](https://discuss.gohugo.io/t/started-getting-failed-to-normalize-url-string-returning-in/5034/7) helped me with that, although it didnt quite work with my hugo/travis workflow, so I fixed it like this [.travis.yml](https://github.com/plod/plod.github.io/blob/source/.travis.yml).
+[This](https://discuss.gohugo.io/t/started-getting-failed-to-normalize-url-string-returning-in/5034/7) helped me with that, although it didnt quite work with my hugo/travis workflow, so I fixed it like this [.travis.yml](https://github.com/plod/plod.github.io/blob/source/.travis.yml). _Updated for golang 1.10_
 
 I also then decided to use cloudflare to get https although I haven't quite mastered the autoredirect to https.
 
