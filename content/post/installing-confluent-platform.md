@@ -5,6 +5,7 @@ draft: false
 image: "img/bgs/franz-kafka.jpg"
 tags: ["kafka", "big data", "java", "scala", "confluent", "script"]
 description: "with java 9 on ubuntu 16.04"
+comments: true
 ---
 
 I recently installed the newest version of confluent platform (4.0 at time of writing) on ubuntu 16.04 leaving these steps here for anyone else who needs to automate it.
