@@ -6,10 +6,21 @@
     <description>Recent content in Java on plod.tv</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sat, 03 Mar 2018 13:57:02 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Mar 2018 21:23:02 +0000</lastBuildDate>
     
 	<atom:link href="https://plod.tv/tags/java/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>My podcasts</title>
+      <link>https://plod.tv/post/my-podcasts/</link>
+      <pubDate>Thu, 15 Mar 2018 21:23:02 +0000</pubDate>
+      
+      <guid>https://plod.tv/post/my-podcasts/</guid>
+      <description>With my new job I do a lot of commuting and during this time, and while running I listen to a lot of podcasts to keep on top of things and for self improvement. I am always looking for new podcasts and so I thought I&amp;rsquo;d share what I&amp;rsquo;m currently listening to which can hopefully help others find something useful.
+https://lists.pocketcasts.com/4c12f2fc-0cf5-4553-93fc-7363a14c3173
+Also pocket casts is my all time favourite app so seriously check that out.</description>
+    </item>
     
     <item>
       <title>Installing Confluent Platform</title>

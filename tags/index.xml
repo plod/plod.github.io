@@ -158,7 +158,7 @@
     <item>
       <title>Go</title>
       <link>https://plod.tv/tags/go/</link>
-      <pubDate>Thu, 02 Mar 2017 10:57:35 +0000</pubDate>
+      <pubDate>Thu, 15 Mar 2018 21:23:02 +0000</pubDate>
       
       <guid>https://plod.tv/tags/go/</guid>
       <description></description>
@@ -212,7 +212,7 @@
     <item>
       <title>Java</title>
       <link>https://plod.tv/tags/java/</link>
-      <pubDate>Sat, 03 Mar 2018 13:57:02 +0000</pubDate>
+      <pubDate>Thu, 15 Mar 2018 21:23:02 +0000</pubDate>
       
       <guid>https://plod.tv/tags/java/</guid>
       <description></description>
@@ -300,6 +300,24 @@
     </item>
     
     <item>
+      <title>Podcasts</title>
+      <link>https://plod.tv/tags/podcasts/</link>
+      <pubDate>Thu, 15 Mar 2018 21:23:02 +0000</pubDate>
+      
+      <guid>https://plod.tv/tags/podcasts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Programming</title>
+      <link>https://plod.tv/tags/programming/</link>
+      <pubDate>Thu, 15 Mar 2018 21:23:02 +0000</pubDate>
+      
+      <guid>https://plod.tv/tags/programming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Project Euler</title>
       <link>https://plod.tv/tags/project-euler/</link>
       <pubDate>Fri, 11 Mar 2016 10:36:46 +0000</pubDate>
@@ -338,7 +356,7 @@
     <item>
       <title>Scala</title>
       <link>https://plod.tv/tags/scala/</link>
-      <pubDate>Sat, 03 Mar 2018 13:57:02 +0000</pubDate>
+      <pubDate>Thu, 15 Mar 2018 21:23:02 +0000</pubDate>
       
       <guid>https://plod.tv/tags/scala/</guid>
       <description></description>
@@ -354,11 +372,29 @@
     </item>
     
     <item>
+      <title>Self Improvement</title>
+      <link>https://plod.tv/tags/self-improvement/</link>
+      <pubDate>Thu, 15 Mar 2018 21:23:02 +0000</pubDate>
+      
+      <guid>https://plod.tv/tags/self-improvement/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Servers</title>
       <link>https://plod.tv/tags/servers/</link>
       <pubDate>Fri, 19 Feb 2016 14:40:27 +0000</pubDate>
       
       <guid>https://plod.tv/tags/servers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Software Engineering</title>
+      <link>https://plod.tv/tags/software-engineering/</link>
+      <pubDate>Thu, 15 Mar 2018 21:23:02 +0000</pubDate>
+      
+      <guid>https://plod.tv/tags/software-engineering/</guid>
       <description></description>
     </item>
     
