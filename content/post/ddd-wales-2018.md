@@ -26,4 +26,11 @@ date = "2018-03-30T21:24:47Z"
 comments = true
 title = "DDD Wales 2018"
 +++
-Test
+
+![Developer Developer Developer Wales 2018]
+(https://www.dddwales.com/Media/Default/Logos/DDD-Wales-Dragon-Logo.png)
+
+Last Saturday I attended [Developer Developer Developer Wales](https://www.dddwales.com/) with Nigel, Dai, Pete and we bumped into James Alfie. 
+<blockquote class="embedly-card"><h4><a href="https://www.linkedin.com/feed/update/urn:li:activity:6383242695481135104">At Developer Developer Developer Wales with Nigel Craven, David Duncan, Peter Walsh  and nice to see James Alfei #DDDWales</a></h4><img src="/img/post-img/dddwales.jpg"></blockquote>
+<script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+So what is DDD Wales?
