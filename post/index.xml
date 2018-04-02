@@ -34,10 +34,10 @@ sudo add-apt-repository ppa:webupd8team/java -y sudo apt-get update echo oracle-
     
     <item>
       <title>Cardiff Go 1.8 launch party</title>
-      <link>https://plod.tv/post/go-1.8-launch-party/</link>
+      <link>https://plod.tv/post/go-1/</link>
       <pubDate>Thu, 02 Mar 2017 10:57:35 +0000</pubDate>
       
-      <guid>https://plod.tv/post/go-1.8-launch-party/</guid>
+      <guid>https://plod.tv/post/go-1/</guid>
       <description>On Febuary the 16th go released it&amp;rsquo;s newest version 1.8. You can read about this release here. I presented at the Cardiff Go meetup group&amp;rsquo;s release party on the 15th. Considering how I am not the greatest speaker in public, it went very well. I was pretty nervous to start, but nerves slowly faded especially when I got to talk about my favourite new features (http2 pushPromice etc). You can see my slides here.</description>
     </item>
     
