@@ -43,4 +43,8 @@ Last Saturday I attended [Developer Developer Developer Wales](https://www.dddwa
 
 Based on the title of the conference, and the Microsoft connection I am inclined to believed it has something to do with Steve Balmer: {{< youtube Vhh_GeBPOhs >}}
 
-I have to say I have been to paid conferences that were not as good as this event was, it was amazing, I'll go back next year and maybe speak at one sometime.
+I have to say I have been to paid conferences that were not as good as this event was, it was amazing, I'll go back next year and maybe speak at one one day. I made some brief notes about the talks that I saw for posterity.
+
+## An Introduction to Kotlin - [Kevin Jones](https://twitter.com/kevinrjones)
+
+This was a great introduction for a language that has piqued my interest ever since I heard about it on a [Software Engineering Daily episode](https://softwareengineeringdaily.com/2017/01/26/kotlin-with-hadi-hariri/) which at the time I thought it was a little odd but after Google announcing first class citizingship at Google IO I started to pay a lot more attention. It was a shame that the slot was so short as I was really enjoying the talk. It really does look like Java without the bit I really dislike about Java, all the boilerplate. Kevin mentioned about kotlin-native which sounded worth a look if I get into it a bit. I was most interested in its functional features and wondered about using it as a replacement to scala for some Spark jobs thought it was worth at least a play. I've never heard of the Elvis Operator before which I got me a chuckle and during the presentation I made a note to read "Effective Java" which I have a copy of somewhere. Kevin has some courses on pluralsight which I hace queued up to my pluralsight playlist.
