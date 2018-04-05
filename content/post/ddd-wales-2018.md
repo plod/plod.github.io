@@ -51,4 +51,18 @@ This was a great introduction for a language that has piqued my interest ever si
 
 ## Kuburnetes for .NET developers - [Shahid Iqbal](https://twitter.com/shahiddev)
 
-I've been sorta semi following K8s developments from the sideline but only really peripharily, but I have so much new tech front and centre I've not really really had time to really look. I was concerned that this talk was going to be too heavy on the .NET and a bit light on the Kubernetes, I couldnt have been further from the truth. This was a great talk and helped me understand a lot about the tech and how to potentially roll things out. I've played a little with docker swarm previously and this seemed as easy as that to start messing with.
+I've been sorta semi following K8s developments from the sideline but only really peripharily, but I have so much new tech front and centre I've not really really had time to really look. I was concerned that this talk was going to be too heavy on the .NET and a bit light on the Kubernetes, I couldnt have been further from the truth. This was a great talk and helped me understand a lot about the tech and how to potentially roll things out. I've played a little with docker swarm previously and this seemed as easy as that to start messing with, which surprised me as I'd thought it was a little bit inaccesible to start with. Minicube seemed a nice way to mess about with things. Being a big AWS user it was nice to see inside the azure console, for the first time and to see what a completely managed k8s looks like, maybe what EKS will be like.
+
+![more resources](/img/post-img/2018/2018-04-05%2017.12.08.jpg)
+
+## releaseflow - [Chris Cundill](https://twitter.com/chriscundill)
+
+This was probably my favourite talk of the conference, probably because it was/is very topical to my team at the moment, we came very close to implementing Git flow.
+
+![Woke:S]
+(/img/post-img/2018/2018-04-05%2017.19.41.jpg)
+
+Ironically the branching method we currently resemble the most is what Chris is advocating with [releaseflow](http://releaseflow.org/) with a few caveats but it was nice to see that mostly our thinking has been on point. I snapped a picture of some books to add to the ever extending reading list:
+
+![Books]
+(/img/post-img/2018/2018-04-05%2017.11.44.jpg)
