@@ -66,3 +66,11 @@ Ironically the branching method we currently resemble the most is what Chris is 
 
 ![Books]
 (/img/post-img/2018/2018-04-05%2017.11.44.jpg)
+
+I caught the tail end of __Nginx for .NET Developers  - [Ian Cooper](https://twitter.com/ICooper)__ which was very good, I only wish I could have seen both of these talks at the same time.
+
+Myself and Dai nipped to spoons for out lunch so missed the lightning talks but caught up obb soe gossip.
+
+## Introducing Event Sourcing - from WTF to why to wow - [Duncan Jones](https://twitter.com/Merrion)
+
+As we are rolling out Kafka into more and more parts of the business I was very interested in this talk as a potential use case for me.  I enjoyed the high level basics of the talk although I thought there was a question from the floor about Martin Fowler's take on the pattern that felt like it was only asked to make the presenter squirm, though it was handled with a lot of guile by Duncan and Ian also stepped in to help answer the query.
