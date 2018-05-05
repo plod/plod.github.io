@@ -21,7 +21,6 @@ categories = [
 ]
 image = "/img/bgs/balmer-developer.jpg" #optional image - "/img/about-bg.jpg" is the default
 description = "Developer Developer Developer Wales"
-draft = true
 date = "2018-03-30T21:24:47Z"
 comments = true
 title = "DDD Wales 2018"
@@ -73,4 +72,10 @@ Myself and Dai nipped to spoons for out lunch so missed the lightning talks but 
 
 ## Introducing Event Sourcing - from WTF to why to wow - [Duncan Jones](https://twitter.com/Merrion)
 
-As we are rolling out Kafka into more and more parts of the business I was very interested in this talk as a potential use case for me.  I enjoyed the high level basics of the talk although I thought there was a question from the floor about Martin Fowler's take on the pattern that felt like it was only asked to make the presenter squirm, though it was handled with a lot of guile by Duncan and Ian also stepped in to help answer the query.
+As we are rolling out Kafka into more and more parts of the business I was very interested in this talk as a potential use case for me.  I enjoyed the high level basics of the talk although I thought there was a question from the floor about Martin Fowler's take on the pattern that felt like it was only asked to make the presenter squirm, though it was handled with a lot of guile by Duncan, Ian also stepped in to help answer the query. The question did highlight to me however that maybe I need to do a lot more background reading of some of these concepts including reconsuming CAP theorum with todays point of view
+
+## Lessons learned - ingesting, securing and processing 200 million messages a day - [Jess Panni](https://twitter.com/JessPanni)
+
+To finish up I went to see another streaming based talk by Jess of enjin. This was a great talk to see the kind of engineering problems that other teams have to face at scale. The chat was very microsoft tech stack/azure specific but in an abstract sense it was full of a few nuggets, and food for thought. The slides and presentation were really slick though the painted wall they were projected on didnt lend itself to some of the contrast of the slides, which was a shame as apart from this it was tip top.
+
+We then had to leave to catch the train home, so we missed the draw but I heard James did well in that. DDD Wales was a great conference and I will try to return next year and maybe with a bigger contingient.
