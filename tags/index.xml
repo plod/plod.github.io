@@ -39,6 +39,15 @@
     </item>
     
     <item>
+      <title>Azure</title>
+      <link>https://plod.tv/tags/azure/</link>
+      <pubDate>Fri, 30 Mar 2018 21:24:47 +0000</pubDate>
+      
+      <guid>https://plod.tv/tags/azure/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Big Data</title>
       <link>https://plod.tv/tags/big-data/</link>
       <pubDate>Sat, 03 Mar 2018 13:57:02 +0000</pubDate>
@@ -57,11 +66,56 @@
     </item>
     
     <item>
+      <title>Branching</title>
+      <link>https://plod.tv/tags/branching/</link>
+      <pubDate>Fri, 30 Mar 2018 21:24:47 +0000</pubDate>
+      
+      <guid>https://plod.tv/tags/branching/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cd</title>
+      <link>https://plod.tv/tags/cd/</link>
+      <pubDate>Fri, 30 Mar 2018 21:24:47 +0000</pubDate>
+      
+      <guid>https://plod.tv/tags/cd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ci</title>
+      <link>https://plod.tv/tags/ci/</link>
+      <pubDate>Fri, 30 Mar 2018 21:24:47 +0000</pubDate>
+      
+      <guid>https://plod.tv/tags/ci/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Cisco</title>
       <link>https://plod.tv/tags/cisco/</link>
       <pubDate>Mon, 22 Feb 2016 16:19:11 +0000</pubDate>
       
       <guid>https://plod.tv/tags/cisco/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cloud</title>
+      <link>https://plod.tv/tags/cloud/</link>
+      <pubDate>Fri, 30 Mar 2018 21:24:47 +0000</pubDate>
+      
+      <guid>https://plod.tv/tags/cloud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Conferences</title>
+      <link>https://plod.tv/tags/conferences/</link>
+      <pubDate>Fri, 30 Mar 2018 21:24:47 +0000</pubDate>
+      
+      <guid>https://plod.tv/tags/conferences/</guid>
       <description></description>
     </item>
     
@@ -113,7 +167,7 @@
     <item>
       <title>Development</title>
       <link>https://plod.tv/tags/development/</link>
-      <pubDate>Thu, 02 Mar 2017 10:57:35 +0000</pubDate>
+      <pubDate>Fri, 30 Mar 2018 21:24:47 +0000</pubDate>
       
       <guid>https://plod.tv/tags/development/</guid>
       <description></description>
@@ -125,6 +179,24 @@
       <pubDate>Thu, 18 Feb 2016 12:29:13 +0000</pubDate>
       
       <guid>https://plod.tv/tags/digital-ocean/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Docker</title>
+      <link>https://plod.tv/tags/docker/</link>
+      <pubDate>Fri, 30 Mar 2018 21:24:47 +0000</pubDate>
+      
+      <guid>https://plod.tv/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Event Sourcing</title>
+      <link>https://plod.tv/tags/event-sourcing/</link>
+      <pubDate>Fri, 30 Mar 2018 21:24:47 +0000</pubDate>
+      
+      <guid>https://plod.tv/tags/event-sourcing/</guid>
       <description></description>
     </item>
     
@@ -237,11 +309,38 @@
     </item>
     
     <item>
+      <title>K8s</title>
+      <link>https://plod.tv/tags/k8s/</link>
+      <pubDate>Fri, 30 Mar 2018 21:24:47 +0000</pubDate>
+      
+      <guid>https://plod.tv/tags/k8s/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Kafka</title>
       <link>https://plod.tv/tags/kafka/</link>
       <pubDate>Sat, 03 Mar 2018 13:57:02 +0000</pubDate>
       
       <guid>https://plod.tv/tags/kafka/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kotlin</title>
+      <link>https://plod.tv/tags/kotlin/</link>
+      <pubDate>Fri, 30 Mar 2018 21:24:47 +0000</pubDate>
+      
+      <guid>https://plod.tv/tags/kotlin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kubernetes</title>
+      <link>https://plod.tv/tags/kubernetes/</link>
+      <pubDate>Fri, 30 Mar 2018 21:24:47 +0000</pubDate>
+      
+      <guid>https://plod.tv/tags/kubernetes/</guid>
       <description></description>
     </item>
     
@@ -417,11 +516,29 @@
     </item>
     
     <item>
+      <title>Swansea</title>
+      <link>https://plod.tv/tags/swansea/</link>
+      <pubDate>Fri, 30 Mar 2018 21:24:47 +0000</pubDate>
+      
+      <guid>https://plod.tv/tags/swansea/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Switches</title>
       <link>https://plod.tv/tags/switches/</link>
       <pubDate>Mon, 22 Feb 2016 16:19:11 +0000</pubDate>
       
       <guid>https://plod.tv/tags/switches/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Techhub</title>
+      <link>https://plod.tv/tags/techhub/</link>
+      <pubDate>Fri, 30 Mar 2018 21:24:47 +0000</pubDate>
+      
+      <guid>https://plod.tv/tags/techhub/</guid>
       <description></description>
     </item>
     
