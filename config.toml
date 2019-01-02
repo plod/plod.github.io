@@ -41,9 +41,6 @@ googleAnalytics = "UA-21314793-1" # delete or comment to disable Google Analytic
 [[params.social]]
   title = "free-code-camp"
   url = "https://www.freecodecamp.com/plod"
-[[params.social]]
-  title = "code"
-  url = "https://www.codeschool.com/users/plod"
   
   
 
