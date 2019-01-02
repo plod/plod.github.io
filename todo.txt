@@ -1,4 +1,1 @@
-Tutorial about making a website with buffalo, maybe make some user creation and management website. Maybe BCRL would be perfect for this
-Tutorial about setting up TICK stack with raspberry pis and ansible and maybe an alternative using Surge
-
-
+WinOps post
