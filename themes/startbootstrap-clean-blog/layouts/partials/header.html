@@ -6,8 +6,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="{{ if .Description }}{{ .Description }}{{ end }}">
+    <meta name="author" content="{{ if .Params.authors }}{{ .Params.authors }}{{ else if .Site.Params.Author }}{{.Site.Params.Author}}{{ end }}">
+    <meta name="keywords" content="{{ if .Keywords }}{{ delimit .Keywords ", " }}{{ end }}">
+
 
     <title>{{ .Title }} -- {{ .Site.Title }}</title>
 
@@ -21,6 +23,11 @@
 
     <!-- Custom CSS -->
     <link href="{{ .Site.BaseURL }}/css/clean-blog.min.css" rel="stylesheet">
+    {{- range $val := $.Site.Params.customCSS -}}
+	{{- if gt (len $val) 0 -}}
+		<link rel="stylesheet" type="text/css" href="{{ $val }}">
+	{{- end -}}
+    {{- end -}}
 
     <!-- Custom Fonts -->
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">

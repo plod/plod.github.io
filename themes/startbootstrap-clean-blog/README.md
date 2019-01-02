@@ -1,3 +1,7 @@
+# Warning
+
+**This theme has been transferred from [humboldtux](https://github.com/humboldtux/), its former owner and initiator, to me. I have various plans for this theme, which I'll carry forward in the near future.**
+
 ## About
 
 Hugo theme based on [Start Bootstrap Clean Blog](http://startbootstrap.com/template-overviews/clean-blog/).
@@ -35,7 +39,9 @@ disqusShortname = "YourDisqusShortname" #delete or comment to disable Disqus com
   email = "benoit.benedetti@gmail.com" #Remove this line if you would prefer not to use an email button in the footer.
   postSummariesFrontPage = 4 #Number of post summaries to show on front page, comment out to allow default(4)
   showReadTime = true #set to false to exclude read time from header of post
-
+  # This will load all the CSS defined in the list
+  customCSS = ["<absolute path to CSS>", "/static/css/test.css", "<or just load it off the internet>"]
+  
 [[params.social]]
   title = "twitter"
   url = "https://twitter.com/humboldtux"
@@ -58,12 +64,7 @@ disqusShortname = "YourDisqusShortname" #delete or comment to disable Disqus com
 
 The footer contains link icons to any enabled social media sites, such as facebook or linkedin. There is also an email icon, by removing the 'email' parameter or commenting out the icon will be removed.
 
-You can find a [Demo site](http://humboldtux.github.io/sbcb-demo/), and have a look at the source on the
-[repo site](https://github.com/humboldtux/sbcb-demo) for configuration parameters.
-
-### Customization
-
-You can have a look at my [personal website](http://www.humboldtux.net), where i customize it and use it in a different way than the original theme.
+You can have a look at the source on the [repo site](https://github.com/humboldtux/sbcb-demo) for configuration parameters.
 
 ## Contributing
 
