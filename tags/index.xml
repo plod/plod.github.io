@@ -84,6 +84,15 @@
     </item>
     
     <item>
+      <title>Chocolatey</title>
+      <link>https://plod.tv/tags/chocolatey/</link>
+      <pubDate>Wed, 02 Jan 2019 10:02:58 +0100</pubDate>
+      
+      <guid>https://plod.tv/tags/chocolatey/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Ci</title>
       <link>https://plod.tv/tags/ci/</link>
       <pubDate>Fri, 30 Mar 2018 21:24:47 +0000</pubDate>
@@ -170,6 +179,15 @@
       <pubDate>Fri, 30 Mar 2018 21:24:47 +0000</pubDate>
       
       <guid>https://plod.tv/tags/development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Devops</title>
+      <link>https://plod.tv/tags/devops/</link>
+      <pubDate>Wed, 02 Jan 2019 10:02:58 +0100</pubDate>
+      
+      <guid>https://plod.tv/tags/devops/</guid>
       <description></description>
     </item>
     
@@ -408,6 +426,15 @@
     </item>
     
     <item>
+      <title>Powershell</title>
+      <link>https://plod.tv/tags/powershell/</link>
+      <pubDate>Wed, 02 Jan 2019 10:02:58 +0100</pubDate>
+      
+      <guid>https://plod.tv/tags/powershell/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Programming</title>
       <link>https://plod.tv/tags/programming/</link>
       <pubDate>Thu, 15 Mar 2018 21:23:02 +0000</pubDate>
@@ -552,6 +579,15 @@
     </item>
     
     <item>
+      <title>Terraform</title>
+      <link>https://plod.tv/tags/terraform/</link>
+      <pubDate>Wed, 02 Jan 2019 10:02:58 +0100</pubDate>
+      
+      <guid>https://plod.tv/tags/terraform/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Themes</title>
       <link>https://plod.tv/tags/themes/</link>
       <pubDate>Thu, 02 Mar 2017 10:57:35 +0000</pubDate>
@@ -602,6 +638,15 @@
       <pubDate>Thu, 24 Nov 2016 09:35:52 +0000</pubDate>
       
       <guid>https://plod.tv/tags/welsh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Winops</title>
+      <link>https://plod.tv/tags/winops/</link>
+      <pubDate>Wed, 02 Jan 2019 10:02:58 +0100</pubDate>
+      
+      <guid>https://plod.tv/tags/winops/</guid>
       <description></description>
     </item>
     

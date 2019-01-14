@@ -22,7 +22,7 @@
     <item>
       <title>Conferences</title>
       <link>https://plod.tv/categories/conferences/</link>
-      <pubDate>Fri, 30 Mar 2018 21:24:47 +0000</pubDate>
+      <pubDate>Wed, 02 Jan 2019 10:02:58 +0100</pubDate>
       
       <guid>https://plod.tv/categories/conferences/</guid>
       <description></description>
@@ -49,9 +49,18 @@
     <item>
       <title>Development</title>
       <link>https://plod.tv/categories/development/</link>
-      <pubDate>Fri, 30 Mar 2018 21:24:47 +0000</pubDate>
+      <pubDate>Wed, 02 Jan 2019 10:02:58 +0100</pubDate>
       
       <guid>https://plod.tv/categories/development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Devops</title>
+      <link>https://plod.tv/categories/devops/</link>
+      <pubDate>Wed, 02 Jan 2019 10:02:58 +0100</pubDate>
+      
+      <guid>https://plod.tv/categories/devops/</guid>
       <description></description>
     </item>
     
@@ -160,6 +169,15 @@
       <pubDate>Thu, 24 Nov 2016 09:35:52 +0000</pubDate>
       
       <guid>https://plod.tv/categories/welsh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Winops</title>
+      <link>https://plod.tv/categories/winops/</link>
+      <pubDate>Wed, 02 Jan 2019 10:02:58 +0100</pubDate>
+      
+      <guid>https://plod.tv/categories/winops/</guid>
       <description></description>
     </item>
     
