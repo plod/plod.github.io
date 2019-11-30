@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/plod
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://plod.tv
+  * I am plod (https://keybase.io/plod) on keybase.
+  * I have a public key ASCiMQHgl4f9Xts5eK4ZN70Hw8GTAR6LJIeXQoDYLo72sAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120a23101e09787fd5edb3978ae1937bd07c3c193011e8b2487974280d82e8ef6b00a",
+      "host": "keybase.io",
+      "kid": "0120a23101e09787fd5edb3978ae1937bd07c3c193011e8b2487974280d82e8ef6b00a",
+      "uid": "2355b71cf5683cb0c597810f042ded19",
+      "username": "plod"
+    },
+    "merkle_root": {
+      "ctime": 1575134673,
+      "hash": "79f55a42f0d5db64997cca818d5550eab85e021e786822425573ae96c2be6cc7b69befe8e9da637a5dd4153f84d3988151531176c49e28453976c726b306e97a",
+      "hash_meta": "e751633b21a7ccc54ab1161e661c9b63cf52b6960580017ffa707026fc58466d",
+      "seqno": 11466931
+    },
+    "service": {
+      "entropy": "uDWTB3BwTHy9tuaYmeGJyO1p",
+      "hostname": "plod.tv",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.0.0"
+  },
+  "ctime": 1575134683,
+  "expire_in": 504576000,
+  "prev": "3a5e0cc07af947367a3605763e674b250208d646b97c4f664cb53e13fd1bd458",
+  "seqno": 7,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgojEB4JeH/V7bOXiuGTe9B8PBkwEeiySHl0KA2C6O9rAKp3BheWxvYWTESpcCB8QgOl4MwHr5RzZ6NgV2PmdLJQII1ka5fE9mTLU+E/0b1FjEIJw1xTrYtM6Qg9sQ6lts+Z4/JZ/x3TF7fpjt7hYY00q8AgHCo3NpZ8RAVjtL/kyw+BY/6jTc6tnvmv2Vh3wMFE7FKCzN3WoR9DATZwT1rnt7rlr/thdW7MttfzMRk3O5QRc0GBRa2N9oCKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIPuSAfmstXJHtqDLoWeCvUXTMpuICxusgGQcshJ9hfewo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/plod
+
+==================================================================
