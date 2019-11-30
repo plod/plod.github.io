@@ -27,4 +27,5 @@ script:
 
 after_success:
     - echo "plod.tv" > ./public/CNAME
+    - cp "keybase.txt" ./public/
     - ./scripts/deploy.sh
