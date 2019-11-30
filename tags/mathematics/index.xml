@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Mathematics on plod.tv</title>
+    <title>mathematics on plod.tv</title>
     <link>https://plod.tv/tags/mathematics/</link>
-    <description>Recent content in Mathematics on plod.tv</description>
+    <description>Recent content in mathematics on plod.tv</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <lastBuildDate>Fri, 11 Mar 2016 10:36:46 +0000</lastBuildDate>
@@ -17,7 +17,7 @@
       <pubDate>Fri, 11 Mar 2016 10:36:46 +0000</pubDate>
       
       <guid>https://plod.tv/post/project-euler/</guid>
-      <description>So I decided to do the projects on Project Euler to help with my Go learning (and to get my maths head working again), I&amp;rsquo;d forgotten how much fun the problems were.
+      <description>So I decided to do the projects on Project Euler to help with my Go learning (and to get my maths head working again), I&#39;d forgotten how much fun the problems were.
 What is Project Euler?
  Project Euler is a series of challenging mathematical/computer programming problems that will require more than just mathematical insights to solve. Although mathematics will help you arrive at elegant and efficient methods, the use of a computer and programming skills will be required to solve most problems.</description>
     </item>

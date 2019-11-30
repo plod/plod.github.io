@@ -1,10 +1,105 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://plod.tv/categories/</loc>
+    <lastmod>2019-01-02T10:02:58+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/tags/chocolatey/</loc>
+    <lastmod>2019-01-02T10:02:58+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/categories/conferences/</loc>
+    <lastmod>2019-01-02T10:02:58+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/categories/development/</loc>
+    <lastmod>2019-01-02T10:02:58+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/tags/devops/</loc>
+    <lastmod>2019-01-02T10:02:58+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/categories/devops/</loc>
+    <lastmod>2019-01-02T10:02:58+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/</loc>
+    <lastmod>2019-01-02T10:02:58+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/post/</loc>
+    <lastmod>2019-01-02T10:02:58+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/tags/powershell/</loc>
+    <lastmod>2019-01-02T10:02:58+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/tags/</loc>
+    <lastmod>2019-01-02T10:02:58+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/tags/terraform/</loc>
+    <lastmod>2019-01-02T10:02:58+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/tags/winops/</loc>
+    <lastmod>2019-01-02T10:02:58+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/categories/winops/</loc>
+    <lastmod>2019-01-02T10:02:58+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://plod.tv/post/winops-2018/</loc>
     <lastmod>2019-01-02T10:02:58+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/tags/azure/</loc>
+    <lastmod>2018-03-30T21:24:47+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/tags/branching/</loc>
+    <lastmod>2018-03-30T21:24:47+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/tags/cd/</loc>
+    <lastmod>2018-03-30T21:24:47+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/tags/ci/</loc>
+    <lastmod>2018-03-30T21:24:47+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/tags/cloud/</loc>
+    <lastmod>2018-03-30T21:24:47+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/tags/conferences/</loc>
+    <lastmod>2018-03-30T21:24:47+00:00</lastmod>
   </url>
   
   <url>
@@ -13,12 +108,107 @@
   </url>
   
   <url>
+    <loc>https://plod.tv/tags/development/</loc>
+    <lastmod>2018-03-30T21:24:47+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/tags/docker/</loc>
+    <lastmod>2018-03-30T21:24:47+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/tags/event-sourcing/</loc>
+    <lastmod>2018-03-30T21:24:47+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/tags/k8s/</loc>
+    <lastmod>2018-03-30T21:24:47+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/tags/kotlin/</loc>
+    <lastmod>2018-03-30T21:24:47+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/tags/kubernetes/</loc>
+    <lastmod>2018-03-30T21:24:47+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/tags/swansea/</loc>
+    <lastmod>2018-03-30T21:24:47+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/tags/techhub/</loc>
+    <lastmod>2018-03-30T21:24:47+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/tags/go/</loc>
+    <lastmod>2018-03-15T21:23:02+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/tags/java/</loc>
+    <lastmod>2018-03-15T21:23:02+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://plod.tv/post/my-podcasts/</loc>
     <lastmod>2018-03-15T21:23:02+00:00</lastmod>
   </url>
   
   <url>
+    <loc>https://plod.tv/tags/podcasts/</loc>
+    <lastmod>2018-03-15T21:23:02+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/tags/programming/</loc>
+    <lastmod>2018-03-15T21:23:02+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/tags/scala/</loc>
+    <lastmod>2018-03-15T21:23:02+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/tags/self-improvement/</loc>
+    <lastmod>2018-03-15T21:23:02+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/tags/software-engineering/</loc>
+    <lastmod>2018-03-15T21:23:02+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/tags/big-data/</loc>
+    <lastmod>2018-03-03T13:57:02+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/tags/confluent/</loc>
+    <lastmod>2018-03-03T13:57:02+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://plod.tv/post/installing-confluent-platform/</loc>
+    <lastmod>2018-03-03T13:57:02+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/tags/kafka/</loc>
+    <lastmod>2018-03-03T13:57:02+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/tags/script/</loc>
     <lastmod>2018-03-03T13:57:02+00:00</lastmod>
   </url>
   
@@ -28,7 +218,57 @@
   </url>
   
   <url>
+    <loc>https://plod.tv/tags/golang/</loc>
+    <lastmod>2017-03-02T10:57:35+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/categories/golang/</loc>
+    <lastmod>2017-03-02T10:57:35+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/tags/templates/</loc>
+    <lastmod>2017-03-02T10:57:35+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/tags/themes/</loc>
+    <lastmod>2017-03-02T10:57:35+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/categories/ci/</loc>
+    <lastmod>2017-01-09T22:38:12+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/categories/github/</loc>
+    <lastmod>2017-01-09T22:38:12+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://plod.tv/post/github-pages-and-travis-ci/</loc>
+    <lastmod>2017-01-09T22:38:12+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/categories/hosting/</loc>
+    <lastmod>2017-01-09T22:38:12+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/tags/hosting/</loc>
+    <lastmod>2017-01-09T22:38:12+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/tags/hugo/</loc>
+    <lastmod>2017-01-09T22:38:12+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/tags/travis/</loc>
     <lastmod>2017-01-09T22:38:12+00:00</lastmod>
   </url>
   
@@ -38,8 +278,148 @@
   </url>
   
   <url>
+    <loc>https://plod.tv/categories/cycling/</loc>
+    <lastmod>2016-12-31T16:31:11+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/tags/cycling/</loc>
+    <lastmod>2016-12-31T16:31:11+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/categories/exercise/</loc>
+    <lastmod>2016-12-31T16:31:11+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/tags/exercise/</loc>
+    <lastmod>2016-12-31T16:31:11+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/tags/festive500/</loc>
+    <lastmod>2016-12-31T16:31:11+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/tags/rapha/</loc>
+    <lastmod>2016-12-31T16:31:11+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/tags/running/</loc>
+    <lastmod>2016-12-31T16:31:11+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/tags/audax/</loc>
+    <lastmod>2016-11-24T09:35:52+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/tags/css/</loc>
+    <lastmod>2016-11-24T09:35:52+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/categories/css/</loc>
+    <lastmod>2016-11-24T09:35:52+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/categories/html/</loc>
+    <lastmod>2016-11-24T09:35:52+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/tags/html/</loc>
+    <lastmod>2016-11-24T09:35:52+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/categories/javascript/</loc>
+    <lastmod>2016-11-24T09:35:52+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/tags/javascript/</loc>
+    <lastmod>2016-11-24T09:35:52+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/categories/js/</loc>
+    <lastmod>2016-11-24T09:35:52+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/tags/js/</loc>
+    <lastmod>2016-11-24T09:35:52+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/categories/run/</loc>
+    <lastmod>2016-11-24T09:35:52+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/tags/run/</loc>
+    <lastmod>2016-11-24T09:35:52+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/categories/running/</loc>
+    <lastmod>2016-11-24T09:35:52+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/categories/welsh/</loc>
+    <lastmod>2016-11-24T09:35:52+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/tags/welsh/</loc>
+    <lastmod>2016-11-24T09:35:52+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/tags/year-of-the-runs/</loc>
+    <lastmod>2016-11-24T09:35:52+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://plod.tv/post/year-of-the-runs/</loc>
     <lastmod>2016-11-24T09:35:52+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/tags/ardan-labs/</loc>
+    <lastmod>2016-06-27T12:27:58+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/tags/bill-kennedy/</loc>
+    <lastmod>2016-06-27T12:27:58+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/tags/data-driven-design/</loc>
+    <lastmod>2016-06-27T12:27:58+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/tags/machine-sympathy/</loc>
+    <lastmod>2016-06-27T12:27:58+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/categories/training/</loc>
+    <lastmod>2016-06-27T12:27:58+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/tags/training/</loc>
+    <lastmod>2016-06-27T12:27:58+01:00</lastmod>
   </url>
   
   <url>
@@ -48,7 +428,22 @@
   </url>
   
   <url>
+    <loc>https://plod.tv/tags/mathematics/</loc>
+    <lastmod>2016-03-11T10:36:46+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/tags/maths/</loc>
+    <lastmod>2016-03-11T10:36:46+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://plod.tv/post/project-euler/</loc>
+    <lastmod>2016-03-11T10:36:46+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/tags/project-euler/</loc>
     <lastmod>2016-03-11T10:36:46+00:00</lastmod>
   </url>
   
@@ -58,12 +453,77 @@
   </url>
   
   <url>
+    <loc>https://plod.tv/tags/cisco/</loc>
+    <lastmod>2016-02-22T16:19:11+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/tags/ssh/</loc>
+    <lastmod>2016-02-22T16:19:11+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/tags/switches/</loc>
+    <lastmod>2016-02-22T16:19:11+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/tags/200km/</loc>
+    <lastmod>2016-02-22T08:43:55+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://plod.tv/post/malmesbury-mash-2016/</loc>
     <lastmod>2016-02-22T08:43:55+00:00</lastmod>
   </url>
   
   <url>
+    <loc>https://plod.tv/tags/malmesbury-mash/</loc>
+    <lastmod>2016-02-22T08:43:55+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/tags/http2/</loc>
+    <lastmod>2016-02-19T14:40:27+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/tags/letsencrypt/</loc>
+    <lastmod>2016-02-19T14:40:27+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://plod.tv/post/multiple-site-free-ssl-http2-nginx/</loc>
+    <lastmod>2016-02-19T14:40:27+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/tags/nginx/</loc>
+    <lastmod>2016-02-19T14:40:27+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/tags/servers/</loc>
+    <lastmod>2016-02-19T14:40:27+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/categories/servers/</loc>
+    <lastmod>2016-02-19T14:40:27+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/tags/ssl/</loc>
+    <lastmod>2016-02-19T14:40:27+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/tags/tls/</loc>
+    <lastmod>2016-02-19T14:40:27+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://plod.tv/tags/ubuntu/</loc>
     <lastmod>2016-02-19T14:40:27+00:00</lastmod>
   </url>
   
@@ -78,582 +538,28 @@
   </url>
   
   <url>
-    <loc>https://plod.tv/post/setting-up-hugo-git-auto-deploy/</loc>
-    <lastmod>2016-02-18T12:29:13+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://plod.tv/post/my-first-post/</loc>
-    <lastmod>2016-02-18T12:12:49+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://plod.tv/tags/200km/</loc>
-    <lastmod>2016-02-22T08:43:55+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://plod.tv/tags/ardan-labs/</loc>
-    <lastmod>2016-06-27T12:27:58+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://plod.tv/tags/audax/</loc>
-    <lastmod>2016-11-24T09:35:52+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://plod.tv/tags/azure/</loc>
-    <lastmod>2018-03-30T21:24:47+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://plod.tv/tags/big-data/</loc>
-    <lastmod>2018-03-03T13:57:02+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://plod.tv/tags/bill-kennedy/</loc>
-    <lastmod>2016-06-27T12:27:58+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://plod.tv/tags/branching/</loc>
-    <lastmod>2018-03-30T21:24:47+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://plod.tv/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://plod.tv/tags/cd/</loc>
-    <lastmod>2018-03-30T21:24:47+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://plod.tv/tags/chocolatey/</loc>
-    <lastmod>2019-01-02T10:02:58+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://plod.tv/categories/ci/</loc>
-    <lastmod>2017-01-09T22:38:12+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://plod.tv/tags/ci/</loc>
-    <lastmod>2018-03-30T21:24:47+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://plod.tv/tags/cisco/</loc>
-    <lastmod>2016-02-22T16:19:11+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://plod.tv/tags/cloud/</loc>
-    <lastmod>2018-03-30T21:24:47+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://plod.tv/categories/conferences/</loc>
-    <lastmod>2019-01-02T10:02:58+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://plod.tv/tags/conferences/</loc>
-    <lastmod>2018-03-30T21:24:47+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://plod.tv/tags/confluent/</loc>
-    <lastmod>2018-03-03T13:57:02+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://plod.tv/categories/css/</loc>
-    <lastmod>2016-11-24T09:35:52+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://plod.tv/tags/css/</loc>
-    <lastmod>2016-11-24T09:35:52+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://plod.tv/categories/cycling/</loc>
-    <lastmod>2016-12-31T16:31:11+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://plod.tv/tags/cycling/</loc>
-    <lastmod>2016-12-31T16:31:11+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://plod.tv/tags/cymraeg/</loc>
-    <lastmod>2016-02-18T12:12:49+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://plod.tv/tags/data-driven-design/</loc>
-    <lastmod>2016-06-27T12:27:58+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://plod.tv/categories/development/</loc>
-    <lastmod>2019-01-02T10:02:58+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://plod.tv/tags/development/</loc>
-    <lastmod>2018-03-30T21:24:47+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://plod.tv/categories/devops/</loc>
-    <lastmod>2019-01-02T10:02:58+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://plod.tv/tags/devops/</loc>
-    <lastmod>2019-01-02T10:02:58+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://plod.tv/tags/digital-ocean/</loc>
     <lastmod>2016-02-18T12:29:13+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://plod.tv/tags/docker/</loc>
-    <lastmod>2018-03-30T21:24:47+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://plod.tv/tags/event-sourcing/</loc>
-    <lastmod>2018-03-30T21:24:47+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://plod.tv/categories/exercise/</loc>
-    <lastmod>2016-12-31T16:31:11+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://plod.tv/tags/exercise/</loc>
-    <lastmod>2016-12-31T16:31:11+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://plod.tv/tags/festive500/</loc>
-    <lastmod>2016-12-31T16:31:11+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://plod.tv/tags/git/</loc>
     <lastmod>2016-02-18T12:29:13+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://plod.tv/categories/github/</loc>
-    <lastmod>2017-01-09T22:38:12+00:00</lastmod>
-    <priority>0</priority>
+    <loc>https://plod.tv/post/setting-up-hugo-git-auto-deploy/</loc>
+    <lastmod>2016-02-18T12:29:13+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://plod.tv/tags/go/</loc>
-    <lastmod>2018-03-15T21:23:02+00:00</lastmod>
-    <priority>0</priority>
+    <loc>https://plod.tv/tags/cymraeg/</loc>
+    <lastmod>2016-02-18T12:12:49+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://plod.tv/categories/golang/</loc>
-    <lastmod>2017-03-02T10:57:35+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://plod.tv/tags/golang/</loc>
-    <lastmod>2017-03-02T10:57:35+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://plod.tv/categories/hosting/</loc>
-    <lastmod>2017-01-09T22:38:12+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://plod.tv/tags/hosting/</loc>
-    <lastmod>2017-01-09T22:38:12+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://plod.tv/categories/html/</loc>
-    <lastmod>2016-11-24T09:35:52+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://plod.tv/tags/html/</loc>
-    <lastmod>2016-11-24T09:35:52+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://plod.tv/tags/http2/</loc>
-    <lastmod>2016-02-19T14:40:27+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://plod.tv/tags/hugo/</loc>
-    <lastmod>2017-01-09T22:38:12+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://plod.tv/tags/java/</loc>
-    <lastmod>2018-03-15T21:23:02+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://plod.tv/categories/javascript/</loc>
-    <lastmod>2016-11-24T09:35:52+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://plod.tv/tags/javascript/</loc>
-    <lastmod>2016-11-24T09:35:52+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://plod.tv/categories/js/</loc>
-    <lastmod>2016-11-24T09:35:52+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://plod.tv/tags/js/</loc>
-    <lastmod>2016-11-24T09:35:52+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://plod.tv/tags/k8s/</loc>
-    <lastmod>2018-03-30T21:24:47+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://plod.tv/tags/kafka/</loc>
-    <lastmod>2018-03-03T13:57:02+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://plod.tv/tags/kotlin/</loc>
-    <lastmod>2018-03-30T21:24:47+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://plod.tv/tags/kubernetes/</loc>
-    <lastmod>2018-03-30T21:24:47+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://plod.tv/tags/letsencrypt/</loc>
-    <lastmod>2016-02-19T14:40:27+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://plod.tv/tags/machine-sympathy/</loc>
-    <lastmod>2016-06-27T12:27:58+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://plod.tv/tags/malmesbury-mash/</loc>
-    <lastmod>2016-02-22T08:43:55+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://plod.tv/tags/mathematics/</loc>
-    <lastmod>2016-03-11T10:36:46+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://plod.tv/tags/maths/</loc>
-    <lastmod>2016-03-11T10:36:46+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://plod.tv/tags/nginx/</loc>
-    <lastmod>2016-02-19T14:40:27+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://plod.tv/tags/podcasts/</loc>
-    <lastmod>2018-03-15T21:23:02+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://plod.tv/post/</loc>
-    <lastmod>2019-01-02T10:02:58+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://plod.tv/tags/powershell/</loc>
-    <lastmod>2019-01-02T10:02:58+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://plod.tv/tags/programming/</loc>
-    <lastmod>2018-03-15T21:23:02+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://plod.tv/tags/project-euler/</loc>
-    <lastmod>2016-03-11T10:36:46+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://plod.tv/tags/rapha/</loc>
-    <lastmod>2016-12-31T16:31:11+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://plod.tv/categories/run/</loc>
-    <lastmod>2016-11-24T09:35:52+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://plod.tv/tags/run/</loc>
-    <lastmod>2016-11-24T09:35:52+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://plod.tv/categories/running/</loc>
-    <lastmod>2016-11-24T09:35:52+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://plod.tv/tags/running/</loc>
-    <lastmod>2016-12-31T16:31:11+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://plod.tv/tags/scala/</loc>
-    <lastmod>2018-03-15T21:23:02+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://plod.tv/tags/script/</loc>
-    <lastmod>2018-03-03T13:57:02+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://plod.tv/tags/self-improvement/</loc>
-    <lastmod>2018-03-15T21:23:02+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://plod.tv/categories/servers/</loc>
-    <lastmod>2016-02-19T14:40:27+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://plod.tv/tags/servers/</loc>
-    <lastmod>2016-02-19T14:40:27+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://plod.tv/tags/software-engineering/</loc>
-    <lastmod>2018-03-15T21:23:02+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://plod.tv/tags/ssh/</loc>
-    <lastmod>2016-02-22T16:19:11+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://plod.tv/tags/ssl/</loc>
-    <lastmod>2016-02-19T14:40:27+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://plod.tv/tags/swansea/</loc>
-    <lastmod>2018-03-30T21:24:47+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://plod.tv/tags/switches/</loc>
-    <lastmod>2016-02-22T16:19:11+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://plod.tv/tags/</loc>
-    <lastmod>2016-02-22T08:43:55+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://plod.tv/tags/techhub/</loc>
-    <lastmod>2018-03-30T21:24:47+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://plod.tv/tags/templates/</loc>
-    <lastmod>2017-03-02T10:57:35+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://plod.tv/tags/terraform/</loc>
-    <lastmod>2019-01-02T10:02:58+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://plod.tv/tags/themes/</loc>
-    <lastmod>2017-03-02T10:57:35+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://plod.tv/tags/tls/</loc>
-    <lastmod>2016-02-19T14:40:27+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://plod.tv/categories/training/</loc>
-    <lastmod>2016-06-27T12:27:58+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://plod.tv/tags/training/</loc>
-    <lastmod>2016-06-27T12:27:58+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://plod.tv/tags/travis/</loc>
-    <lastmod>2017-01-09T22:38:12+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://plod.tv/tags/ubuntu/</loc>
-    <lastmod>2016-02-19T14:40:27+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://plod.tv/categories/welsh/</loc>
-    <lastmod>2016-11-24T09:35:52+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://plod.tv/tags/welsh/</loc>
-    <lastmod>2016-11-24T09:35:52+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://plod.tv/categories/winops/</loc>
-    <lastmod>2019-01-02T10:02:58+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://plod.tv/tags/winops/</loc>
-    <lastmod>2019-01-02T10:02:58+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://plod.tv/tags/year-of-the-runs/</loc>
-    <lastmod>2016-11-24T09:35:52+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://plod.tv/</loc>
-    <lastmod>2019-01-02T10:02:58+01:00</lastmod>
-    <priority>0</priority>
+    <loc>https://plod.tv/post/my-first-post/</loc>
+    <lastmod>2016-02-18T12:12:49+00:00</lastmod>
   </url>
   
 </urlset>

@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Bill Kennedy on plod.tv</title>
+    <title>bill kennedy on plod.tv</title>
     <link>https://plod.tv/tags/bill-kennedy/</link>
-    <description>Recent content in Bill Kennedy on plod.tv</description>
+    <description>Recent content in bill kennedy on plod.tv</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <lastBuildDate>Mon, 27 Jun 2016 12:27:58 +0100</lastBuildDate>
@@ -17,8 +17,8 @@
       <pubDate>Mon, 27 Jun 2016 12:27:58 +0100</pubDate>
       
       <guid>https://plod.tv/post/ultimate-go/</guid>
-      <description>Ultimate Go Earlier this month I attended Ardan Labs Ultimate Go Training given by Bill Kennedy (https://www.goinggo.net/). Todd McLeod of the Udemy course https://www.udemy.com/learn-how-to-code/ had recommended it, and as I had been working my way through Bill&amp;rsquo;s book Go in Action I was very keen to take my Go to the next level.
-The course was hosted at Hailo&amp;rsquo;s HQ in central London. Big shout out to them for hosting it, and for the excellent facilities!</description>
+      <description>Ultimate Go Earlier this month I attended Ardan Labs Ultimate Go Training given by Bill Kennedy (https://www.goinggo.net/). Todd McLeod of the Udemy course https://www.udemy.com/learn-how-to-code/ had recommended it, and as I had been working my way through Bill&#39;s book Go in Action I was very keen to take my Go to the next level.
+The course was hosted at Hailo&amp;lsquo;s HQ in central London. Big shout out to them for hosting it, and for the excellent facilities!</description>
     </item>
     
   </channel>

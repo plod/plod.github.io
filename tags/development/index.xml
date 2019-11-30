@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Development on plod.tv</title>
+    <title>development on plod.tv</title>
     <link>https://plod.tv/tags/development/</link>
-    <description>Recent content in Development on plod.tv</description>
+    <description>Recent content in development on plod.tv</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <lastBuildDate>Fri, 30 Mar 2018 21:24:47 +0000</lastBuildDate>
@@ -17,8 +17,9 @@
       <pubDate>Fri, 30 Mar 2018 21:24:47 +0000</pubDate>
       
       <guid>https://plod.tv/post/ddd-wales-2018/</guid>
-      <description>Last Saturday I attended Developer Developer Developer Wales with Nigel, Dai, Pete and we bumped into James Alfie. At Developer Developer Developer Wales with Nigel Craven, David Duncan, Peter Walsh and nice to see James Alfei #DDDWales 
-So what is DDD Wales?  The UK&amp;rsquo;s premier FREE Developer conference is coming to Wales! Since its inception in 2005, DDD has spread across the UK and throughout other parts of the world, as far afield as Melbourne and Perth.</description>
+      <description>Last Saturday I attended Developer Developer Developer Wales with Nigel, Dai, Pete and we bumped into James Alfie.
+ The UK&#39;s premier FREE Developer conference is coming to Wales! Since its inception in 2005, DDD has spread across the UK and throughout other parts of the world, as far afield as Melbourne and Perth. This time though it is heading to Swansea!
+DDD is a free one day technical event for developers.</description>
     </item>
     
     <item>
@@ -27,7 +28,7 @@ So what is DDD Wales?  The UK&amp;rsquo;s premier FREE Developer conference is c
       <pubDate>Thu, 02 Mar 2017 10:57:35 +0000</pubDate>
       
       <guid>https://plod.tv/post/go-1.8-launch-party/</guid>
-      <description>On Febuary the 16th go released it&amp;rsquo;s newest version 1.8. You can read about this release here. I presented at the Cardiff Go meetup group&amp;rsquo;s release party on the 15th. Considering how I am not the greatest speaker in public, it went very well. I was pretty nervous to start, but nerves slowly faded especially when I got to talk about my favourite new features (http2 pushPromice etc). You can see my slides here.</description>
+      <description>On Febuary the 16th go released it&#39;s newest version 1.8. You can read about this release here. I presented at the Cardiff Go meetup group&#39;s release party on the 15th. Considering how I am not the greatest speaker in public, it went very well. I was pretty nervous to start, but nerves slowly faded especially when I got to talk about my favourite new features (http2 pushPromice etc). You can see my slides here.</description>
     </item>
     
     <item>
@@ -47,7 +48,7 @@ I followed the tutorial here paying special attention to the note at the bottom.
       
       <guid>https://plod.tv/post/year-of-the-runs/</guid>
       <description>2017 will be the year of the runs 🏃💩 for me What does that mean?
-Run...To extend or persist, statically or dynamically, through space or time.(intransitive) To extend in time, to last, to continue (usually with a measure phrase).The sale will run for ten days. The contract runs through 2008. The meeting ran late. The book runs 655 pages. The speech runs as follows: …‎... https://en.wiktionary.org/wiki/run I am going to run at least 1 mile (though often more than that) every day for 2017.</description>
+I am going to run at least 1 mile (though often more than that) every day for 2017. I am not going to have just a run of runs I am hoping to:I will/have started some of these runs (streaks) before 2017 but the important pledge is that from the 1stof January = until the 31stof December I will have an unbroken run of these things.</description>
     </item>
     
     <item>
@@ -56,8 +57,8 @@ Run...To extend or persist, statically or dynamically, through space or time.(in
       <pubDate>Mon, 27 Jun 2016 12:27:58 +0100</pubDate>
       
       <guid>https://plod.tv/post/ultimate-go/</guid>
-      <description>Ultimate Go Earlier this month I attended Ardan Labs Ultimate Go Training given by Bill Kennedy (https://www.goinggo.net/). Todd McLeod of the Udemy course https://www.udemy.com/learn-how-to-code/ had recommended it, and as I had been working my way through Bill&amp;rsquo;s book Go in Action I was very keen to take my Go to the next level.
-The course was hosted at Hailo&amp;rsquo;s HQ in central London. Big shout out to them for hosting it, and for the excellent facilities!</description>
+      <description>Ultimate Go Earlier this month I attended Ardan Labs Ultimate Go Training given by Bill Kennedy (https://www.goinggo.net/). Todd McLeod of the Udemy course https://www.udemy.com/learn-how-to-code/ had recommended it, and as I had been working my way through Bill&#39;s book Go in Action I was very keen to take my Go to the next level.
+The course was hosted at Hailo&amp;lsquo;s HQ in central London. Big shout out to them for hosting it, and for the excellent facilities!</description>
     </item>
     
     <item>

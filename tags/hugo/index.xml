@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hugo on plod.tv</title>
+    <title>hugo on plod.tv</title>
     <link>https://plod.tv/tags/hugo/</link>
-    <description>Recent content in Hugo on plod.tv</description>
+    <description>Recent content in hugo on plod.tv</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <lastBuildDate>Mon, 09 Jan 2017 22:38:12 +0000</lastBuildDate>
@@ -28,7 +28,7 @@ I followed the tutorial here paying special attention to the note at the bottom.
       
       <guid>https://plod.tv/post/setting-up-hugo-git-auto-deploy/</guid>
       <description>What is Hugo?  Hugo is a static HTML and CSS website generator written in Go. It is optimized for speed, easy use and configurability. Hugo takes a directory with content and templates and renders them into a full HTML website.
-Hugo relies on Markdown files with front matter for meta data. And you can run Hugo from any directory. This works well for shared hosts and other systems where you don’t have a privileged account.</description>
+  Hugo relies on Markdown files with front matter for meta data. And you can run Hugo from any directory. This works well for shared hosts and other systems where you don’t have a privileged account.</description>
     </item>
     
     <item>
@@ -37,7 +37,7 @@ Hugo relies on Markdown files with front matter for meta data. And you can run H
       <pubDate>Thu, 18 Feb 2016 12:12:49 +0000</pubDate>
       
       <guid>https://plod.tv/post/my-first-post/</guid>
-      <description> This is my first post on the site. I hope that you like it!
+      <description>This is my first post on the site. I hope that you like it!
 Welcome Function Here is a little Golang function to welcome you:
 package main import &amp;#34;fmt&amp;#34; func main() { fmt.Println(&amp;#34;Sut mae, byd!&amp;#34;) } </description>
     </item>

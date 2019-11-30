@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ci on plod.tv</title>
+    <title>ci on plod.tv</title>
     <link>https://plod.tv/tags/ci/</link>
-    <description>Recent content in Ci on plod.tv</description>
+    <description>Recent content in ci on plod.tv</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <lastBuildDate>Fri, 30 Mar 2018 21:24:47 +0000</lastBuildDate>
@@ -17,8 +17,9 @@
       <pubDate>Fri, 30 Mar 2018 21:24:47 +0000</pubDate>
       
       <guid>https://plod.tv/post/ddd-wales-2018/</guid>
-      <description>Last Saturday I attended Developer Developer Developer Wales with Nigel, Dai, Pete and we bumped into James Alfie. At Developer Developer Developer Wales with Nigel Craven, David Duncan, Peter Walsh and nice to see James Alfei #DDDWales 
-So what is DDD Wales?  The UK&amp;rsquo;s premier FREE Developer conference is coming to Wales! Since its inception in 2005, DDD has spread across the UK and throughout other parts of the world, as far afield as Melbourne and Perth.</description>
+      <description>Last Saturday I attended Developer Developer Developer Wales with Nigel, Dai, Pete and we bumped into James Alfie.
+ The UK&#39;s premier FREE Developer conference is coming to Wales! Since its inception in 2005, DDD has spread across the UK and throughout other parts of the world, as far afield as Melbourne and Perth. This time though it is heading to Swansea!
+DDD is a free one day technical event for developers.</description>
     </item>
     
   </channel>

@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Git on plod.tv</title>
+    <title>git on plod.tv</title>
     <link>https://plod.tv/tags/git/</link>
-    <description>Recent content in Git on plod.tv</description>
+    <description>Recent content in git on plod.tv</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <lastBuildDate>Thu, 18 Feb 2016 12:29:13 +0000</lastBuildDate>
@@ -18,7 +18,7 @@
       
       <guid>https://plod.tv/post/setting-up-hugo-git-auto-deploy/</guid>
       <description>What is Hugo?  Hugo is a static HTML and CSS website generator written in Go. It is optimized for speed, easy use and configurability. Hugo takes a directory with content and templates and renders them into a full HTML website.
-Hugo relies on Markdown files with front matter for meta data. And you can run Hugo from any directory. This works well for shared hosts and other systems where you don’t have a privileged account.</description>
+  Hugo relies on Markdown files with front matter for meta data. And you can run Hugo from any directory. This works well for shared hosts and other systems where you don’t have a privileged account.</description>
     </item>
     
   </channel>

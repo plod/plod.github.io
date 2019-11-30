@@ -102,75 +102,51 @@ Tags <a href="https://plod.tv/tags/ssl">ssl</a>, <a href="https://plod.tv/tags/t
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                  
-
-<p>There still exists this myth that you require a single IP address per vhost for an ssl certificate. It was perpetuated because the encryption handshake used to happen before the resource required could be ascertained, thanks to some pretty serious security vulnerabilites SSL itself is pretty much a dead duck and the modern TLS has superceded it. One of the great things about TLS is SNI:</p>
-
+                  <p>There still exists this myth that you require a single IP address per vhost for an ssl certificate. It was perpetuated because the encryption handshake used to happen before the resource required could be ascertained, thanks to some pretty serious security vulnerabilites SSL itself is pretty much a dead duck and the modern TLS has superceded it. One of the great things about TLS is SNI:</p>
 <blockquote>
 <p>Server Name Indication (SNI) is an extension to the TLS computer networking protocol[1] by which a client indicates which hostname it is attempting to connect to at the start of the handshaking process. This allows a server to present multiple certificates on the same IP address and TCP port number and hence allows multiple secure (HTTPS) websites (or any other Service over TLS) to be served off the same IP address without requiring all those sites to use the same certificate. It is the conceptual equivalent to HTTP/1.1 name-based virtual hosting, but for HTTPS. <a href="https://en.wikipedia.org/wiki/Server_Name_Indication">more here</a></p>
 </blockquote>
-
 <p>Although in this example we are going to use one certificate across multiple vhosts.</p>
-
 <h2 id="but-secure-websites-require-buying-a-certificate-which-is-expensive">But secure websites require buying a certificate which is expensive!</h2>
-
-<p>Haven&rsquo;t you heard of <a href="https://letsencrypt.org/">Let&rsquo;s Encrypt</a> yet?</p>
-
+<p>Haven't you heard of <a href="https://letsencrypt.org/">Let's Encrypt</a> yet?</p>
 <blockquote>
 <p>Let’s Encrypt is a new Certificate Authority:
 It’s free, automated, and open.
 In Public Beta</p>
 </blockquote>
-
-<h2 id="so-what-s-http2">So what&rsquo;s http2?</h2>
-
+<h2 id="so-whats-http2">So what's http2?</h2>
 <p>You may have already heard of the magic google did with SPDY well that and even more features are being rolled into HTTP2, and you can have your website future proofed and supporting these features right now.</p>
-
 <blockquote>
 <p>HTTP/2 (originally named HTTP/2.0) is the second major version of the HTTP network protocol used by the World Wide Web. It is based on SPDY. HTTP/2 was developed by the Hypertext Transfer Protocol working group (httpbis, where bis means &ldquo;repeat&rdquo; or &ldquo;twice&rdquo;) of the Internet Engineering Task Force. <a href="https://en.wikipedia.org/wiki/HTTP/2">More Here</a></p>
 </blockquote>
-
-<h2 id="let-s-do-this">Let&rsquo;s do this!</h2>
-
+<h2 id="lets-do-this">Let's do this!</h2>
 <p>Okay for the purpose of this post, I will show you how to get sorted with ubuntu (15.04). It is relatively straight forward to do the same for other distrubutions following the links provided. But if you are having difficulty please write your questions in the comments below.</p>
-
 <p>At the time of writing the stable version in the nginx repositories is not a high enough version for http2 (It became available in <a href="https://www.nginx.com/blog/nginx-1-9-5/">version 1.9.5</a>), so you need to add the mainline repositories to your apt (though depending on when you are reading this that could have changed).</p>
-
-<p>Instructions for adding the repositories can be found <a href="http://nginx.org/en/linux_packages.html#mainline">here</a>. But I&rsquo;ll include them for the sake of brevity.</p>
-
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-console" data-lang="console">wget -q http://nginx.org/keys/nginx_signing.key -O- | sudo apt-key add -</code></pre></div>
-
+<p>Instructions for adding the repositories can be found <a href="http://nginx.org/en/linux_packages.html#mainline">here</a>. But I'll include them for the sake of brevity.</p>
+<pre><code class="language-console" data-lang="console">wget -q http://nginx.org/keys/nginx_signing.key -O- | sudo apt-key add -</code></pre>
 <p>Then add the following to /etc/apt/sources.list.d/nginx.list:</p>
-
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-console" data-lang="console">deb http://nginx.org/packages/mainline/ubuntu/ codename nginx
-deb-src http://nginx.org/packages/mainline/ubuntu/ codename nginx</code></pre></div>
-
+<pre><code class="language-console" data-lang="console">deb http://nginx.org/packages/mainline/ubuntu/ codename nginx
+deb-src http://nginx.org/packages/mainline/ubuntu/ codename nginx</code></pre>
 <p>Where codename should be your release codename, wily in my case. Then to install:</p>
-
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-console" data-lang="console">apt-get update
-apt-get install nginx</code></pre></div>
-
+<pre><code class="language-console" data-lang="console">apt-get update
+apt-get install nginx</code></pre>
 <p>Okay after doing its thing you should now have nginx at a new enough version for http2.</p>
-
 <h1 id="now-for-a-free-signed-cert">Now for a free signed cert.</h1>
-
 <p>I followed <a href="https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-14-04">this</a> tutorial from digital ocean (great tutorials) to get the certificate up and running with the following extra bits.</p>
-
 <ul>
-<li><p>Make sure you have all the vhosts you want to host with nginx (you won&rsquo;t create a certificate for every domain there really is no need, you can reuse the one)</p></li>
-
-<li><p>When you are creating seperate vhost configs in nginx (doing this is a bit beyond the scope of this article but if you need help comment below), add the following directive to the vhost (to point the letsencrypt requests back to the default sites):</p></li>
+<li>
+<p>Make sure you have all the vhosts you want to host with nginx (you won't create a certificate for every domain there really is no need, you can reuse the one)</p>
+</li>
+<li>
+<p>When you are creating seperate vhost configs in nginx (doing this is a bit beyond the scope of this article but if you need help comment below), add the following directive to the vhost (to point the letsencrypt requests back to the default sites):</p>
+</li>
 </ul>
-
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-console" data-lang="console"> location /.well-known/ {
+<pre><code class="language-console" data-lang="console"> location /.well-known/ {
         alias /var/www/html/.well-known/;
         allow all;
-    }</code></pre></div>
-
+    }</code></pre>
 <p>Then to enable http2 for each of the vhosts add the keyword at the top of your server block where your listen is:</p>
-
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-console" data-lang="console">    listen 443 ssl http2;</code></pre></div>
-
+<pre><code class="language-console" data-lang="console">    listen 443 ssl http2;</code></pre>
 <h1 id="welcome-to-the-future">Welcome to the future!</h1>
 
                   

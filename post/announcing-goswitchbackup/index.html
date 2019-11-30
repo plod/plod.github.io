@@ -102,26 +102,16 @@ Tags <a href="https://plod.tv/tags/go">go</a>, <a href="https://plod.tv/tags/gol
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                  
-
-<p>goSwitchBackup is Go program I wrote, to automate the backing up of Cisco switches over SSH for the network boys in work. It essentially SSHs (can you use it like a verb like that?) into an IP (Which should be the address of a Cisco switch) using the password, once it receives the prompt character it trys to escalate privileges using: <div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-console" data-lang="console">enable</code></pre></div> Once it sees the &ldquo;#&rdquo; character it then tries to run the backup command: <div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-console" data-lang="console">copy running-config tftp</code></pre></div>It will then give the TFTP server address used when the program was invoked, and name the file:</p>
-
+                  <p>goSwitchBackup is Go program I wrote, to automate the backing up of Cisco switches over SSH for the network boys in work. It essentially SSHs (can you use it like a verb like that?) into an IP (Which should be the address of a Cisco switch) using the password, once it receives the prompt character it trys to escalate privileges using: <pre><code class="language-console" data-lang="console">enable</code></pre> Once it sees the &ldquo;#&rdquo; character it then tries to run the backup command: <pre><code class="language-console" data-lang="console">copy running-config tftp</code></pre>It will then give the TFTP server address used when the program was invoked, and name the file:</p>
 <blockquote>
 <p>switchBackup-IP-OF-SWITCH-RFC3339timestamp</p>
 </blockquote>
-
 <p>(<em>I may make this configurable later</em>)</p>
-
 <p>You can check out the code on github here:</p>
-
 <p><a href="https://github.com/plod/goSwitchBackup">https://github.com/plod/goSwitchBackup</a></p>
-
 <p>Once you run or compile, or just go run the code, pass the -help command for helps with flags.</p>
-
 <p>Any comments or requests for more information please post in the comments below (I am still quite new to Go so any helpful pointers would also be gratefully received).</p>
-
-<h3 id="todo-wishlist">todo/wishlist:</h3>
-
+<h3 id="todowishlist">todo/wishlist:</h3>
 <ul>
 <li>Add potential TFTP server inside the program itself</li>
 <li>compare previous backup with current backup and send alert of changes (SMTP)</li>

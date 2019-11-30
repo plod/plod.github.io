@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Winops on plod.tv</title>
+    <title>WinOps on plod.tv</title>
     <link>https://plod.tv/tags/winops/</link>
-    <description>Recent content in Winops on plod.tv</description>
+    <description>Recent content in WinOps on plod.tv</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <lastBuildDate>Wed, 02 Jan 2019 10:02:58 +0100</lastBuildDate>
@@ -17,9 +17,8 @@
       <pubDate>Wed, 02 Jan 2019 10:02:58 +0100</pubDate>
       
       <guid>https://plod.tv/post/winops-2018/</guid>
-      <description>As part of my job with DevOpsGroup I&amp;rsquo;ve been doing more and more work with my clients in the windows space, as a result I got the opportunity to attend WinOps 2018 last november.
-At #winops #London 2018 with #DevOpsGroup with my #Movember tash front and centre https://mobro.co/plod 
-So what is WinOps?  WinOps (a portmanteau of &amp;ldquo;Windows&amp;rdquo; and &amp;ldquo;DevOps&amp;rdquo;) is a term used referring to the cultural movement of DevOps practices for a Microsoft-centric view.</description>
+      <description>As part of my job with DevOpsGroup I&#39;ve been doing more and more work with my clients in the windows space, as a result I got the opportunity to attend WinOps 2018 last november.
+So what is WinOps?  WinOps (a portmanteau of &amp;ldquo;Windows&amp;rdquo; and &amp;ldquo;DevOps&amp;rdquo;) is a term used referring to the cultural movement of DevOps practices for a Microsoft-centric view. It emphasizes the use of the cloud, automation and integrating development and IT operations into one fluid method on the Windows platform.</description>
     </item>
     
   </channel>

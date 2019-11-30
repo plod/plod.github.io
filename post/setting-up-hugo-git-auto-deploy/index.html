@@ -102,89 +102,60 @@ Tags <a href="https://plod.tv/tags/go">go</a>, <a href="https://plod.tv/tags/gol
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                  
-
-<h2 id="what-is-hugo">What is Hugo?</h2>
-
+                  <h2 id="what-is-hugo">What is Hugo?</h2>
 <blockquote>
 <p>Hugo is a static HTML and CSS website generator written in Go. It is optimized for speed, easy use and configurability. Hugo takes a directory with content and templates and renders them into a full HTML website.</p>
-
+</blockquote>
+<blockquote>
 <p>Hugo relies on Markdown files with front matter for meta data. And you can run Hugo from any directory. This works well for shared hosts and other systems where you don’t have a privileged account.</p>
-
+</blockquote>
+<blockquote>
 <p>Hugo renders a typical website of moderate size in a fraction of a second. A good rule of thumb is that each piece of content renders in around 1 millisecond.</p>
-
+</blockquote>
+<blockquote>
 <p>Hugo is designed to work well for any kind of website including blogs, tumbles and docs.</p>
 </blockquote>
-
 <p><a href="https://gohugo.io/">https://gohugo.io/</a></p>
-
 <h2 id="what-is-gogs">What is Gogs?</h2>
-
 <blockquote>
 <p>The goal of this project is to make the easiest, fastest, and most painless way of setting up a self-hosted Git service. With Go, this can be done with an independent binary distribution across ALL platforms that Go supports, including Linux, Mac OS X, Windows and ARM.</p>
 </blockquote>
-
 <p><a href="https://gogs.io/">https://gogs.io/</a></p>
-
 <p>It is a great self hosting github/gitlabs sort of project but coded in go.</p>
-
-<hr />
-
+<hr>
 <p>I started by following <a href="https://www.digitalocean.com/community/tutorials/how-to-install-and-use-hugo-a-static-site-generator-on-ubuntu-14-04">this digital ocean tutorial</a></p>
-
-<p>I didn&rsquo;t want to use a package, my preference was to compile from <a href="https://gohugo.io/overview/installing/">source</a>. However I got the following error while trying that:
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-console" data-lang="console"><span style="color:#080;font-weight:bold">go</span>: missing Mercurial command. See https:<span style="color:#888">//golang.org/s/gogetcmd
-</span><span style="color:#888"></span><span style="color:#080;font-weight:bold">package</span> bitbucket.org<span style="color:#333">/</span>pkg<span style="color:#333">/</span>inflect: exec: <span style="background-color:#fff0f0">&#34;hg&#34;</span>: executable file not found in <span style="color:#f00;background-color:#faa">$</span>PATH</code></pre></div>
+<p>I didn't want to use a package, my preference was to compile from <a href="https://gohugo.io/overview/installing/">source</a>. However I got the following error while trying that:
+<pre><code class="language-console" data-lang="console">go: missing Mercurial command. See https://golang.org/s/gogetcmd
+package bitbucket.org/pkg/inflect: exec: "hg": executable file not found in $PATH</code></pre>
 Thanks to <a href="http://kaiq.me/2015/12/23/go/go-get-tools/">this</a> and google translate I realised Mercurial was a dependancy.</p>
-
 <p>so
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-console" data-lang="console">sudo apt-get install mercurial</code></pre></div>
+<pre><code class="language-console" data-lang="console">sudo apt-get install mercurial</code></pre>
 and then</p>
-
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-console" data-lang="console">go get -u -v github.com/spf13/hugo</code></pre></div>
-
+<pre><code class="language-console" data-lang="console">go get -u -v github.com/spf13/hugo</code></pre>
 <p>got me cooking!</p>
-
 <p>In the DO tutorial it says to run</p>
-
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-console" data-lang="console">sudo hugo genautocomplete</code></pre></div>
-
+<pre><code class="language-console" data-lang="console">sudo hugo genautocomplete</code></pre>
 <p>this seems to be factored out to</p>
-
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-console" data-lang="console">sudo hugo gen autocomplete</code></pre></div>
-
-<p>but because I compiled from source hugo isn&rsquo;t in sudo environment path so</p>
-
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-console" data-lang="console">sudo ~/go-workspace/bin/hugo gen autocomplete</code></pre></div>
-
+<pre><code class="language-console" data-lang="console">sudo hugo gen autocomplete</code></pre>
+<p>but because I compiled from source hugo isn't in sudo environment path so</p>
+<pre><code class="language-console" data-lang="console">sudo ~/go-workspace/bin/hugo gen autocomplete</code></pre>
 <p>[~/go-workspace is my $GOPATH so change to yours]</p>
-
 <p>While cloning the themes I decided hugo-themes was a better name for the directory in my home dir (themes could be anything while browsing later), of course this meant later, my symlink would need to look like:</p>
-
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-console" data-lang="console"> ln -s ../hugo-themes/ themes</code></pre></div>
-
+<pre><code class="language-console" data-lang="console"> ln -s ../hugo-themes/ themes</code></pre>
 <p>It seems that some other switches are different from the DO tutorial (-themes= in git cloned version is -t )</p>
-
 <h1 id="auto-deploy">Auto deploy</h1>
-
-<p>This is based on the digital ocean tutorial <a href="https://www.digitalocean.com/community/tutorials/how-to-deploy-a-hugo-site-to-production-with-git-hooks-on-ubuntu-14-04">here</a> the difference however was, is I use gogs, the server itself has no firewall access to my gogs server. I decided to solve this problem using the tutorial/gogs&rsquo; web hooks/and a little php (that I&rsquo;m sure I&rsquo;ll refactor as go at some stage)</p>
-
+<p>This is based on the digital ocean tutorial <a href="https://www.digitalocean.com/community/tutorials/how-to-deploy-a-hugo-site-to-production-with-git-hooks-on-ubuntu-14-04">here</a> the difference however was, is I use gogs, the server itself has no firewall access to my gogs server. I decided to solve this problem using the tutorial/gogs&rsquo; web hooks/and a little php (that I'm sure I'll refactor as go at some stage)</p>
 <p>First of all lets set up the gogs web hook:</p>
-
 <p>Inside the repository in question click on the settings link on the right hand side</p>
-
-<p><img src="https://plod.tv/img/post-img/gogs-settings.png" alt="Gogs Settings" /></p>
-
+<p>![Gogs Settings]
+(/img/post-img/gogs-settings.png)</p>
 <p>Then click on the Webhooks link on the left hand side</p>
-
-<p><img src="https://plod.tv/img/post-img/gogs-webhooks.png" alt="Gogs Webhooks" /></p>
-
+<p>![Gogs Webhooks]
+(/img/post-img/gogs-webhooks.png)</p>
 <p>Finally enter a url the gogs server can connect to and that you can write php on (make a note of the Secret that you use)</p>
-
-<p><img src="https://plod.tv/img/post-img/gogs-webhook.png" alt="Gogs Webhook" /></p>
-
+<p>![Gogs Webhook]
+(/img/post-img/gogs-webhook.png)</p>
 <p>Now the php that runs at the URL you entered above should look a little something like this.</p>
-
 <div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php"><span style="color:#579">&lt;?php</span>
 <span style="color:#888">//gogs secret for web hook
 </span><span style="color:#888"></span><span style="color:#963">$secret</span>   <span style="color:#333">=</span> <span style="background-color:#fff0f0">&#34;&#34;</span>;
@@ -229,17 +200,12 @@ and then</p>
     <span style="color:#080;font-weight:bold">echo</span> <span style="background-color:#fff0f0">`$command`</span>;
 }
 </code></pre></div>
-
 <p><em>*update</em> I noticed that syntax hilighting was going missing on this post (turned out that pygmatize was not in path of the php process) (php runs as my user account) so I fixed this by changing</p>
-
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-console" data-lang="console">$command = &#34;cd $WORKING_DIRECTORY; /path/to/hugo&#34;;
-echo `$command`;</code></pre></div>
-
+<pre><code class="language-console" data-lang="console">$command = "cd $WORKING_DIRECTORY; /path/to/hugo";
+echo `$command`;</code></pre>
 <p>to</p>
-
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-console" data-lang="console">$command = &#34;cd $WORKING_DIRECTORY; export PATH=\&#34;What my $PATH is at tty\&#34; hugo&#34;;
-echo `$command`;</code></pre></div>
-
+<pre><code class="language-console" data-lang="console">$command = "cd $WORKING_DIRECTORY; export PATH=\"What my $PATH is at tty\" hugo";
+echo `$command`;</code></pre>
 <p>This felt a little dirty but after many attempts at a more elegent solution, I have stayed with this for the time being.</p>
 
                   

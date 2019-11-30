@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Kafka on plod.tv</title>
+    <title>kafka on plod.tv</title>
     <link>https://plod.tv/tags/kafka/</link>
-    <description>Recent content in Kafka on plod.tv</description>
+    <description>Recent content in kafka on plod.tv</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <lastBuildDate>Sat, 03 Mar 2018 13:57:02 +0000</lastBuildDate>
@@ -18,7 +18,7 @@
       
       <guid>https://plod.tv/post/installing-confluent-platform/</guid>
       <description>I recently installed the newest version of confluent platform (4.0 at time of writing) on ubuntu 16.04 leaving these steps here for anyone else who needs to automate it.
-sudo add-apt-repository ppa:webupd8team/java -y sudo apt-get update echo oracle-java9-installer shared/accepted-oracle-license-v1-1 select true | sudo /usr/bin/debconf-set-selections sudo apt install oracle-java9-installer oracle-java9-set-default -y wget -qO - https://packages.confluent.io/deb/4.0/archive.key | sudo apt-key add - sudo add-apt-repository &amp;#34;deb [arch=amd64] https://packages.confluent.io/deb/4.0 stable main&amp;#34; sudo apt-get update sudo apt-get install confluent-platform-oss-2.</description>
+sudo add-apt-repository ppa:webupd8team/java -y sudo apt-get update echo oracle-java9-installer shared/accepted-oracle-license-v1-1 select true | sudo /usr/bin/debconf-set-selections sudo apt install oracle-java9-installer oracle-java9-set-default -y wget -qO - https://packages.confluent.io/deb/4.0/archive.key | sudo apt-key add - sudo add-apt-repository &#34;deb [arch=amd64] https://packages.confluent.io/deb/4.0 stable main&#34; sudo apt-get update sudo apt-get install confluent-platform-oss-2.</description>
     </item>
     
   </channel>

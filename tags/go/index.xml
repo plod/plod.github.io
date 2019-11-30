@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Go on plod.tv</title>
+    <title>go on plod.tv</title>
     <link>https://plod.tv/tags/go/</link>
-    <description>Recent content in Go on plod.tv</description>
+    <description>Recent content in go on plod.tv</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <lastBuildDate>Thu, 15 Mar 2018 21:23:02 +0000</lastBuildDate>
@@ -17,7 +17,7 @@
       <pubDate>Thu, 15 Mar 2018 21:23:02 +0000</pubDate>
       
       <guid>https://plod.tv/post/my-podcasts/</guid>
-      <description>With my new job I do a lot of commuting and during this time, and while running I listen to a lot of podcasts to keep on top of things and for self improvement. I am always looking for new podcasts and so I thought I&amp;rsquo;d share what I&amp;rsquo;m currently listening to which can hopefully help others find something useful.
+      <description>With my new job I do a lot of commuting and during this time, and while running I listen to a lot of podcasts to keep on top of things and for self improvement. I am always looking for new podcasts and so I thought I&#39;d share what I&#39;m currently listening to which can hopefully help others find something useful.
 https://lists.pocketcasts.com/4c12f2fc-0cf5-4553-93fc-7363a14c3173
 Also pocket casts is my all time favourite app so seriously check that out.</description>
     </item>
@@ -28,7 +28,7 @@ Also pocket casts is my all time favourite app so seriously check that out.</des
       <pubDate>Thu, 02 Mar 2017 10:57:35 +0000</pubDate>
       
       <guid>https://plod.tv/post/go-1.8-launch-party/</guid>
-      <description>On Febuary the 16th go released it&amp;rsquo;s newest version 1.8. You can read about this release here. I presented at the Cardiff Go meetup group&amp;rsquo;s release party on the 15th. Considering how I am not the greatest speaker in public, it went very well. I was pretty nervous to start, but nerves slowly faded especially when I got to talk about my favourite new features (http2 pushPromice etc). You can see my slides here.</description>
+      <description>On Febuary the 16th go released it&#39;s newest version 1.8. You can read about this release here. I presented at the Cardiff Go meetup group&#39;s release party on the 15th. Considering how I am not the greatest speaker in public, it went very well. I was pretty nervous to start, but nerves slowly faded especially when I got to talk about my favourite new features (http2 pushPromice etc). You can see my slides here.</description>
     </item>
     
     <item>
@@ -37,8 +37,8 @@ Also pocket casts is my all time favourite app so seriously check that out.</des
       <pubDate>Mon, 27 Jun 2016 12:27:58 +0100</pubDate>
       
       <guid>https://plod.tv/post/ultimate-go/</guid>
-      <description>Ultimate Go Earlier this month I attended Ardan Labs Ultimate Go Training given by Bill Kennedy (https://www.goinggo.net/). Todd McLeod of the Udemy course https://www.udemy.com/learn-how-to-code/ had recommended it, and as I had been working my way through Bill&amp;rsquo;s book Go in Action I was very keen to take my Go to the next level.
-The course was hosted at Hailo&amp;rsquo;s HQ in central London. Big shout out to them for hosting it, and for the excellent facilities!</description>
+      <description>Ultimate Go Earlier this month I attended Ardan Labs Ultimate Go Training given by Bill Kennedy (https://www.goinggo.net/). Todd McLeod of the Udemy course https://www.udemy.com/learn-how-to-code/ had recommended it, and as I had been working my way through Bill&#39;s book Go in Action I was very keen to take my Go to the next level.
+The course was hosted at Hailo&amp;lsquo;s HQ in central London. Big shout out to them for hosting it, and for the excellent facilities!</description>
     </item>
     
     <item>
@@ -47,7 +47,7 @@ The course was hosted at Hailo&amp;rsquo;s HQ in central London. Big shout out t
       <pubDate>Fri, 11 Mar 2016 10:36:46 +0000</pubDate>
       
       <guid>https://plod.tv/post/project-euler/</guid>
-      <description>So I decided to do the projects on Project Euler to help with my Go learning (and to get my maths head working again), I&amp;rsquo;d forgotten how much fun the problems were.
+      <description>So I decided to do the projects on Project Euler to help with my Go learning (and to get my maths head working again), I&#39;d forgotten how much fun the problems were.
 What is Project Euler?
  Project Euler is a series of challenging mathematical/computer programming problems that will require more than just mathematical insights to solve. Although mathematics will help you arrive at elegant and efficient methods, the use of a computer and programming skills will be required to solve most problems.</description>
     </item>
@@ -68,7 +68,7 @@ What is Project Euler?
       
       <guid>https://plod.tv/post/setting-up-hugo-git-auto-deploy/</guid>
       <description>What is Hugo?  Hugo is a static HTML and CSS website generator written in Go. It is optimized for speed, easy use and configurability. Hugo takes a directory with content and templates and renders them into a full HTML website.
-Hugo relies on Markdown files with front matter for meta data. And you can run Hugo from any directory. This works well for shared hosts and other systems where you don’t have a privileged account.</description>
+  Hugo relies on Markdown files with front matter for meta data. And you can run Hugo from any directory. This works well for shared hosts and other systems where you don’t have a privileged account.</description>
     </item>
     
     <item>
@@ -77,7 +77,7 @@ Hugo relies on Markdown files with front matter for meta data. And you can run H
       <pubDate>Thu, 18 Feb 2016 12:12:49 +0000</pubDate>
       
       <guid>https://plod.tv/post/my-first-post/</guid>
-      <description> This is my first post on the site. I hope that you like it!
+      <description>This is my first post on the site. I hope that you like it!
 Welcome Function Here is a little Golang function to welcome you:
 package main import &amp;#34;fmt&amp;#34; func main() { fmt.Println(&amp;#34;Sut mae, byd!&amp;#34;) } </description>
     </item>

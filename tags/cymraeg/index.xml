@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Cymraeg on plod.tv</title>
+    <title>cymraeg on plod.tv</title>
     <link>https://plod.tv/tags/cymraeg/</link>
-    <description>Recent content in Cymraeg on plod.tv</description>
+    <description>Recent content in cymraeg on plod.tv</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <lastBuildDate>Thu, 18 Feb 2016 12:12:49 +0000</lastBuildDate>
@@ -17,7 +17,7 @@
       <pubDate>Thu, 18 Feb 2016 12:12:49 +0000</pubDate>
       
       <guid>https://plod.tv/post/my-first-post/</guid>
-      <description> This is my first post on the site. I hope that you like it!
+      <description>This is my first post on the site. I hope that you like it!
 Welcome Function Here is a little Golang function to welcome you:
 package main import &amp;#34;fmt&amp;#34; func main() { fmt.Println(&amp;#34;Sut mae, byd!&amp;#34;) } </description>
     </item>

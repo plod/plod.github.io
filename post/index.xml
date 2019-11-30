@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on plod.tv</title>
@@ -17,9 +17,8 @@
       <pubDate>Wed, 02 Jan 2019 10:02:58 +0100</pubDate>
       
       <guid>https://plod.tv/post/winops-2018/</guid>
-      <description>As part of my job with DevOpsGroup I&amp;rsquo;ve been doing more and more work with my clients in the windows space, as a result I got the opportunity to attend WinOps 2018 last november.
-At #winops #London 2018 with #DevOpsGroup with my #Movember tash front and centre https://mobro.co/plod 
-So what is WinOps?  WinOps (a portmanteau of &amp;ldquo;Windows&amp;rdquo; and &amp;ldquo;DevOps&amp;rdquo;) is a term used referring to the cultural movement of DevOps practices for a Microsoft-centric view.</description>
+      <description>As part of my job with DevOpsGroup I&#39;ve been doing more and more work with my clients in the windows space, as a result I got the opportunity to attend WinOps 2018 last november.
+So what is WinOps?  WinOps (a portmanteau of &amp;ldquo;Windows&amp;rdquo; and &amp;ldquo;DevOps&amp;rdquo;) is a term used referring to the cultural movement of DevOps practices for a Microsoft-centric view. It emphasizes the use of the cloud, automation and integrating development and IT operations into one fluid method on the Windows platform.</description>
     </item>
     
     <item>
@@ -28,8 +27,9 @@ So what is WinOps?  WinOps (a portmanteau of &amp;ldquo;Windows&amp;rdquo; and &
       <pubDate>Fri, 30 Mar 2018 21:24:47 +0000</pubDate>
       
       <guid>https://plod.tv/post/ddd-wales-2018/</guid>
-      <description>Last Saturday I attended Developer Developer Developer Wales with Nigel, Dai, Pete and we bumped into James Alfie. At Developer Developer Developer Wales with Nigel Craven, David Duncan, Peter Walsh and nice to see James Alfei #DDDWales 
-So what is DDD Wales?  The UK&amp;rsquo;s premier FREE Developer conference is coming to Wales! Since its inception in 2005, DDD has spread across the UK and throughout other parts of the world, as far afield as Melbourne and Perth.</description>
+      <description>Last Saturday I attended Developer Developer Developer Wales with Nigel, Dai, Pete and we bumped into James Alfie.
+ The UK&#39;s premier FREE Developer conference is coming to Wales! Since its inception in 2005, DDD has spread across the UK and throughout other parts of the world, as far afield as Melbourne and Perth. This time though it is heading to Swansea!
+DDD is a free one day technical event for developers.</description>
     </item>
     
     <item>
@@ -38,7 +38,7 @@ So what is DDD Wales?  The UK&amp;rsquo;s premier FREE Developer conference is c
       <pubDate>Thu, 15 Mar 2018 21:23:02 +0000</pubDate>
       
       <guid>https://plod.tv/post/my-podcasts/</guid>
-      <description>With my new job I do a lot of commuting and during this time, and while running I listen to a lot of podcasts to keep on top of things and for self improvement. I am always looking for new podcasts and so I thought I&amp;rsquo;d share what I&amp;rsquo;m currently listening to which can hopefully help others find something useful.
+      <description>With my new job I do a lot of commuting and during this time, and while running I listen to a lot of podcasts to keep on top of things and for self improvement. I am always looking for new podcasts and so I thought I&#39;d share what I&#39;m currently listening to which can hopefully help others find something useful.
 https://lists.pocketcasts.com/4c12f2fc-0cf5-4553-93fc-7363a14c3173
 Also pocket casts is my all time favourite app so seriously check that out.</description>
     </item>
@@ -50,7 +50,7 @@ Also pocket casts is my all time favourite app so seriously check that out.</des
       
       <guid>https://plod.tv/post/installing-confluent-platform/</guid>
       <description>I recently installed the newest version of confluent platform (4.0 at time of writing) on ubuntu 16.04 leaving these steps here for anyone else who needs to automate it.
-sudo add-apt-repository ppa:webupd8team/java -y sudo apt-get update echo oracle-java9-installer shared/accepted-oracle-license-v1-1 select true | sudo /usr/bin/debconf-set-selections sudo apt install oracle-java9-installer oracle-java9-set-default -y wget -qO - https://packages.confluent.io/deb/4.0/archive.key | sudo apt-key add - sudo add-apt-repository &amp;#34;deb [arch=amd64] https://packages.confluent.io/deb/4.0 stable main&amp;#34; sudo apt-get update sudo apt-get install confluent-platform-oss-2.</description>
+sudo add-apt-repository ppa:webupd8team/java -y sudo apt-get update echo oracle-java9-installer shared/accepted-oracle-license-v1-1 select true | sudo /usr/bin/debconf-set-selections sudo apt install oracle-java9-installer oracle-java9-set-default -y wget -qO - https://packages.confluent.io/deb/4.0/archive.key | sudo apt-key add - sudo add-apt-repository &#34;deb [arch=amd64] https://packages.confluent.io/deb/4.0 stable main&#34; sudo apt-get update sudo apt-get install confluent-platform-oss-2.</description>
     </item>
     
     <item>
@@ -59,7 +59,7 @@ sudo add-apt-repository ppa:webupd8team/java -y sudo apt-get update echo oracle-
       <pubDate>Thu, 02 Mar 2017 10:57:35 +0000</pubDate>
       
       <guid>https://plod.tv/post/go-1.8-launch-party/</guid>
-      <description>On Febuary the 16th go released it&amp;rsquo;s newest version 1.8. You can read about this release here. I presented at the Cardiff Go meetup group&amp;rsquo;s release party on the 15th. Considering how I am not the greatest speaker in public, it went very well. I was pretty nervous to start, but nerves slowly faded especially when I got to talk about my favourite new features (http2 pushPromice etc). You can see my slides here.</description>
+      <description>On Febuary the 16th go released it&#39;s newest version 1.8. You can read about this release here. I presented at the Cardiff Go meetup group&#39;s release party on the 15th. Considering how I am not the greatest speaker in public, it went very well. I was pretty nervous to start, but nerves slowly faded especially when I got to talk about my favourite new features (http2 pushPromice etc). You can see my slides here.</description>
     </item>
     
     <item>
@@ -88,7 +88,7 @@ I followed the tutorial here paying special attention to the note at the bottom.
       
       <guid>https://plod.tv/post/year-of-the-runs/</guid>
       <description>2017 will be the year of the runs 🏃💩 for me What does that mean?
-Run...To extend or persist, statically or dynamically, through space or time.(intransitive) To extend in time, to last, to continue (usually with a measure phrase).The sale will run for ten days. The contract runs through 2008. The meeting ran late. The book runs 655 pages. The speech runs as follows: …‎... https://en.wiktionary.org/wiki/run I am going to run at least 1 mile (though often more than that) every day for 2017.</description>
+I am going to run at least 1 mile (though often more than that) every day for 2017. I am not going to have just a run of runs I am hoping to:I will/have started some of these runs (streaks) before 2017 but the important pledge is that from the 1stof January = until the 31stof December I will have an unbroken run of these things.</description>
     </item>
     
     <item>
@@ -97,8 +97,8 @@ Run...To extend or persist, statically or dynamically, through space or time.(in
       <pubDate>Mon, 27 Jun 2016 12:27:58 +0100</pubDate>
       
       <guid>https://plod.tv/post/ultimate-go/</guid>
-      <description>Ultimate Go Earlier this month I attended Ardan Labs Ultimate Go Training given by Bill Kennedy (https://www.goinggo.net/). Todd McLeod of the Udemy course https://www.udemy.com/learn-how-to-code/ had recommended it, and as I had been working my way through Bill&amp;rsquo;s book Go in Action I was very keen to take my Go to the next level.
-The course was hosted at Hailo&amp;rsquo;s HQ in central London. Big shout out to them for hosting it, and for the excellent facilities!</description>
+      <description>Ultimate Go Earlier this month I attended Ardan Labs Ultimate Go Training given by Bill Kennedy (https://www.goinggo.net/). Todd McLeod of the Udemy course https://www.udemy.com/learn-how-to-code/ had recommended it, and as I had been working my way through Bill&#39;s book Go in Action I was very keen to take my Go to the next level.
+The course was hosted at Hailo&amp;lsquo;s HQ in central London. Big shout out to them for hosting it, and for the excellent facilities!</description>
     </item>
     
     <item>
@@ -107,7 +107,7 @@ The course was hosted at Hailo&amp;rsquo;s HQ in central London. Big shout out t
       <pubDate>Fri, 11 Mar 2016 10:36:46 +0000</pubDate>
       
       <guid>https://plod.tv/post/project-euler/</guid>
-      <description>So I decided to do the projects on Project Euler to help with my Go learning (and to get my maths head working again), I&amp;rsquo;d forgotten how much fun the problems were.
+      <description>So I decided to do the projects on Project Euler to help with my Go learning (and to get my maths head working again), I&#39;d forgotten how much fun the problems were.
 What is Project Euler?
  Project Euler is a series of challenging mathematical/computer programming problems that will require more than just mathematical insights to solve. Although mathematics will help you arrive at elegant and efficient methods, the use of a computer and programming skills will be required to solve most problems.</description>
     </item>
@@ -127,7 +127,7 @@ What is Project Euler?
       <pubDate>Mon, 22 Feb 2016 08:43:55 +0000</pubDate>
       
       <guid>https://plod.tv/post/malmesbury-mash-2016/</guid>
-      <description>On Saturday gone, I rode my 200km Audax of the month of February &amp;ldquo;Malmesbury Mash&amp;rdquo;. I try to ride at least a 200km every month of the year to achieve the Audax UK award Randonneur Round the Year. Last year on my 12th successive month on the ride to claim this award, I managed to break my collar bone, but that&amp;rsquo;s another story entirely.
+      <description>On Saturday gone, I rode my 200km Audax of the month of February &amp;ldquo;Malmesbury Mash&amp;rdquo;. I try to ride at least a 200km every month of the year to achieve the Audax UK award Randonneur Round the Year. Last year on my 12th successive month on the ride to claim this award, I managed to break my collar bone, but that&#39;s another story entirely.
 Things did not start well for the preparation for this ride.</description>
     </item>
     
@@ -148,7 +148,7 @@ Things did not start well for the preparation for this ride.</description>
       
       <guid>https://plod.tv/post/setting-up-hugo-git-auto-deploy/</guid>
       <description>What is Hugo?  Hugo is a static HTML and CSS website generator written in Go. It is optimized for speed, easy use and configurability. Hugo takes a directory with content and templates and renders them into a full HTML website.
-Hugo relies on Markdown files with front matter for meta data. And you can run Hugo from any directory. This works well for shared hosts and other systems where you don’t have a privileged account.</description>
+  Hugo relies on Markdown files with front matter for meta data. And you can run Hugo from any directory. This works well for shared hosts and other systems where you don’t have a privileged account.</description>
     </item>
     
     <item>
@@ -157,7 +157,7 @@ Hugo relies on Markdown files with front matter for meta data. And you can run H
       <pubDate>Thu, 18 Feb 2016 12:12:49 +0000</pubDate>
       
       <guid>https://plod.tv/post/my-first-post/</guid>
-      <description> This is my first post on the site. I hope that you like it!
+      <description>This is my first post on the site. I hope that you like it!
 Welcome Function Here is a little Golang function to welcome you:
 package main import &amp;#34;fmt&amp;#34; func main() { fmt.Println(&amp;#34;Sut mae, byd!&amp;#34;) } </description>
     </item>
